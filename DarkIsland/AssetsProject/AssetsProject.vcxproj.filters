@@ -1,0 +1,750 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Assets">
+      <UniqueIdentifier>{b736044f-8eec-4339-96c6-802d5b67872e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Assets\Textures">
+      <UniqueIdentifier>{175df111-966a-4190-a18c-87bf90e88628}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Assets\Textures\Particle">
+      <UniqueIdentifier>{3c20f107-2e05-480b-a4ee-12020de45165}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Assets\Textures\Ground">
+      <UniqueIdentifier>{67e0ae7b-53cf-4e4e-980b-35cc8d021bdc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Assets\Textures\LightMap">
+      <UniqueIdentifier>{66446efb-9c3e-4e2f-9f28-5182cd3f93f9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Assets\Textures\Model">
+      <UniqueIdentifier>{7fb3fc1f-71a0-46a3-9a3e-30cded98bb26}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Assets\Textures\Model\Dock">
+      <UniqueIdentifier>{d37b3f8b-2d47-42ab-bbe5-83c1f493365b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Assets\Textures\Model\GirlAnim">
+      <UniqueIdentifier>{472ca4cb-2837-4b34-96e0-55a0f60a9e1f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Assets\Textures\Model\Hut">
+      <UniqueIdentifier>{846c6b10-6d0c-4fc8-8938-802804d9289b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Assets\Textures\Model\Lighthouse">
+      <UniqueIdentifier>{059554e1-39c2-4142-ad91-60f820768add}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Assets\Textures\Model\Nature">
+      <UniqueIdentifier>{40d8c2a0-c5eb-4599-9558-af4781462473}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Assets\Textures\Model\Plants">
+      <UniqueIdentifier>{bd3d6372-ac81-4c34-9985-07d6b06a0a24}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Assets\Textures\Sky">
+      <UniqueIdentifier>{38218cce-9c29-4b7b-9930-09bf29959259}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Assets\Textures\Water">
+      <UniqueIdentifier>{3bcc3277-879d-43d9-b948-53027a0fc468}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Assets\Textures\Model\car">
+      <UniqueIdentifier>{5d89edc9-3f1b-480c-9a52-05cfe61096ad}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ImageContentTask Include="Assets\Textures\Particle\alpha1.png">
+      <Filter>Resource Files</Filter>
+    </ImageContentTask>
+    <ImageContentTask Include="Assets\Textures\Particle\drop.png">
+      <Filter>Resource Files</Filter>
+    </ImageContentTask>
+    <ImageContentTask Include="Assets\Textures\Particle\fire01.png">
+      <Filter>Resource Files</Filter>
+    </ImageContentTask>
+    <ImageContentTask Include="Assets\Textures\Particle\grass1.png">
+      <Filter>Resource Files</Filter>
+    </ImageContentTask>
+    <ImageContentTask Include="Assets\Textures\Particle\grass1_small.png">
+      <Filter>Resource Files</Filter>
+    </ImageContentTask>
+    <ImageContentTask Include="Assets\Textures\Particle\grass2.png">
+      <Filter>Resource Files</Filter>
+    </ImageContentTask>
+    <ImageContentTask Include="Assets\Textures\Particle\grass2_small.png">
+      <Filter>Resource Files</Filter>
+    </ImageContentTask>
+    <ImageContentTask Include="Assets\Textures\Particle\grass3.png">
+      <Filter>Resource Files</Filter>
+    </ImageContentTask>
+    <ImageContentTask Include="Assets\Textures\Particle\grass3_small.png">
+      <Filter>Resource Files</Filter>
+    </ImageContentTask>
+    <ImageContentTask Include="Assets\Textures\Particle\grass4.png">
+      <Filter>Resource Files</Filter>
+    </ImageContentTask>
+    <ImageContentTask Include="Assets\Textures\Particle\grass4_small.png">
+      <Filter>Resource Files</Filter>
+    </ImageContentTask>
+    <ImageContentTask Include="Assets\Textures\Particle\misc_smoke.png">
+      <Filter>Resource Files</Filter>
+    </ImageContentTask>
+    <ImageContentTask Include="Assets\Textures\Particle\noise01.png">
+      <Filter>Resource Files</Filter>
+    </ImageContentTask>
+    <ImageContentTask Include="Assets\Textures\Particle\snow1.png">
+      <Filter>Resource Files</Filter>
+    </ImageContentTask>
+    <ImageContentTask Include="Assets\Textures\Ground\151.JPG">
+      <Filter>Resource Files</Filter>
+    </ImageContentTask>
+    <ImageContentTask Include="Assets\Textures\Ground\151_norm.JPG">
+      <Filter>Resource Files</Filter>
+    </ImageContentTask>
+    <ImageContentTask Include="Assets\Textures\Ground\156.JPG">
+      <Filter>Resource Files</Filter>
+    </ImageContentTask>
+    <ImageContentTask Include="Assets\Textures\Ground\156_norm.JPG">
+      <Filter>Resource Files</Filter>
+    </ImageContentTask>
+    <ImageContentTask Include="Assets\Textures\Ground\160.JPG">
+      <Filter>Resource Files</Filter>
+    </ImageContentTask>
+    <ImageContentTask Include="Assets\Textures\Ground\160_norm.JPG">
+      <Filter>Resource Files</Filter>
+    </ImageContentTask>
+    <ImageContentTask Include="Assets\Textures\Ground\163.JPG">
+      <Filter>Resource Files</Filter>
+    </ImageContentTask>
+    <ImageContentTask Include="Assets\Textures\Ground\163_norm.JPG">
+      <Filter>Resource Files</Filter>
+    </ImageContentTask>
+    <ImageContentTask Include="Assets\Textures\Ground\165.JPG">
+      <Filter>Resource Files</Filter>
+    </ImageContentTask>
+    <ImageContentTask Include="Assets\Textures\Ground\165_norm.JPG">
+      <Filter>Resource Files</Filter>
+    </ImageContentTask>
+    <ImageContentTask Include="Assets\Textures\Ground\172.JPG">
+      <Filter>Resource Files</Filter>
+    </ImageContentTask>
+    <ImageContentTask Include="Assets\Textures\Ground\172_norm.JPG">
+      <Filter>Resource Files</Filter>
+    </ImageContentTask>
+    <ImageContentTask Include="Assets\Textures\Ground\182.JPG">
+      <Filter>Resource Files</Filter>
+    </ImageContentTask>
+    <ImageContentTask Include="Assets\Textures\Ground\182_norm.JPG">
+      <Filter>Resource Files</Filter>
+    </ImageContentTask>
+    <ImageContentTask Include="Assets\Textures\Ground\196.JPG">
+      <Filter>Resource Files</Filter>
+    </ImageContentTask>
+    <ImageContentTask Include="Assets\Textures\Ground\196_norm.JPG">
+      <Filter>Resource Files</Filter>
+    </ImageContentTask>
+    <ImageContentTask Include="Assets\Textures\Ground\197.JPG">
+      <Filter>Resource Files</Filter>
+    </ImageContentTask>
+    <ImageContentTask Include="Assets\Textures\Ground\197_norm.JPG">
+      <Filter>Resource Files</Filter>
+    </ImageContentTask>
+    <ImageContentTask Include="Assets\Textures\Ground\green.jpg">
+      <Filter>Resource Files</Filter>
+    </ImageContentTask>
+    <ImageContentTask Include="Assets\Textures\LightMap\headlamp_lm.png">
+      <Filter>Resource Files</Filter>
+    </ImageContentTask>
+    <ImageContentTask Include="Assets\Textures\LightMap\spot_lm.png">
+      <Filter>Resource Files</Filter>
+    </ImageContentTask>
+    <ImageContentTask Include="Assets\Textures\Model\barrel.png">
+      <Filter>Resource Files</Filter>
+    </ImageContentTask>
+    <ImageContentTask Include="Assets\Textures\Model\beachball.png">
+      <Filter>Resource Files</Filter>
+    </ImageContentTask>
+    <ImageContentTask Include="Assets\Textures\Model\beachball_e.png">
+      <Filter>Resource Files</Filter>
+    </ImageContentTask>
+    <ImageContentTask Include="Assets\Textures\Model\bigrocks_norm.JPG">
+      <Filter>Resource Files</Filter>
+    </ImageContentTask>
+    <ImageContentTask Include="Assets\Textures\Model\Big_Old_House_C.jpg">
+      <Filter>Resource Files</Filter>
+    </ImageContentTask>
+    <ImageContentTask Include="Assets\Textures\Model\Big_Old_House_N.jpg">
+      <Filter>Resource Files</Filter>
+    </ImageContentTask>
+    <ImageContentTask Include="Assets\Textures\Model\Big_Old_House_S.jpg">
+      <Filter>Resource Files</Filter>
+    </ImageContentTask>
+    <ImageContentTask Include="Assets\Textures\Model\Bridge.png">
+      <Filter>Resource Files</Filter>
+    </ImageContentTask>
+    <ImageContentTask Include="Assets\Textures\Model\Bridge_NM.png">
+      <Filter>Resource Files</Filter>
+    </ImageContentTask>
+    <ImageContentTask Include="Assets\Textures\Model\Bridge_SP.png">
+      <Filter>Resource Files</Filter>
+    </ImageContentTask>
+    <ImageContentTask Include="Assets\Textures\Model\BT_Tree_A.tif">
+      <Filter>Resource Files</Filter>
+    </ImageContentTask>
+    <ImageContentTask Include="Assets\Textures\Model\BT_Tree_A_Normals.tif">
+      <Filter>Resource Files</Filter>
+    </ImageContentTask>
+    <ImageContentTask Include="Assets\Textures\Model\BT_Tree_A_Specular.tif">
+      <Filter>Resource Files</Filter>
+    </ImageContentTask>
+    <ImageContentTask Include="Assets\Textures\Model\fence1.png">
+      <Filter>Resource Files</Filter>
+    </ImageContentTask>
+    <ImageContentTask Include="Assets\Textures\Model\fireplace_tex.png">
+      <Filter>Resource Files</Filter>
+    </ImageContentTask>
+    <ImageContentTask Include="Assets\Textures\Model\fireplace_uv.png">
+      <Filter>Resource Files</Filter>
+    </ImageContentTask>
+    <ImageContentTask Include="Assets\Textures\Model\gay.png">
+      <Filter>Resource Files</Filter>
+    </ImageContentTask>
+    <ImageContentTask Include="Assets\Textures\Model\gay_N.png">
+      <Filter>Resource Files</Filter>
+    </ImageContentTask>
+    <ImageContentTask Include="Assets\Textures\Model\gemblue.png">
+      <Filter>Resource Files</Filter>
+    </ImageContentTask>
+    <ImageContentTask Include="Assets\Textures\Model\gemred.png">
+      <Filter>Resource Files</Filter>
+    </ImageContentTask>
+    <ImageContentTask Include="Assets\Textures\Model\gemwhite.png">
+      <Filter>Resource Files</Filter>
+    </ImageContentTask>
+    <ImageContentTask Include="Assets\Textures\Model\GothicChurch_Bump.png">
+      <Filter>Resource Files</Filter>
+    </ImageContentTask>
+    <ImageContentTask Include="Assets\Textures\Model\GothicChurch_Bump_.png">
+      <Filter>Resource Files</Filter>
+    </ImageContentTask>
+    <ImageContentTask Include="Assets\Textures\Model\GothicChurch_Diffuse.png">
+      <Filter>Resource Files</Filter>
+    </ImageContentTask>
+    <ImageContentTask Include="Assets\Textures\Model\GothicChurch_Illum.png">
+      <Filter>Resource Files</Filter>
+    </ImageContentTask>
+    <ImageContentTask Include="Assets\Textures\Model\GothicChurch_Specular.png">
+      <Filter>Resource Files</Filter>
+    </ImageContentTask>
+    <ImageContentTask Include="Assets\Textures\Model\Granite.png">
+      <Filter>Resource Files</Filter>
+    </ImageContentTask>
+    <ImageContentTask Include="Assets\Textures\Model\heart.png">
+      <Filter>Resource Files</Filter>
+    </ImageContentTask>
+    <ImageContentTask Include="Assets\Textures\Model\hedgearch_diffuse.png">
+      <Filter>Resource Files</Filter>
+    </ImageContentTask>
+    <ImageContentTask Include="Assets\Textures\Model\hedgearch_normal.png">
+      <Filter>Resource Files</Filter>
+    </ImageContentTask>
+    <ImageContentTask Include="Assets\Textures\Model\hedgelong_diffuse.png">
+      <Filter>Resource Files</Filter>
+    </ImageContentTask>
+    <ImageContentTask Include="Assets\Textures\Model\hedgelong_normal.png">
+      <Filter>Resource Files</Filter>
+    </ImageContentTask>
+    <ImageContentTask Include="Assets\Textures\Model\hedgeround_diffuse.png">
+      <Filter>Resource Files</Filter>
+    </ImageContentTask>
+    <ImageContentTask Include="Assets\Textures\Model\hedgeround_normal.png">
+      <Filter>Resource Files</Filter>
+    </ImageContentTask>
+    <ImageContentTask Include="Assets\Textures\Model\hedge_diffuse.png">
+      <Filter>Resource Files</Filter>
+    </ImageContentTask>
+    <ImageContentTask Include="Assets\Textures\Model\hedge_normal.png">
+      <Filter>Resource Files</Filter>
+    </ImageContentTask>
+    <ImageContentTask Include="Assets\Textures\Model\lamp-glass.png">
+      <Filter>Resource Files</Filter>
+    </ImageContentTask>
+    <ImageContentTask Include="Assets\Textures\Model\lamppost.png">
+      <Filter>Resource Files</Filter>
+    </ImageContentTask>
+    <ImageContentTask Include="Assets\Textures\Model\leaves_tree2_n.png">
+      <Filter>Resource Files</Filter>
+    </ImageContentTask>
+    <ImageContentTask Include="Assets\Textures\Model\leaves_tree2_s.png">
+      <Filter>Resource Files</Filter>
+    </ImageContentTask>
+    <ImageContentTask Include="Assets\Textures\Model\leaves_tree2_t.png">
+      <Filter>Resource Files</Filter>
+    </ImageContentTask>
+    <ImageContentTask Include="Assets\Textures\Model\Mickey_Mouse_D.png">
+      <Filter>Resource Files</Filter>
+    </ImageContentTask>
+    <ImageContentTask Include="Assets\Textures\Model\Mickey_Mouse_N.png">
+      <Filter>Resource Files</Filter>
+    </ImageContentTask>
+    <ImageContentTask Include="Assets\Textures\Model\mushroomred.png">
+      <Filter>Resource Files</Filter>
+    </ImageContentTask>
+    <ImageContentTask Include="Assets\Textures\Model\ornamentowl_d.png">
+      <Filter>Resource Files</Filter>
+    </ImageContentTask>
+    <ImageContentTask Include="Assets\Textures\Model\ornamentowl_n.png">
+      <Filter>Resource Files</Filter>
+    </ImageContentTask>
+    <ImageContentTask Include="Assets\Textures\Model\pin.png">
+      <Filter>Resource Files</Filter>
+    </ImageContentTask>
+    <ImageContentTask Include="Assets\Textures\Model\pumpkintex.png">
+      <Filter>Resource Files</Filter>
+    </ImageContentTask>
+    <ImageContentTask Include="Assets\Textures\Model\sorceress.png">
+      <Filter>Resource Files</Filter>
+    </ImageContentTask>
+    <ImageContentTask Include="Assets\Textures\Model\sorceress_n.png">
+      <Filter>Resource Files</Filter>
+    </ImageContentTask>
+    <ImageContentTask Include="Assets\Textures\Model\Tex_6990_0.png">
+      <Filter>Resource Files</Filter>
+    </ImageContentTask>
+    <ImageContentTask Include="Assets\Textures\Model\Tex_7290_0.png">
+      <Filter>Resource Files</Filter>
+    </ImageContentTask>
+    <ImageContentTask Include="Assets\Textures\Model\Tex_7395_0.png">
+      <Filter>Resource Files</Filter>
+    </ImageContentTask>
+    <ImageContentTask Include="Assets\Textures\Model\Tex_7485_0.png">
+      <Filter>Resource Files</Filter>
+    </ImageContentTask>
+    <ImageContentTask Include="Assets\Textures\Model\Tex_9195_0.png">
+      <Filter>Resource Files</Filter>
+    </ImageContentTask>
+    <ImageContentTask Include="Assets\Textures\Model\toc.png">
+      <Filter>Resource Files</Filter>
+    </ImageContentTask>
+    <ImageContentTask Include="Assets\Textures\Model\trees_bark_002_col.jpg">
+      <Filter>Resource Files</Filter>
+    </ImageContentTask>
+    <ImageContentTask Include="Assets\Textures\Model\trees_bark_002_nor.jpg">
+      <Filter>Resource Files</Filter>
+    </ImageContentTask>
+    <ImageContentTask Include="Assets\Textures\Model\trees_leaves_003_col.png">
+      <Filter>Resource Files</Filter>
+    </ImageContentTask>
+    <ImageContentTask Include="Assets\Textures\Model\tree_bark.png">
+      <Filter>Resource Files</Filter>
+    </ImageContentTask>
+    <ImageContentTask Include="Assets\Textures\Model\tree_leaves.png">
+      <Filter>Resource Files</Filter>
+    </ImageContentTask>
+    <ImageContentTask Include="Assets\Textures\Model\white.png">
+      <Filter>Resource Files</Filter>
+    </ImageContentTask>
+    <ImageContentTask Include="Assets\Textures\Model\woodfloor.png">
+      <Filter>Resource Files</Filter>
+    </ImageContentTask>
+    <ImageContentTask Include="Assets\Textures\Model\yell.png">
+      <Filter>Resource Files</Filter>
+    </ImageContentTask>
+    <ImageContentTask Include="Assets\Textures\Model\Dock\basamaklar.jpg">
+      <Filter>Resource Files</Filter>
+    </ImageContentTask>
+    <ImageContentTask Include="Assets\Textures\Model\Dock\direkler.jpg">
+      <Filter>Resource Files</Filter>
+    </ImageContentTask>
+    <ImageContentTask Include="Assets\Textures\Model\Dock\kiris.jpg">
+      <Filter>Resource Files</Filter>
+    </ImageContentTask>
+    <ImageContentTask Include="Assets\Textures\Model\GirlAnim\eye.png">
+      <Filter>Resource Files</Filter>
+    </ImageContentTask>
+    <ImageContentTask Include="Assets\Textures\Model\GirlAnim\face.png">
+      <Filter>Resource Files</Filter>
+    </ImageContentTask>
+    <ImageContentTask Include="Assets\Textures\Model\GirlAnim\hair.png">
+      <Filter>Resource Files</Filter>
+    </ImageContentTask>
+    <ImageContentTask Include="Assets\Textures\Model\GirlAnim\pupil.png">
+      <Filter>Resource Files</Filter>
+    </ImageContentTask>
+    <ImageContentTask Include="Assets\Textures\Model\GirlAnim\skin.png">
+      <Filter>Resource Files</Filter>
+    </ImageContentTask>
+    <ImageContentTask Include="Assets\Textures\Model\Hut\Books_Albedo.png">
+      <Filter>Resource Files</Filter>
+    </ImageContentTask>
+    <ImageContentTask Include="Assets\Textures\Model\Hut\Books_NRM.png">
+      <Filter>Resource Files</Filter>
+    </ImageContentTask>
+    <ImageContentTask Include="Assets\Textures\Model\Hut\Books_SPEC.tif">
+      <Filter>Resource Files</Filter>
+    </ImageContentTask>
+    <ImageContentTask Include="Assets\Textures\Model\Hut\Emission.PNG">
+      <Filter>Resource Files</Filter>
+    </ImageContentTask>
+    <ImageContentTask Include="Assets\Textures\Model\Hut\Fabrics_Albedo.png">
+      <Filter>Resource Files</Filter>
+    </ImageContentTask>
+    <ImageContentTask Include="Assets\Textures\Model\Hut\Fabrics_AO.png">
+      <Filter>Resource Files</Filter>
+    </ImageContentTask>
+    <ImageContentTask Include="Assets\Textures\Model\Hut\Fabrics_NRM.png">
+      <Filter>Resource Files</Filter>
+    </ImageContentTask>
+    <ImageContentTask Include="Assets\Textures\Model\Hut\Fabrics_SPEC.tif">
+      <Filter>Resource Files</Filter>
+    </ImageContentTask>
+    <ImageContentTask Include="Assets\Textures\Model\Hut\Fireplace_Albedo.png">
+      <Filter>Resource Files</Filter>
+    </ImageContentTask>
+    <ImageContentTask Include="Assets\Textures\Model\Hut\Fireplace_Metalness.tif">
+      <Filter>Resource Files</Filter>
+    </ImageContentTask>
+    <ImageContentTask Include="Assets\Textures\Model\Hut\Fireplace_NRM.png">
+      <Filter>Resource Files</Filter>
+    </ImageContentTask>
+    <ImageContentTask Include="Assets\Textures\Model\Hut\Glass_Albedo.png">
+      <Filter>Resource Files</Filter>
+    </ImageContentTask>
+    <ImageContentTask Include="Assets\Textures\Model\Hut\Glass_NRM.png">
+      <Filter>Resource Files</Filter>
+    </ImageContentTask>
+    <ImageContentTask Include="Assets\Textures\Model\Hut\Glass_SPEC.tif">
+      <Filter>Resource Files</Filter>
+    </ImageContentTask>
+    <ImageContentTask Include="Assets\Textures\Model\Hut\Plankfloor_Albedo.png">
+      <Filter>Resource Files</Filter>
+    </ImageContentTask>
+    <ImageContentTask Include="Assets\Textures\Model\Hut\Plankfloor_NRM.png">
+      <Filter>Resource Files</Filter>
+    </ImageContentTask>
+    <ImageContentTask Include="Assets\Textures\Model\Hut\Plankfloor_SPEC.tif">
+      <Filter>Resource Files</Filter>
+    </ImageContentTask>
+    <ImageContentTask Include="Assets\Textures\Model\Hut\Plants_Albedo.tif">
+      <Filter>Resource Files</Filter>
+    </ImageContentTask>
+    <ImageContentTask Include="Assets\Textures\Model\Hut\Plants_NRM.png">
+      <Filter>Resource Files</Filter>
+    </ImageContentTask>
+    <ImageContentTask Include="Assets\Textures\Model\Hut\Plants_SPEC.tif">
+      <Filter>Resource Files</Filter>
+    </ImageContentTask>
+    <ImageContentTask Include="Assets\Textures\Model\Hut\Porch_Albedo.png">
+      <Filter>Resource Files</Filter>
+    </ImageContentTask>
+    <ImageContentTask Include="Assets\Textures\Model\Hut\Porch_NRM.png">
+      <Filter>Resource Files</Filter>
+    </ImageContentTask>
+    <ImageContentTask Include="Assets\Textures\Model\Hut\Porch_SPEC.tif">
+      <Filter>Resource Files</Filter>
+    </ImageContentTask>
+    <ImageContentTask Include="Assets\Textures\Model\Hut\Pottery_Albedo.png">
+      <Filter>Resource Files</Filter>
+    </ImageContentTask>
+    <ImageContentTask Include="Assets\Textures\Model\Hut\Pottery_ao.png">
+      <Filter>Resource Files</Filter>
+    </ImageContentTask>
+    <ImageContentTask Include="Assets\Textures\Model\Hut\Pottery_normal.png">
+      <Filter>Resource Files</Filter>
+    </ImageContentTask>
+    <ImageContentTask Include="Assets\Textures\Model\Hut\Pottery_SPEC.tif">
+      <Filter>Resource Files</Filter>
+    </ImageContentTask>
+    <ImageContentTask Include="Assets\Textures\Model\Hut\Roofing_albedo.png">
+      <Filter>Resource Files</Filter>
+    </ImageContentTask>
+    <ImageContentTask Include="Assets\Textures\Model\Hut\Roofing_NRM.png">
+      <Filter>Resource Files</Filter>
+    </ImageContentTask>
+    <ImageContentTask Include="Assets\Textures\Model\Hut\Roofing_SPEC.tif">
+      <Filter>Resource Files</Filter>
+    </ImageContentTask>
+    <ImageContentTask Include="Assets\Textures\Model\Hut\Walls_Albedo.png">
+      <Filter>Resource Files</Filter>
+    </ImageContentTask>
+    <ImageContentTask Include="Assets\Textures\Model\Hut\Walls_NRM.png">
+      <Filter>Resource Files</Filter>
+    </ImageContentTask>
+    <ImageContentTask Include="Assets\Textures\Model\Hut\Walls_SPEC.tif">
+      <Filter>Resource Files</Filter>
+    </ImageContentTask>
+    <ImageContentTask Include="Assets\Textures\Model\Hut\Window_Albedo.png">
+      <Filter>Resource Files</Filter>
+    </ImageContentTask>
+    <ImageContentTask Include="Assets\Textures\Model\Hut\Window_NRM.png">
+      <Filter>Resource Files</Filter>
+    </ImageContentTask>
+    <ImageContentTask Include="Assets\Textures\Model\Hut\Window_SPEC.tif">
+      <Filter>Resource Files</Filter>
+    </ImageContentTask>
+    <ImageContentTask Include="Assets\Textures\Model\Hut\Wooden_Albedo.png">
+      <Filter>Resource Files</Filter>
+    </ImageContentTask>
+    <ImageContentTask Include="Assets\Textures\Model\Hut\Wooden_Metalness.tif">
+      <Filter>Resource Files</Filter>
+    </ImageContentTask>
+    <ImageContentTask Include="Assets\Textures\Model\Hut\Wooden_NRM.png">
+      <Filter>Resource Files</Filter>
+    </ImageContentTask>
+    <ImageContentTask Include="Assets\Textures\Model\Lighthouse\00925fb3_Defuse.tga" />
+    <ImageContentTask Include="Assets\Textures\Model\Lighthouse\00925fb3_Normal.tga" />
+    <ImageContentTask Include="Assets\Textures\Model\Lighthouse\09dbc9a9_Defuse.tga" />
+    <ImageContentTask Include="Assets\Textures\Model\Lighthouse\09dbc9a9_Normal.tga" />
+    <ImageContentTask Include="Assets\Textures\Model\Lighthouse\1bda4806_Alpha.tga" />
+    <ImageContentTask Include="Assets\Textures\Model\Lighthouse\1bda4806_Defuse.tga" />
+    <ImageContentTask Include="Assets\Textures\Model\Lighthouse\1bda4806_Normal.tga" />
+    <ImageContentTask Include="Assets\Textures\Model\Lighthouse\57c1696e_Defuse.tga" />
+    <ImageContentTask Include="Assets\Textures\Model\Lighthouse\57c1696e_Normal.tga" />
+    <ImageContentTask Include="Assets\Textures\Model\Lighthouse\6e2fc158_Defuse.tga" />
+    <ImageContentTask Include="Assets\Textures\Model\Lighthouse\6e2fc158_Normal.tga" />
+    <ImageContentTask Include="Assets\Textures\Model\Lighthouse\7b26aa4d_Defuse.tga" />
+    <ImageContentTask Include="Assets\Textures\Model\Lighthouse\7b26aa4d_Normal.tga" />
+    <ImageContentTask Include="Assets\Textures\Model\Lighthouse\b98d8325_Defuse.tga" />
+    <ImageContentTask Include="Assets\Textures\Model\Lighthouse\b98d8325_Normal.tga" />
+    <ImageContentTask Include="Assets\Textures\Model\Lighthouse\bbb4258c_Defuse.tga" />
+    <ImageContentTask Include="Assets\Textures\Model\Lighthouse\bbb4258c_Normal.tga" />
+    <ImageContentTask Include="Assets\Textures\Model\Lighthouse\ce35a7f8_Defuse.tga" />
+    <ImageContentTask Include="Assets\Textures\Model\Lighthouse\ce35a7f8_Normal.tga" />
+    <ImageContentTask Include="Assets\Textures\Model\Lighthouse\d1c3d725_Defuse.tga" />
+    <ImageContentTask Include="Assets\Textures\Model\Lighthouse\d1c3d725_Normal.tga" />
+    <ImageContentTask Include="Assets\Textures\Model\Lighthouse\d4afa143_Defuse.tga" />
+    <ImageContentTask Include="Assets\Textures\Model\Lighthouse\d4afa143_Normal.tga" />
+    <ImageContentTask Include="Assets\Textures\Model\Lighthouse\ee22d6e4_Defuse.tga" />
+    <ImageContentTask Include="Assets\Textures\Model\Lighthouse\ee22d6e4_Normal.tga" />
+    <ImageContentTask Include="Assets\Textures\Model\Lighthouse\f779c12a_Defuse.tga" />
+    <ImageContentTask Include="Assets\Textures\Model\Lighthouse\f779c12a_Normal.tga" />
+    <ImageContentTask Include="Assets\Textures\Model\Nature\Conifer2_D.png">
+      <Filter>Resource Files</Filter>
+    </ImageContentTask>
+    <ImageContentTask Include="Assets\Textures\Model\Nature\Conifer2_N.png">
+      <Filter>Resource Files</Filter>
+    </ImageContentTask>
+    <ImageContentTask Include="Assets\Textures\Model\Nature\ConiferBark_D.png">
+      <Filter>Resource Files</Filter>
+    </ImageContentTask>
+    <ImageContentTask Include="Assets\Textures\Model\Nature\ConiferBark_n.png">
+      <Filter>Resource Files</Filter>
+    </ImageContentTask>
+    <ImageContentTask Include="Assets\Textures\Model\Nature\rock2_D.png">
+      <Filter>Resource Files</Filter>
+    </ImageContentTask>
+    <ImageContentTask Include="Assets\Textures\Model\Nature\rock3_D.png">
+      <Filter>Resource Files</Filter>
+    </ImageContentTask>
+    <ImageContentTask Include="Assets\Textures\Model\Nature\rock4_D.png">
+      <Filter>Resource Files</Filter>
+    </ImageContentTask>
+    <ImageContentTask Include="Assets\Textures\Model\Nature\rock_D.png">
+      <Filter>Resource Files</Filter>
+    </ImageContentTask>
+    <ImageContentTask Include="Assets\Textures\Model\Nature\rock_N.png">
+      <Filter>Resource Files</Filter>
+    </ImageContentTask>
+    <ImageContentTask Include="Assets\Textures\Model\Nature\TreeBark2_D.png">
+      <Filter>Resource Files</Filter>
+    </ImageContentTask>
+    <ImageContentTask Include="Assets\Textures\Model\Nature\TreeBark2_N.png">
+      <Filter>Resource Files</Filter>
+    </ImageContentTask>
+    <ImageContentTask Include="Assets\Textures\Model\Nature\TreeBark3_D.png">
+      <Filter>Resource Files</Filter>
+    </ImageContentTask>
+    <ImageContentTask Include="Assets\Textures\Model\Nature\TreeBark3_N.png">
+      <Filter>Resource Files</Filter>
+    </ImageContentTask>
+    <ImageContentTask Include="Assets\Textures\Model\Nature\TreeBark_D.png">
+      <Filter>Resource Files</Filter>
+    </ImageContentTask>
+    <ImageContentTask Include="Assets\Textures\Model\Nature\TreeBark_N.png">
+      <Filter>Resource Files</Filter>
+    </ImageContentTask>
+    <ImageContentTask Include="Assets\Textures\Model\Nature\TreeBranch2_D.png">
+      <Filter>Resource Files</Filter>
+    </ImageContentTask>
+    <ImageContentTask Include="Assets\Textures\Model\Nature\TreeBranch2_N.png">
+      <Filter>Resource Files</Filter>
+    </ImageContentTask>
+    <ImageContentTask Include="Assets\Textures\Model\Nature\TreeBranch3_D.png">
+      <Filter>Resource Files</Filter>
+    </ImageContentTask>
+    <ImageContentTask Include="Assets\Textures\Model\Nature\TreeBranch3_N.png">
+      <Filter>Resource Files</Filter>
+    </ImageContentTask>
+    <ImageContentTask Include="Assets\Textures\Model\Nature\TreeBranch_D.png">
+      <Filter>Resource Files</Filter>
+    </ImageContentTask>
+    <ImageContentTask Include="Assets\Textures\Model\Nature\TreeBranch_N.png">
+      <Filter>Resource Files</Filter>
+    </ImageContentTask>
+    <ImageContentTask Include="Assets\Textures\Model\Plants\plant1.png">
+      <Filter>Resource Files</Filter>
+    </ImageContentTask>
+    <ImageContentTask Include="Assets\Textures\Model\Plants\plant2.png">
+      <Filter>Resource Files</Filter>
+    </ImageContentTask>
+    <ImageContentTask Include="Assets\Textures\Model\Plants\plant3.png">
+      <Filter>Resource Files</Filter>
+    </ImageContentTask>
+    <ImageContentTask Include="Assets\Textures\Model\Plants\plant4.png">
+      <Filter>Resource Files</Filter>
+    </ImageContentTask>
+    <ImageContentTask Include="Assets\Textures\Model\Plants\plant5.png">
+      <Filter>Resource Files</Filter>
+    </ImageContentTask>
+    <ImageContentTask Include="Assets\Textures\Model\Plants\plant6.png">
+      <Filter>Resource Files</Filter>
+    </ImageContentTask>
+    <ImageContentTask Include="Assets\Textures\Model\Plants\plant7.png">
+      <Filter>Resource Files</Filter>
+    </ImageContentTask>
+    <ImageContentTask Include="Assets\Textures\Model\Plants\pot1.png">
+      <Filter>Resource Files</Filter>
+    </ImageContentTask>
+    <ImageContentTask Include="Assets\Textures\Model\Plants\pot1_nor.jpg">
+      <Filter>Resource Files</Filter>
+    </ImageContentTask>
+    <ImageContentTask Include="Assets\Textures\Model\Plants\pot1_spec.png">
+      <Filter>Resource Files</Filter>
+    </ImageContentTask>
+    <ImageContentTask Include="Assets\Textures\Model\Plants\pot2.png">
+      <Filter>Resource Files</Filter>
+    </ImageContentTask>
+    <ImageContentTask Include="Assets\Textures\Model\Plants\pot2_nor.jpg">
+      <Filter>Resource Files</Filter>
+    </ImageContentTask>
+    <ImageContentTask Include="Assets\Textures\Model\Plants\pot2_spec.png">
+      <Filter>Resource Files</Filter>
+    </ImageContentTask>
+    <ImageContentTask Include="Assets\Textures\Model\Plants\pot3.png">
+      <Filter>Resource Files</Filter>
+    </ImageContentTask>
+    <ImageContentTask Include="Assets\Textures\Model\Plants\pot3_nor.jpg">
+      <Filter>Resource Files</Filter>
+    </ImageContentTask>
+    <ImageContentTask Include="Assets\Textures\Model\Plants\pot3_spec.png">
+      <Filter>Resource Files</Filter>
+    </ImageContentTask>
+    <ImageContentTask Include="Assets\Textures\Model\Plants\pot4.png">
+      <Filter>Resource Files</Filter>
+    </ImageContentTask>
+    <ImageContentTask Include="Assets\Textures\Model\Plants\pot4_nor.jpg">
+      <Filter>Resource Files</Filter>
+    </ImageContentTask>
+    <ImageContentTask Include="Assets\Textures\Model\Plants\pot4_spec.png">
+      <Filter>Resource Files</Filter>
+    </ImageContentTask>
+    <ImageContentTask Include="Assets\Textures\Model\Plants\pot5.png">
+      <Filter>Resource Files</Filter>
+    </ImageContentTask>
+    <ImageContentTask Include="Assets\Textures\Model\Plants\pot5_nor.jpg">
+      <Filter>Resource Files</Filter>
+    </ImageContentTask>
+    <ImageContentTask Include="Assets\Textures\Model\Plants\pot5_spec.png">
+      <Filter>Resource Files</Filter>
+    </ImageContentTask>
+    <ImageContentTask Include="Assets\Textures\Sky\alien.png">
+      <Filter>Resource Files</Filter>
+    </ImageContentTask>
+    <ImageContentTask Include="Assets\Textures\Sky\bluesky.jpg">
+      <Filter>Resource Files</Filter>
+    </ImageContentTask>
+    <ImageContentTask Include="Assets\Textures\Sky\DaylightBox.png">
+      <Filter>Resource Files</Filter>
+    </ImageContentTask>
+    <ImageContentTask Include="Assets\Textures\Sky\grimmnight_large.jpg">
+      <Filter>Resource Files</Filter>
+    </ImageContentTask>
+    <ImageContentTask Include="Assets\Textures\Sky\MettleSky.jpg">
+      <Filter>Resource Files</Filter>
+    </ImageContentTask>
+    <ImageContentTask Include="Assets\Textures\Sky\stormydays_large.jpg">
+      <Filter>Resource Files</Filter>
+    </ImageContentTask>
+    <ImageContentTask Include="Assets\Textures\Water\water1.png">
+      <Filter>Resource Files</Filter>
+    </ImageContentTask>
+    <ImageContentTask Include="Assets\Textures\Water\water2.png">
+      <Filter>Resource Files</Filter>
+    </ImageContentTask>
+    <ImageContentTask Include="Assets\Textures\Water\waternorm_1.png">
+      <Filter>Resource Files</Filter>
+    </ImageContentTask>
+    <ImageContentTask Include="Assets\Textures\Water\waternorm_2.png">
+      <Filter>Resource Files</Filter>
+    </ImageContentTask>
+    <ImageContentTask Include="Assets\Textures\Model\bark_tree2.jpg">
+      <Filter>Resource Files</Filter>
+    </ImageContentTask>
+    <ImageContentTask Include="Assets\Textures\Model\car\carbody_blue.png">
+      <Filter>Assets\Textures\Model\car</Filter>
+    </ImageContentTask>
+    <ImageContentTask Include="Assets\Textures\Model\car\carbody_red.png">
+      <Filter>Assets\Textures\Model\car</Filter>
+    </ImageContentTask>
+    <ImageContentTask Include="Assets\Textures\Model\car\carbody_s.png">
+      <Filter>Assets\Textures\Model\car</Filter>
+    </ImageContentTask>
+    <ImageContentTask Include="Assets\Textures\Model\car\carframe.png">
+      <Filter>Assets\Textures\Model\car</Filter>
+    </ImageContentTask>
+    <ImageContentTask Include="Assets\Textures\Model\car\wheel2.png">
+      <Filter>Assets\Textures\Model\car</Filter>
+    </ImageContentTask>
+    <ImageContentTask Include="Assets\Textures\Model\car\wheel2_n.png">
+      <Filter>Assets\Textures\Model\car</Filter>
+    </ImageContentTask>
+    <ImageContentTask Include="Assets\Textures\Model\Eye_D.jpg">
+      <Filter>Assets\Textures\Model</Filter>
+    </ImageContentTask>
+    <ImageContentTask Include="Assets\Textures\Model\Eye_N.jpg">
+      <Filter>Assets\Textures\Model</Filter>
+    </ImageContentTask>
+    <ImageContentTask Include="Assets\Textures\Model\FirePlaceBrick_BaseColor.png">
+      <Filter>Resource Files</Filter>
+    </ImageContentTask>
+    <ImageContentTask Include="Assets\Textures\Model\FirePlaceBrick_Normal.png">
+      <Filter>Resource Files</Filter>
+    </ImageContentTask>
+    <ImageContentTask Include="Assets\Textures\Model\FirePlaceRock_BaseColor.png">
+      <Filter>Resource Files</Filter>
+    </ImageContentTask>
+    <ImageContentTask Include="Assets\Textures\Model\FirePlaceRock_Normal.png">
+      <Filter>Resource Files</Filter>
+    </ImageContentTask>
+    <ImageContentTask Include="Assets\Textures\Model\FirePlaceWood_BaseColor.png">
+      <Filter>Resource Files</Filter>
+    </ImageContentTask>
+    <ImageContentTask Include="Assets\Textures\Model\FirePlaceWood_Normal.png">
+      <Filter>Resource Files</Filter>
+    </ImageContentTask>
+    <ImageContentTask Include="Assets\Textures\Model\FireplaceWroughtIron_BaseColor.png">
+      <Filter>Resource Files</Filter>
+    </ImageContentTask>
+    <ImageContentTask Include="Assets\Textures\Model\FireplaceWroughtIron_Normal.png">
+      <Filter>Resource Files</Filter>
+    </ImageContentTask>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="packages.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="Assets\Textures\Model\pinebrown.png">
+      <Filter>Assets\Textures\Model</Filter>
+    </Image>
+    <Image Include="Assets\Textures\Model\pinegreen.png">
+      <Filter>Assets\Textures\Model</Filter>
+    </Image>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,2150 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="ZZ_Assets">
+      <UniqueIdentifier>049a7339-f1f2-42e4-8e45-7009e5d83c17</UniqueIdentifier>
+      <Extensions>bmp;fbx;gif;jpg;jpeg;tga;tiff;tif;png</Extensions>
+    </Filter>
+    <Filter Include="ZZ_Assets\LevelInfo">
+      <UniqueIdentifier>{e85c0398-8f45-443c-a25e-b4e84d75352f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ZZ_Assets\LevelBinary">
+      <UniqueIdentifier>{5cf83374-df98-4d40-93b1-82c6502c54b1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ZZ_Assets\MusicTracks">
+      <UniqueIdentifier>{c65269f0-1c4b-4220-a222-6b0bd34a79e9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ZZ_Assets\Sounds">
+      <UniqueIdentifier>{4cc1950e-1c67-4c21-a4b6-0815c7630f9e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="CC_GameObjects">
+      <UniqueIdentifier>{2a18d3d9-8cf2-457a-837c-487587790f7c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="CC_GameObjects\Particle">
+      <UniqueIdentifier>{aa7381ea-d2a3-4dba-9a57-039f9f1a2729}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="DD_Utility">
+      <UniqueIdentifier>{2951b2bf-38d8-4a1e-9d3e-ffeb80d7c7b4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="DD_Utility\Structs">
+      <UniqueIdentifier>{d5c4c0e1-669b-4c8d-b5d6-4f6aae95785c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="DD_Utility\Utilities">
+      <UniqueIdentifier>{260477dc-eb0d-476f-9d45-1743445107b4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="AA_Data&amp;Settings">
+      <UniqueIdentifier>{a644150d-aadc-4dbc-b258-bb57545a6a9d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="BB_GameMain">
+      <UniqueIdentifier>{49453bda-6e0c-410f-8cde-50e217132b7c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="BB_GameMain\Shaders">
+      <UniqueIdentifier>{69cfb676-6e3a-4c9d-861d-3f5e9d24a277}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="BB_GameMain\Shaders\ShadersB">
+      <UniqueIdentifier>{ad65d806-9fc2-4b5b-a4b9-481858cb5e9b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="BB_GameMain\Shaders\ShadersC">
+      <UniqueIdentifier>{cd7cd176-973d-45e0-b081-7e9043f3d438}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="BB_GameMain\Shaders\ShadersA">
+      <UniqueIdentifier>{eea0c6ff-2877-4696-bae9-fdb3ddcd132d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="BB_GameMain\Shaders\ShadersUnused">
+      <UniqueIdentifier>{d78681a3-a6ba-4afc-b55b-7a016f55071d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="BB_GameMain\Audio">
+      <UniqueIdentifier>{72909f3a-2c00-4263-9766-8ee2b114bcae}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ZZ_Assets\Compiled">
+      <UniqueIdentifier>{e415ca02-96f6-496a-b951-e7452600a40c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ZZ_Assets\StoreLogos">
+      <UniqueIdentifier>{919ed57d-a718-495f-abef-35be47cea893}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ApplicationDefinition Include="App.xaml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Page Include="GameUIStyles.xaml" />
+    <Page Include="DirectXPage.xaml">
+      <Filter>BB_GameMain</Filter>
+    </Page>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="App.xaml.cpp" />
+    <ClCompile Include="DirectXPage.xaml.cpp" />
+    <ClCompile Include="ProductItem.cpp" />
+    <ClCompile Include="Common\BasicLoader.cpp">
+      <Filter>DD_Utility\Utilities</Filter>
+    </ClCompile>
+    <ClCompile Include="Common\BasicReaderWriter.cpp">
+      <Filter>DD_Utility\Utilities</Filter>
+    </ClCompile>
+    <ClCompile Include="Common\DDSTextureLoader.cpp">
+      <Filter>DD_Utility\Utilities</Filter>
+    </ClCompile>
+    <ClCompile Include="Common\PersistentState.cpp">
+      <Filter>DD_Utility\Utilities</Filter>
+    </ClCompile>
+    <ClCompile Include="GameContent\pch.cpp" />
+    <ClCompile Include="GameContent\StereoProjection.cpp">
+      <Filter>DD_Utility</Filter>
+    </ClCompile>
+    <ClCompile Include="GameContent\TargetTexture.cpp">
+      <Filter>DD_Utility</Filter>
+    </ClCompile>
+    <ClCompile Include="GameContent\Audio.cpp">
+      <Filter>BB_GameMain\Audio</Filter>
+    </ClCompile>
+    <ClCompile Include="GameContent\MediaReader.cpp">
+      <Filter>BB_GameMain\Audio</Filter>
+    </ClCompile>
+    <ClCompile Include="GameContent\SoundEffect.cpp">
+      <Filter>BB_GameMain\Audio</Filter>
+    </ClCompile>
+    <ClCompile Include="GameContent\GameTimer.cpp">
+      <Filter>DD_Utility\Utilities</Filter>
+    </ClCompile>
+    <ClCompile Include="RenderCube.cpp">
+      <Filter>DD_Utility</Filter>
+    </ClCompile>
+    <ClCompile Include="RenderCubeArray.cpp">
+      <Filter>DD_Utility</Filter>
+    </ClCompile>
+    <ClCompile Include="RenderTextureArray.cpp">
+      <Filter>DD_Utility</Filter>
+    </ClCompile>
+    <ClCompile Include="RenderTextureClass.cpp">
+      <Filter>DD_Utility</Filter>
+    </ClCompile>
+    <ClCompile Include="OrthoWindowClass.cpp">
+      <Filter>DD_Utility</Filter>
+    </ClCompile>
+    <ClCompile Include="DeferredBuffersClass.cpp">
+      <Filter>DD_Utility</Filter>
+    </ClCompile>
+    <ClCompile Include="GameMain.cpp">
+      <Filter>BB_GameMain</Filter>
+    </ClCompile>
+    <ClCompile Include="Simple3DGame.cpp">
+      <Filter>BB_GameMain</Filter>
+    </ClCompile>
+    <ClCompile Include="GameHud.cpp">
+      <Filter>BB_GameMain</Filter>
+    </ClCompile>
+    <ClCompile Include="AllResources.cpp">
+      <Filter>BB_GameMain</Filter>
+    </ClCompile>
+    <ClCompile Include="MediaStreamer.cpp" />
+    <ClCompile Include="Statics.cpp">
+      <Filter>CC_GameObjects</Filter>
+    </ClCompile>
+    <ClCompile Include="Stuff.cpp">
+      <Filter>CC_GameObjects</Filter>
+    </ClCompile>
+    <ClCompile Include="Player.cpp">
+      <Filter>CC_GameObjects</Filter>
+    </ClCompile>
+    <ClCompile Include="GunBall.cpp">
+      <Filter>CC_GameObjects</Filter>
+    </ClCompile>
+    <ClCompile Include="PanCamera.cpp">
+      <Filter>DD_Utility</Filter>
+    </ClCompile>
+    <ClCompile Include="Water.cpp">
+      <Filter>CC_GameObjects</Filter>
+    </ClCompile>
+    <ClCompile Include="Terrrain.cpp">
+      <Filter>CC_GameObjects</Filter>
+    </ClCompile>
+    <ClCompile Include="Level.cpp">
+      <Filter>CC_GameObjects</Filter>
+    </ClCompile>
+    <ClCompile Include="Common\DeviceResources.cpp">
+      <Filter>BB_GameMain</Filter>
+    </ClCompile>
+    <ClCompile Include="Rain.cpp">
+      <Filter>CC_GameObjects\Particle</Filter>
+    </ClCompile>
+    <ClCompile Include="Sparticle.cpp">
+      <Filter>CC_GameObjects\Particle</Filter>
+    </ClCompile>
+    <ClCompile Include="Snow.cpp">
+      <Filter>CC_GameObjects\Particle</Filter>
+    </ClCompile>
+    <ClCompile Include="Grass.cpp">
+      <Filter>CC_GameObjects\Particle</Filter>
+    </ClCompile>
+    <ClCompile Include="Fog.cpp">
+      <Filter>CC_GameObjects\Particle</Filter>
+    </ClCompile>
+    <ClCompile Include="Fire.cpp">
+      <Filter>CC_GameObjects\Particle</Filter>
+    </ClCompile>
+    <ClCompile Include="GameContent\Camera.cpp">
+      <Filter>BB_GameMain</Filter>
+    </ClCompile>
+    <ClCompile Include="Lights.cpp">
+      <Filter>BB_GameMain</Filter>
+    </ClCompile>
+    <ClCompile Include="TerrainPaths.cpp">
+      <Filter>CC_GameObjects</Filter>
+    </ClCompile>
+    <ClCompile Include="Textures.cpp">
+      <Filter>CC_GameObjects</Filter>
+    </ClCompile>
+    <ClCompile Include="ConvexHull3D.cpp">
+      <Filter>DD_Utility\Utilities</Filter>
+    </ClCompile>
+    <ClCompile Include="CameraPath.cpp">
+      <Filter>BB_GameMain</Filter>
+    </ClCompile>
+    <ClCompile Include="FXAA.cpp">
+      <Filter>DD_Utility</Filter>
+    </ClCompile>
+    <ClCompile Include="Buggy.cpp">
+      <Filter>CC_GameObjects</Filter>
+    </ClCompile>
+    <ClCompile Include="CarRig.cpp">
+      <Filter>CC_GameObjects</Filter>
+    </ClCompile>
+    <ClCompile Include="AnimChar.cpp">
+      <Filter>CC_GameObjects</Filter>
+    </ClCompile>
+    <ClCompile Include="Bert.cpp">
+      <Filter>CC_GameObjects</Filter>
+    </ClCompile>
+    <ClCompile Include="GameContent\MoveLookController.cpp">
+      <Filter>DD_Utility</Filter>
+    </ClCompile>
+    <ClCompile Include="GameRenderer.cpp">
+      <Filter>BB_GameMain</Filter>
+    </ClCompile>
+    <ClCompile Include="Physics.cpp">
+      <Filter>BB_GameMain</Filter>
+    </ClCompile>
+    <ClCompile Include="Mesh.cpp">
+      <Filter>DD_Utility</Filter>
+    </ClCompile>
+    <ClCompile Include="GameContent\Material.cpp">
+      <Filter>DD_Utility</Filter>
+    </ClCompile>
+    <ClCompile Include="MeshModel.cpp">
+      <Filter>DD_Utility</Filter>
+    </ClCompile>
+    <ClCompile Include="LevelEdit.cpp">
+      <Filter>CC_GameObjects</Filter>
+    </ClCompile>
+    <ClCompile Include="GameContent\GameObject.cpp">
+      <Filter>CC_GameObjects</Filter>
+    </ClCompile>
+    <ClCompile Include="PerlinNoise.cpp">
+      <Filter>DD_Utility</Filter>
+    </ClCompile>
+    <ClCompile Include="Sky.cpp">
+      <Filter>CC_GameObjects</Filter>
+    </ClCompile>
+    <ClCompile Include="SkyPlaneClass.cpp">
+      <Filter>CC_GameObjects</Filter>
+    </ClCompile>
+    <ClCompile Include="Car.cpp">
+      <Filter>CC_GameObjects</Filter>
+    </ClCompile>
+    <ClCompile Include="FilterableVehicleRaycaster.cpp">
+      <Filter>BB_GameMain</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="App.xaml.h" />
+    <ClInclude Include="DirectXPage.xaml.h" />
+    <ClInclude Include="ProductItem.h" />
+    <ClInclude Include="Common\BasicLoader.h">
+      <Filter>DD_Utility\Utilities</Filter>
+    </ClInclude>
+    <ClInclude Include="Common\BasicMath.h">
+      <Filter>DD_Utility\Utilities</Filter>
+    </ClInclude>
+    <ClInclude Include="Common\BasicReaderWriter.h">
+      <Filter>DD_Utility\Utilities</Filter>
+    </ClInclude>
+    <ClInclude Include="Common\BasicShapes.h">
+      <Filter>DD_Utility\Utilities</Filter>
+    </ClInclude>
+    <ClInclude Include="Common\DDSTextureLoader.h">
+      <Filter>DD_Utility\Utilities</Filter>
+    </ClInclude>
+    <ClInclude Include="Common\DirectXSample.h">
+      <Filter>DD_Utility\Utilities</Filter>
+    </ClInclude>
+    <ClInclude Include="Common\PersistentState.h">
+      <Filter>DD_Utility\Utilities</Filter>
+    </ClInclude>
+    <ClInclude Include="GameContent\pch.h" />
+    <ClInclude Include="GameContent\ConstantBuffers.h">
+      <Filter>DD_Utility</Filter>
+    </ClInclude>
+    <ClInclude Include="GameContent\StereoProjection.h">
+      <Filter>DD_Utility</Filter>
+    </ClInclude>
+    <ClInclude Include="GameContent\TargetTexture.h">
+      <Filter>DD_Utility</Filter>
+    </ClInclude>
+    <ClInclude Include="GameContent\GameConstants.h">
+      <Filter>CC_GameObjects</Filter>
+    </ClInclude>
+    <ClInclude Include="GameContent\Audio.h">
+      <Filter>BB_GameMain\Audio</Filter>
+    </ClInclude>
+    <ClInclude Include="GameContent\MediaReader.h">
+      <Filter>BB_GameMain\Audio</Filter>
+    </ClInclude>
+    <ClInclude Include="GameContent\SoundEffect.h">
+      <Filter>BB_GameMain\Audio</Filter>
+    </ClInclude>
+    <ClInclude Include="GameContent\GameTimer.h">
+      <Filter>DD_Utility\Utilities</Filter>
+    </ClInclude>
+    <ClInclude Include="Common\DirectXHelper.h">
+      <Filter>DD_Utility\Utilities</Filter>
+    </ClInclude>
+    <ClInclude Include="Common\StepTimer.h">
+      <Filter>DD_Utility\Utilities</Filter>
+    </ClInclude>
+    <ClInclude Include="DefShader.h">
+      <Filter>AA_Data&amp;Settings</Filter>
+    </ClInclude>
+    <ClInclude Include="DefGame.h">
+      <Filter>AA_Data&amp;Settings</Filter>
+    </ClInclude>
+    <ClInclude Include="DefParticle.h">
+      <Filter>AA_Data&amp;Settings</Filter>
+    </ClInclude>
+    <ClInclude Include="RenderCube.h">
+      <Filter>DD_Utility</Filter>
+    </ClInclude>
+    <ClInclude Include="RenderCubeArray.h">
+      <Filter>DD_Utility</Filter>
+    </ClInclude>
+    <ClInclude Include="RenderTextureArray.h">
+      <Filter>DD_Utility</Filter>
+    </ClInclude>
+    <ClInclude Include="RenderTextureClass.h">
+      <Filter>DD_Utility</Filter>
+    </ClInclude>
+    <ClInclude Include="OrthoWindowClass.h">
+      <Filter>DD_Utility</Filter>
+    </ClInclude>
+    <ClInclude Include="DeferredBuffersClass.h">
+      <Filter>DD_Utility</Filter>
+    </ClInclude>
+    <ClInclude Include="GameMain.h">
+      <Filter>BB_GameMain</Filter>
+    </ClInclude>
+    <ClInclude Include="Simple3DGame.h">
+      <Filter>BB_GameMain</Filter>
+    </ClInclude>
+    <ClInclude Include="GameHud.h">
+      <Filter>BB_GameMain</Filter>
+    </ClInclude>
+    <ClInclude Include="ppltasks_extra.h">
+      <Filter>DD_Utility\Utilities</Filter>
+    </ClInclude>
+    <ClInclude Include="DefPhysics.h">
+      <Filter>AA_Data&amp;Settings</Filter>
+    </ClInclude>
+    <ClInclude Include="AllResources.h">
+      <Filter>BB_GameMain</Filter>
+    </ClInclude>
+    <ClInclude Include="MediaStreamer.h" />
+    <ClInclude Include="Statics.h">
+      <Filter>CC_GameObjects</Filter>
+    </ClInclude>
+    <ClInclude Include="Stuff.h">
+      <Filter>CC_GameObjects</Filter>
+    </ClInclude>
+    <ClInclude Include="Player.h">
+      <Filter>CC_GameObjects</Filter>
+    </ClInclude>
+    <ClInclude Include="GunBall.h">
+      <Filter>CC_GameObjects</Filter>
+    </ClInclude>
+    <ClInclude Include="PanCamera.h">
+      <Filter>DD_Utility</Filter>
+    </ClInclude>
+    <ClInclude Include="Water.h">
+      <Filter>CC_GameObjects</Filter>
+    </ClInclude>
+    <ClInclude Include="Terrain.h">
+      <Filter>CC_GameObjects</Filter>
+    </ClInclude>
+    <ClInclude Include="Level.h">
+      <Filter>CC_GameObjects</Filter>
+    </ClInclude>
+    <ClInclude Include="Common\DeviceResources.h">
+      <Filter>BB_GameMain</Filter>
+    </ClInclude>
+    <ClInclude Include="Rain.h">
+      <Filter>CC_GameObjects\Particle</Filter>
+    </ClInclude>
+    <ClInclude Include="Sparticle.h">
+      <Filter>CC_GameObjects\Particle</Filter>
+    </ClInclude>
+    <ClInclude Include="Snow.h">
+      <Filter>CC_GameObjects\Particle</Filter>
+    </ClInclude>
+    <ClInclude Include="Grass.h">
+      <Filter>CC_GameObjects\Particle</Filter>
+    </ClInclude>
+    <ClInclude Include="Fog.h">
+      <Filter>CC_GameObjects\Particle</Filter>
+    </ClInclude>
+    <ClInclude Include="Fire.h">
+      <Filter>CC_GameObjects\Particle</Filter>
+    </ClInclude>
+    <ClInclude Include="GameContent\Camera.h">
+      <Filter>BB_GameMain</Filter>
+    </ClInclude>
+    <ClInclude Include="Lights.h">
+      <Filter>BB_GameMain</Filter>
+    </ClInclude>
+    <ClInclude Include="TerrainPaths.h">
+      <Filter>CC_GameObjects</Filter>
+    </ClInclude>
+    <ClInclude Include="Textures.h">
+      <Filter>CC_GameObjects</Filter>
+    </ClInclude>
+    <ClInclude Include="ConvexHull3D.h">
+      <Filter>DD_Utility\Utilities</Filter>
+    </ClInclude>
+    <ClInclude Include="Structs\Mesh.hpp">
+      <Filter>DD_Utility\Structs</Filter>
+    </ClInclude>
+    <ClInclude Include="Structs\Plane.hpp">
+      <Filter>DD_Utility\Structs</Filter>
+    </ClInclude>
+    <ClInclude Include="Structs\Pool.hpp">
+      <Filter>DD_Utility\Structs</Filter>
+    </ClInclude>
+    <ClInclude Include="Structs\Ray.hpp">
+      <Filter>DD_Utility\Structs</Filter>
+    </ClInclude>
+    <ClInclude Include="Structs\Vector3.hpp">
+      <Filter>DD_Utility\Structs</Filter>
+    </ClInclude>
+    <ClInclude Include="Structs\VertexDataSource.hpp">
+      <Filter>DD_Utility\Structs</Filter>
+    </ClInclude>
+    <ClInclude Include="GameUIControl.h">
+      <Filter>BB_GameMain</Filter>
+    </ClInclude>
+    <ClInclude Include="CameraPath.h">
+      <Filter>BB_GameMain</Filter>
+    </ClInclude>
+    <ClInclude Include="FXAA.h">
+      <Filter>DD_Utility</Filter>
+    </ClInclude>
+    <ClInclude Include="Buggy.h">
+      <Filter>CC_GameObjects</Filter>
+    </ClInclude>
+    <ClInclude Include="CarRig.h">
+      <Filter>CC_GameObjects</Filter>
+    </ClInclude>
+    <ClInclude Include="AnimChar.h">
+      <Filter>CC_GameObjects</Filter>
+    </ClInclude>
+    <ClInclude Include="Bert.h">
+      <Filter>CC_GameObjects</Filter>
+    </ClInclude>
+    <ClInclude Include="GameContent\MoveLookController.h">
+      <Filter>DD_Utility</Filter>
+    </ClInclude>
+    <ClInclude Include="GameRenderer.h">
+      <Filter>BB_GameMain</Filter>
+    </ClInclude>
+    <ClInclude Include="Physics.h">
+      <Filter>BB_GameMain</Filter>
+    </ClInclude>
+    <ClInclude Include="Mesh.h">
+      <Filter>DD_Utility</Filter>
+    </ClInclude>
+    <ClInclude Include="GameContent\Material.h">
+      <Filter>DD_Utility</Filter>
+    </ClInclude>
+    <ClInclude Include="MeshModel.h">
+      <Filter>DD_Utility</Filter>
+    </ClInclude>
+    <ClInclude Include="LevelEdit.h">
+      <Filter>CC_GameObjects</Filter>
+    </ClInclude>
+    <ClInclude Include="animation.h">
+      <Filter>DD_Utility</Filter>
+    </ClInclude>
+    <ClInclude Include="btMyMotionState.h">
+      <Filter>DD_Utility</Filter>
+    </ClInclude>
+    <ClInclude Include="AllStructures.h">
+      <Filter>BB_GameMain</Filter>
+    </ClInclude>
+    <ClInclude Include="GameContent\GameObject.h">
+      <Filter>CC_GameObjects</Filter>
+    </ClInclude>
+    <ClInclude Include="PerlinNoise.h">
+      <Filter>DD_Utility</Filter>
+    </ClInclude>
+    <ClInclude Include="Sky.h">
+      <Filter>CC_GameObjects</Filter>
+    </ClInclude>
+    <ClInclude Include="SkyPlaneClass.h">
+      <Filter>CC_GameObjects</Filter>
+    </ClInclude>
+    <ClInclude Include="Car.h">
+      <Filter>CC_GameObjects</Filter>
+    </ClInclude>
+    <ClInclude Include="FilterableVehicleRaycaster.h">
+      <Filter>BB_GameMain</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Package.StoreAssociation.xml" />
+    <None Include="SolidGame_StoreKey.pfx" />
+    <None Include="Assets\MusicTracks\BehindMe.wma">
+      <Filter>ZZ_Assets\MusicTracks</Filter>
+    </None>
+    <None Include="Assets\MusicTracks\City_Loop.wma">
+      <Filter>ZZ_Assets\MusicTracks</Filter>
+    </None>
+    <None Include="Assets\MusicTracks\desert.wma">
+      <Filter>ZZ_Assets\MusicTracks</Filter>
+    </None>
+    <None Include="Assets\MusicTracks\destoroya.wma">
+      <Filter>ZZ_Assets\MusicTracks</Filter>
+    </None>
+    <None Include="Assets\MusicTracks\Hydrosphere.wma">
+      <Filter>ZZ_Assets\MusicTracks</Filter>
+    </None>
+    <None Include="Assets\MusicTracks\level2.wma">
+      <Filter>ZZ_Assets\MusicTracks</Filter>
+    </None>
+    <None Include="Assets\MusicTracks\rainlevel.wma">
+      <Filter>ZZ_Assets\MusicTracks</Filter>
+    </None>
+    <None Include="Assets\MusicTracks\wierd.wma">
+      <Filter>ZZ_Assets\MusicTracks</Filter>
+    </None>
+    <None Include="Assets\MusicTracks\window2.wma">
+      <Filter>ZZ_Assets\MusicTracks</Filter>
+    </None>
+    <None Include="Assets\MusicTracks\Zander.wma">
+      <Filter>ZZ_Assets\MusicTracks</Filter>
+    </None>
+    <None Include="SolidGame_TemporaryKey.pfx" />
+    <None Include="Package.xml" />
+    <None Include="Assets\game-data.db">
+      <Filter>AA_Data&amp;Settings</Filter>
+    </None>
+    <None Include="Assets\Compiled\beachball.cmo">
+      <Filter>ZZ_Assets\Compiled</Filter>
+    </None>
+    <None Include="Assets\Compiled\big_disk.cmo">
+      <Filter>ZZ_Assets\Compiled</Filter>
+    </None>
+    <None Include="Assets\Compiled\Big_Old_House.cmo">
+      <Filter>ZZ_Assets\Compiled</Filter>
+    </None>
+    <None Include="Assets\Compiled\block.cmo">
+      <Filter>ZZ_Assets\Compiled</Filter>
+    </None>
+    <None Include="Assets\Compiled\bridge_old.cmo">
+      <Filter>ZZ_Assets\Compiled</Filter>
+    </None>
+    <None Include="Assets\Compiled\bttreeA.cmo">
+      <Filter>ZZ_Assets\Compiled</Filter>
+    </None>
+    <None Include="Assets\Compiled\column.cmo">
+      <Filter>ZZ_Assets\Compiled</Filter>
+    </None>
+    <None Include="Assets\Compiled\conifer.cmo">
+      <Filter>ZZ_Assets\Compiled</Filter>
+    </None>
+    <None Include="Assets\Compiled\dock.cmo">
+      <Filter>ZZ_Assets\Compiled</Filter>
+    </None>
+    <None Include="Assets\Compiled\fence1.cmo">
+      <Filter>ZZ_Assets\Compiled</Filter>
+    </None>
+    <None Include="Assets\Compiled\fireplace.cmo">
+      <Filter>ZZ_Assets\Compiled</Filter>
+    </None>
+    <None Include="Assets\Compiled\flag-pole.cmo">
+      <Filter>ZZ_Assets\Compiled</Filter>
+    </None>
+    <None Include="Assets\Compiled\gem1.cmo">
+      <Filter>ZZ_Assets\Compiled</Filter>
+    </None>
+    <None Include="Assets\Compiled\gem2.cmo">
+      <Filter>ZZ_Assets\Compiled</Filter>
+    </None>
+    <None Include="Assets\Compiled\gem3.cmo">
+      <Filter>ZZ_Assets\Compiled</Filter>
+    </None>
+    <None Include="Assets\Compiled\girl_anim.cmo">
+      <Filter>ZZ_Assets\Compiled</Filter>
+    </None>
+    <None Include="Assets\Compiled\GothicChurch.cmo">
+      <Filter>ZZ_Assets\Compiled</Filter>
+    </None>
+    <None Include="Assets\Compiled\heart.cmo">
+      <Filter>ZZ_Assets\Compiled</Filter>
+    </None>
+    <None Include="Assets\Compiled\hedge1.cmo">
+      <Filter>ZZ_Assets\Compiled</Filter>
+    </None>
+    <None Include="Assets\Compiled\hedge2.cmo">
+      <Filter>ZZ_Assets\Compiled</Filter>
+    </None>
+    <None Include="Assets\Compiled\hedgearch.cmo">
+      <Filter>ZZ_Assets\Compiled</Filter>
+    </None>
+    <None Include="Assets\Compiled\hedgeround.cmo">
+      <Filter>ZZ_Assets\Compiled</Filter>
+    </None>
+    <None Include="Assets\Compiled\Hut.cmo">
+      <Filter>ZZ_Assets\Compiled</Filter>
+    </None>
+    <None Include="Assets\Compiled\lamp_post.cmo">
+      <Filter>ZZ_Assets\Compiled</Filter>
+    </None>
+    <None Include="Assets\Compiled\lamp_post2.cmo">
+      <Filter>ZZ_Assets\Compiled</Filter>
+    </None>
+    <None Include="Assets\Compiled\lighthouse.cmo">
+      <Filter>ZZ_Assets\Compiled</Filter>
+    </None>
+    <None Include="Assets\Compiled\mariobox.cmo">
+      <Filter>ZZ_Assets\Compiled</Filter>
+    </None>
+    <None Include="Assets\Compiled\Medieval tower_mid_.cmo">
+      <Filter>ZZ_Assets\Compiled</Filter>
+    </None>
+    <None Include="Assets\Compiled\mikey.cmo">
+      <Filter>ZZ_Assets\Compiled</Filter>
+    </None>
+    <None Include="Assets\Compiled\Mushroom.cmo">
+      <Filter>ZZ_Assets\Compiled</Filter>
+    </None>
+    <None Include="Assets\Compiled\oil_barrel.cmo">
+      <Filter>ZZ_Assets\Compiled</Filter>
+    </None>
+    <None Include="Assets\Compiled\old_dock.cmo">
+      <Filter>ZZ_Assets\Compiled</Filter>
+    </None>
+    <None Include="Assets\Compiled\owlonown.cmo">
+      <Filter>ZZ_Assets\Compiled</Filter>
+    </None>
+    <None Include="Assets\Compiled\owlornament.cmo">
+      <Filter>ZZ_Assets\Compiled</Filter>
+    </None>
+    <None Include="Assets\Compiled\pin.cmo">
+      <Filter>ZZ_Assets\Compiled</Filter>
+    </None>
+    <None Include="Assets\Compiled\plant1.cmo">
+      <Filter>ZZ_Assets\Compiled</Filter>
+    </None>
+    <None Include="Assets\Compiled\plant2.cmo">
+      <Filter>ZZ_Assets\Compiled</Filter>
+    </None>
+    <None Include="Assets\Compiled\plant3.cmo">
+      <Filter>ZZ_Assets\Compiled</Filter>
+    </None>
+    <None Include="Assets\Compiled\plant4.cmo">
+      <Filter>ZZ_Assets\Compiled</Filter>
+    </None>
+    <None Include="Assets\Compiled\plant5.cmo">
+      <Filter>ZZ_Assets\Compiled</Filter>
+    </None>
+    <None Include="Assets\Compiled\plant6.cmo">
+      <Filter>ZZ_Assets\Compiled</Filter>
+    </None>
+    <None Include="Assets\Compiled\plant7.cmo">
+      <Filter>ZZ_Assets\Compiled</Filter>
+    </None>
+    <None Include="Assets\Compiled\pumpkined.cmo">
+      <Filter>ZZ_Assets\Compiled</Filter>
+    </None>
+    <None Include="Assets\Compiled\rock1.cmo">
+      <Filter>ZZ_Assets\Compiled</Filter>
+    </None>
+    <None Include="Assets\Compiled\Rock2.cmo">
+      <Filter>ZZ_Assets\Compiled</Filter>
+    </None>
+    <None Include="Assets\Compiled\Rock3.cmo">
+      <Filter>ZZ_Assets\Compiled</Filter>
+    </None>
+    <None Include="Assets\Compiled\Rock4.cmo">
+      <Filter>ZZ_Assets\Compiled</Filter>
+    </None>
+    <None Include="Assets\Compiled\Rock5.cmo">
+      <Filter>ZZ_Assets\Compiled</Filter>
+    </None>
+    <None Include="Assets\Compiled\Rock6.cmo">
+      <Filter>ZZ_Assets\Compiled</Filter>
+    </None>
+    <None Include="Assets\Compiled\Rock7.cmo">
+      <Filter>ZZ_Assets\Compiled</Filter>
+    </None>
+    <None Include="Assets\Compiled\Rock8.cmo">
+      <Filter>ZZ_Assets\Compiled</Filter>
+    </None>
+    <None Include="Assets\Compiled\Rock9.cmo">
+      <Filter>ZZ_Assets\Compiled</Filter>
+    </None>
+    <None Include="Assets\Compiled\ruins.cmo">
+      <Filter>ZZ_Assets\Compiled</Filter>
+    </None>
+    <None Include="Assets\Compiled\star.cmo">
+      <Filter>ZZ_Assets\Compiled</Filter>
+    </None>
+    <None Include="Assets\Compiled\statue1.cmo">
+      <Filter>ZZ_Assets\Compiled</Filter>
+    </None>
+    <None Include="Assets\Compiled\tree.cmo">
+      <Filter>ZZ_Assets\Compiled</Filter>
+    </None>
+    <None Include="Assets\Compiled\tree01.cmo">
+      <Filter>ZZ_Assets\Compiled</Filter>
+    </None>
+    <None Include="Assets\Compiled\tree2.cmo">
+      <Filter>ZZ_Assets\Compiled</Filter>
+    </None>
+    <None Include="Assets\Compiled\trees_0.cmo">
+      <Filter>ZZ_Assets\Compiled</Filter>
+    </None>
+    <None Include="Assets\Compiled\untitled.cmo">
+      <Filter>ZZ_Assets\Compiled</Filter>
+    </None>
+    <None Include="Assets\MusicTracks\Darkambiance.mp3">
+      <Filter>ZZ_Assets\MusicTracks</Filter>
+    </None>
+    <None Include="Assets\Compiled\buggy.cmo">
+      <Filter>ZZ_Assets\Compiled</Filter>
+    </None>
+    <None Include="Assets\Compiled\buggy_long.cmo">
+      <Filter>ZZ_Assets\Compiled</Filter>
+    </None>
+    <None Include="Assets\Compiled\wheel2.cmo">
+      <Filter>ZZ_Assets\Compiled</Filter>
+    </None>
+    <None Include="Assets\Compiled\wheel.cmo">
+      <Filter>ZZ_Assets\Compiled</Filter>
+    </None>
+    <None Include="Assets\Compiled\wheel3.cmo">
+      <Filter>ZZ_Assets\Compiled</Filter>
+    </None>
+    <None Include="Assets\Compiled\wheel4.cmo">
+      <Filter>ZZ_Assets\Compiled</Filter>
+    </None>
+    <None Include="Assets\Compiled\wheel5.cmo">
+      <Filter>ZZ_Assets\Compiled</Filter>
+    </None>
+    <None Include="Assets\Compiled\wheel6.cmo">
+      <Filter>ZZ_Assets\Compiled</Filter>
+    </None>
+    <None Include="Assets\Compiled\eye.cmo">
+      <Filter>ZZ_Assets\Compiled</Filter>
+    </None>
+    <None Include="README.md" />
+    <None Include="Assets\Compiled\Fireplace2.cmo">
+      <Filter>ZZ_Assets\Compiled</Filter>
+    </None>
+    <None Include="Assets\Compiled\pinetree.cmo">
+      <Filter>ZZ_Assets\Compiled</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <FxCompile Include="Shaders\DefGroundPixelShader.hlsl">
+      <Filter>BB_GameMain\Shaders\ShadersA</Filter>
+    </FxCompile>
+    <FxCompile Include="Shaders\DefGroundVertexShader.hlsl">
+      <Filter>BB_GameMain\Shaders\ShadersA</Filter>
+    </FxCompile>
+    <FxCompile Include="Shaders\DefPixelShader.hlsl">
+      <Filter>BB_GameMain\Shaders\ShadersA</Filter>
+    </FxCompile>
+    <FxCompile Include="Shaders\DefVertexShader.hlsl">
+      <Filter>BB_GameMain\Shaders\ShadersA</Filter>
+    </FxCompile>
+    <FxCompile Include="Shaders\BlurHPixelShader.hlsl">
+      <Filter>BB_GameMain\Shaders\ShadersC</Filter>
+    </FxCompile>
+    <FxCompile Include="Shaders\BlurHVertexShader.hlsl">
+      <Filter>BB_GameMain\Shaders\ShadersC</Filter>
+    </FxCompile>
+    <FxCompile Include="Shaders\BlurVPixelShader.hlsl">
+      <Filter>BB_GameMain\Shaders\ShadersC</Filter>
+    </FxCompile>
+    <FxCompile Include="Shaders\BlurVVertexShader.hlsl">
+      <Filter>BB_GameMain\Shaders\ShadersC</Filter>
+    </FxCompile>
+    <FxCompile Include="Shaders\GlowMapPixelShader.hlsl">
+      <Filter>BB_GameMain\Shaders\ShadersC</Filter>
+    </FxCompile>
+    <FxCompile Include="Shaders\GlowMapVertexShader.hlsl">
+      <Filter>BB_GameMain\Shaders\ShadersC</Filter>
+    </FxCompile>
+    <FxCompile Include="Shaders\GlowPixelShader.hlsl">
+      <Filter>BB_GameMain\Shaders\ShadersC</Filter>
+    </FxCompile>
+    <FxCompile Include="Shaders\GlowVertexShader.hlsl">
+      <Filter>BB_GameMain\Shaders\ShadersC</Filter>
+    </FxCompile>
+    <FxCompile Include="Shaders\LightPixelShader.hlsl">
+      <Filter>BB_GameMain\Shaders\ShadersA</Filter>
+    </FxCompile>
+    <FxCompile Include="Shaders\LightVertexShader.hlsl">
+      <Filter>BB_GameMain\Shaders\ShadersA</Filter>
+    </FxCompile>
+    <FxCompile Include="Shaders\GlassPixelShader.hlsl">
+      <Filter>BB_GameMain\Shaders\ShadersC</Filter>
+    </FxCompile>
+    <FxCompile Include="Shaders\GlassVertexShader.hlsl">
+      <Filter>BB_GameMain\Shaders\ShadersC</Filter>
+    </FxCompile>
+    <FxCompile Include="Shaders\DefPointPixelShader.hlsl">
+      <Filter>BB_GameMain\Shaders\ShadersA</Filter>
+    </FxCompile>
+    <FxCompile Include="Shaders\DefPointVertexShader.hlsl">
+      <Filter>BB_GameMain\Shaders\ShadersA</Filter>
+    </FxCompile>
+    <FxCompile Include="Shaders\DefSkinPixelShader.hlsl">
+      <Filter>BB_GameMain\Shaders\ShadersA</Filter>
+    </FxCompile>
+    <FxCompile Include="Shaders\DefSkinVertexShader.hlsl">
+      <Filter>BB_GameMain\Shaders\ShadersA</Filter>
+    </FxCompile>
+    <FxCompile Include="Shaders\SkiPixelShader.hlsl">
+      <Filter>BB_GameMain\Shaders\ShadersB</Filter>
+    </FxCompile>
+    <FxCompile Include="Shaders\SkyPlaneVertexShader.hlsl">
+      <Filter>BB_GameMain\Shaders\ShadersB</Filter>
+    </FxCompile>
+    <FxCompile Include="Shaders\SkyPlanePixelShader.hlsl">
+      <Filter>BB_GameMain\Shaders\ShadersB</Filter>
+    </FxCompile>
+    <FxCompile Include="Shaders\SkiVertexShader.hlsl">
+      <Filter>BB_GameMain\Shaders\ShadersB</Filter>
+    </FxCompile>
+    <FxCompile Include="Shaders\PointLitPixelShader.hlsl">
+      <Filter>BB_GameMain\Shaders\ShadersB</Filter>
+    </FxCompile>
+    <FxCompile Include="Shaders\PointLitVertexShader.hlsl">
+      <Filter>BB_GameMain\Shaders\ShadersB</Filter>
+    </FxCompile>
+    <FxCompile Include="EmitPixelShader.hlsl">
+      <Filter>BB_GameMain\Shaders\ShadersA</Filter>
+    </FxCompile>
+    <FxCompile Include="EmitVertexShader.hlsl">
+      <Filter>BB_GameMain\Shaders\ShadersA</Filter>
+    </FxCompile>
+    <FxCompile Include="Shaders\DefWaterVertexShader.hlsl">
+      <Filter>BB_GameMain\Shaders\ShadersA</Filter>
+    </FxCompile>
+    <FxCompile Include="Shaders\DefWaterPixelShader.hlsl">
+      <Filter>BB_GameMain\Shaders\ShadersA</Filter>
+    </FxCompile>
+    <FxCompile Include="Shaders\InsPointPixelShader.hlsl">
+      <Filter>BB_GameMain\Shaders\ShadersB</Filter>
+    </FxCompile>
+    <FxCompile Include="Shaders\InsPointVertexShader.hlsl">
+      <Filter>BB_GameMain\Shaders\ShadersB</Filter>
+    </FxCompile>
+    <FxCompile Include="Shaders\DepthAlphaPixelShader.hlsl">
+      <Filter>BB_GameMain\Shaders\ShadersUnused</Filter>
+    </FxCompile>
+    <FxCompile Include="Shaders\DepthAlphaVertexShader.hlsl">
+      <Filter>BB_GameMain\Shaders\ShadersUnused</Filter>
+    </FxCompile>
+    <FxCompile Include="Shaders\DepthPixelShader.hlsl">
+      <Filter>BB_GameMain\Shaders\ShadersUnused</Filter>
+    </FxCompile>
+    <FxCompile Include="Shaders\DepthVertexShader.hlsl">
+      <Filter>BB_GameMain\Shaders\ShadersUnused</Filter>
+    </FxCompile>
+    <FxCompile Include="Shaders\GroundPixelShader.hlsl">
+      <Filter>BB_GameMain\Shaders\ShadersUnused</Filter>
+    </FxCompile>
+    <FxCompile Include="Shaders\GroundVertexShader.hlsl">
+      <Filter>BB_GameMain\Shaders\ShadersUnused</Filter>
+    </FxCompile>
+    <FxCompile Include="Shaders\PointPixelShader.hlsl">
+      <Filter>BB_GameMain\Shaders\ShadersUnused</Filter>
+    </FxCompile>
+    <FxCompile Include="Shaders\PointVertexShader.hlsl">
+      <Filter>BB_GameMain\Shaders\ShadersUnused</Filter>
+    </FxCompile>
+    <FxCompile Include="Shaders\ReflectionPixelShader.hlsl">
+      <Filter>BB_GameMain\Shaders\ShadersUnused</Filter>
+    </FxCompile>
+    <FxCompile Include="Shaders\ReflectionVertexShader.hlsl">
+      <Filter>BB_GameMain\Shaders\ShadersUnused</Filter>
+    </FxCompile>
+    <FxCompile Include="Shaders\SamplePixelShader.hlsl">
+      <Filter>BB_GameMain\Shaders\ShadersUnused</Filter>
+    </FxCompile>
+    <FxCompile Include="Shaders\SampleVertexShader.hlsl">
+      <Filter>BB_GameMain\Shaders\ShadersUnused</Filter>
+    </FxCompile>
+    <FxCompile Include="Shaders\ShinyPixelShader.hlsl">
+      <Filter>BB_GameMain\Shaders\ShadersUnused</Filter>
+    </FxCompile>
+    <FxCompile Include="Shaders\ShinyVertexShader.hlsl">
+      <Filter>BB_GameMain\Shaders\ShadersUnused</Filter>
+    </FxCompile>
+    <FxCompile Include="Shaders\SkinDepthPixelShader.hlsl">
+      <Filter>BB_GameMain\Shaders\ShadersUnused</Filter>
+    </FxCompile>
+    <FxCompile Include="Shaders\SkinDepthVertexShader.hlsl">
+      <Filter>BB_GameMain\Shaders\ShadersUnused</Filter>
+    </FxCompile>
+    <FxCompile Include="Shaders\SkinningVertexShader.hlsl">
+      <Filter>BB_GameMain\Shaders\ShadersUnused</Filter>
+    </FxCompile>
+    <FxCompile Include="Shaders\SkinPixelShader.hlsl">
+      <Filter>BB_GameMain\Shaders\ShadersUnused</Filter>
+    </FxCompile>
+    <FxCompile Include="Shaders\SkinVertexShader.hlsl">
+      <Filter>BB_GameMain\Shaders\ShadersUnused</Filter>
+    </FxCompile>
+    <FxCompile Include="Shaders\WaterMapPixelShader.hlsl">
+      <Filter>BB_GameMain\Shaders\ShadersUnused</Filter>
+    </FxCompile>
+    <FxCompile Include="Shaders\WaterMapVertexShader.hlsl">
+      <Filter>BB_GameMain\Shaders\ShadersUnused</Filter>
+    </FxCompile>
+    <FxCompile Include="Shaders\WaterPixelShader.hlsl">
+      <Filter>BB_GameMain\Shaders\ShadersUnused</Filter>
+    </FxCompile>
+    <FxCompile Include="Shaders\WaterVertexShader.hlsl">
+      <Filter>BB_GameMain\Shaders\ShadersUnused</Filter>
+    </FxCompile>
+    <FxCompile Include="FXAAVertexShader.hlsl">
+      <Filter>BB_GameMain\Shaders\ShadersA</Filter>
+    </FxCompile>
+    <FxCompile Include="FXAAPixelShader.hlsl">
+      <Filter>BB_GameMain\Shaders\ShadersA</Filter>
+    </FxCompile>
+    <FxCompile Include="Shaders\FirePixelShader.hlsl">
+      <Filter>BB_GameMain\Shaders\ShadersB</Filter>
+    </FxCompile>
+    <FxCompile Include="Shaders\FireVertexShader.hlsl">
+      <Filter>BB_GameMain\Shaders\ShadersB</Filter>
+    </FxCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <AppxManifest Include="Package.appxmanifest" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="GameUIConstants.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <Xml Include="TrialLicense.xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="Assets\LevelBinary\1.bmp">
+      <Filter>ZZ_Assets\LevelBinary</Filter>
+    </Image>
+    <Image Include="Assets\LevelBinary\2.bmp">
+      <Filter>ZZ_Assets\LevelBinary</Filter>
+    </Image>
+    <Image Include="Assets\LevelBinary\3.bmp">
+      <Filter>ZZ_Assets\LevelBinary</Filter>
+    </Image>
+    <Image Include="Assets\LevelBinary\4.bmp">
+      <Filter>ZZ_Assets\LevelBinary</Filter>
+    </Image>
+    <Image Include="Assets\LevelBinary\5.bmp">
+      <Filter>ZZ_Assets\LevelBinary</Filter>
+    </Image>
+    <Image Include="Assets\LevelBinary\6.bmp">
+      <Filter>ZZ_Assets\LevelBinary</Filter>
+    </Image>
+    <Image Include="Assets\LevelBinary\7.bmp">
+      <Filter>ZZ_Assets\LevelBinary</Filter>
+    </Image>
+    <Image Include="Assets\LevelBinary\8.bmp">
+      <Filter>ZZ_Assets\LevelBinary</Filter>
+    </Image>
+    <Image Include="Assets\LevelBinary\9.bmp">
+      <Filter>ZZ_Assets\LevelBinary</Filter>
+    </Image>
+    <Image Include="Assets\LevelBinary\10.bmp">
+      <Filter>ZZ_Assets\LevelBinary</Filter>
+    </Image>
+    <Image Include="Assets\LevelBinary\pathblend11.bmp">
+      <Filter>ZZ_Assets\LevelBinary</Filter>
+    </Image>
+    <Image Include="Assets\LevelBinary\pathblend12.bmp">
+      <Filter>ZZ_Assets\LevelBinary</Filter>
+    </Image>
+    <Image Include="Assets\LevelBinary\pathblend13.bmp">
+      <Filter>ZZ_Assets\LevelBinary</Filter>
+    </Image>
+    <Image Include="Assets\LevelBinary\pathblend14.bmp">
+      <Filter>ZZ_Assets\LevelBinary</Filter>
+    </Image>
+    <Image Include="Assets\LevelBinary\pathblend15.bmp">
+      <Filter>ZZ_Assets\LevelBinary</Filter>
+    </Image>
+    <Image Include="Assets\LevelBinary\pathblend16.bmp">
+      <Filter>ZZ_Assets\LevelBinary</Filter>
+    </Image>
+    <Image Include="Assets\LevelBinary\Statics1.bmp">
+      <Filter>ZZ_Assets\LevelBinary</Filter>
+    </Image>
+    <Image Include="Assets\LevelBinary\Statics2.bmp">
+      <Filter>ZZ_Assets\LevelBinary</Filter>
+    </Image>
+    <Image Include="Assets\LevelBinary\Statics3.bmp">
+      <Filter>ZZ_Assets\LevelBinary</Filter>
+    </Image>
+    <Image Include="Assets\LevelBinary\Statics4.bmp">
+      <Filter>ZZ_Assets\LevelBinary</Filter>
+    </Image>
+    <Image Include="Assets\LevelBinary\Statics5.bmp">
+      <Filter>ZZ_Assets\LevelBinary</Filter>
+    </Image>
+    <Image Include="Assets\LevelBinary\Statics6.bmp">
+      <Filter>ZZ_Assets\LevelBinary</Filter>
+    </Image>
+    <Image Include="Assets\LevelBinary\Statics7.bmp">
+      <Filter>ZZ_Assets\LevelBinary</Filter>
+    </Image>
+    <Image Include="Assets\LevelBinary\Statics8.bmp">
+      <Filter>ZZ_Assets\LevelBinary</Filter>
+    </Image>
+    <Image Include="Assets\LevelBinary\Statics9.bmp">
+      <Filter>ZZ_Assets\LevelBinary</Filter>
+    </Image>
+    <Image Include="Assets\LevelBinary\Statics10.bmp">
+      <Filter>ZZ_Assets\LevelBinary</Filter>
+    </Image>
+    <Image Include="Assets\LevelBinary\Stuff1.bmp">
+      <Filter>ZZ_Assets\LevelBinary</Filter>
+    </Image>
+    <Image Include="Assets\LevelBinary\Stuff2.bmp">
+      <Filter>ZZ_Assets\LevelBinary</Filter>
+    </Image>
+    <Image Include="Assets\LevelBinary\Stuff3.bmp">
+      <Filter>ZZ_Assets\LevelBinary</Filter>
+    </Image>
+    <Image Include="Assets\LevelBinary\Stuff4.bmp">
+      <Filter>ZZ_Assets\LevelBinary</Filter>
+    </Image>
+    <Image Include="Assets\LevelBinary\Stuff5.bmp">
+      <Filter>ZZ_Assets\LevelBinary</Filter>
+    </Image>
+    <Image Include="Assets\LevelBinary\Stuff6.bmp">
+      <Filter>ZZ_Assets\LevelBinary</Filter>
+    </Image>
+    <Image Include="Assets\LevelBinary\Stuff7.bmp">
+      <Filter>ZZ_Assets\LevelBinary</Filter>
+    </Image>
+    <Image Include="Assets\LevelBinary\Stuff8.bmp">
+      <Filter>ZZ_Assets\LevelBinary</Filter>
+    </Image>
+    <Image Include="Assets\LevelBinary\Stuff9.bmp">
+      <Filter>ZZ_Assets\LevelBinary</Filter>
+    </Image>
+    <Image Include="Assets\LevelBinary\Stuff10.bmp">
+      <Filter>ZZ_Assets\LevelBinary</Filter>
+    </Image>
+    <Image Include="Assets\LevelBinary\CamPath1.bmp">
+      <Filter>ZZ_Assets\LevelBinary</Filter>
+    </Image>
+    <Image Include="Assets\LevelBinary\CamPath2.bmp">
+      <Filter>ZZ_Assets\LevelBinary</Filter>
+    </Image>
+    <Image Include="Assets\LevelBinary\CamPath3.bmp">
+      <Filter>ZZ_Assets\LevelBinary</Filter>
+    </Image>
+    <Image Include="Assets\LevelBinary\CamPath4.bmp">
+      <Filter>ZZ_Assets\LevelBinary</Filter>
+    </Image>
+    <Image Include="Assets\LevelBinary\CamPath5.bmp">
+      <Filter>ZZ_Assets\LevelBinary</Filter>
+    </Image>
+    <Image Include="Assets\LevelBinary\CamPath6.bmp">
+      <Filter>ZZ_Assets\LevelBinary</Filter>
+    </Image>
+    <Image Include="Assets\LevelBinary\CamPath7.bmp">
+      <Filter>ZZ_Assets\LevelBinary</Filter>
+    </Image>
+    <Image Include="Assets\LevelBinary\CamPath8.bmp">
+      <Filter>ZZ_Assets\LevelBinary</Filter>
+    </Image>
+    <Image Include="Assets\LevelBinary\CamPath9.bmp">
+      <Filter>ZZ_Assets\LevelBinary</Filter>
+    </Image>
+    <Image Include="Assets\LevelBinary\CamPath10.bmp">
+      <Filter>ZZ_Assets\LevelBinary</Filter>
+    </Image>
+    <Image Include="Assets\Compiled\alpha1.dds">
+      <Filter>ZZ_Assets\Compiled</Filter>
+    </Image>
+    <Image Include="Assets\Compiled\drop.dds">
+      <Filter>ZZ_Assets\Compiled</Filter>
+    </Image>
+    <Image Include="Assets\Compiled\fire01.dds">
+      <Filter>ZZ_Assets\Compiled</Filter>
+    </Image>
+    <Image Include="Assets\Compiled\grass1.dds">
+      <Filter>ZZ_Assets\Compiled</Filter>
+    </Image>
+    <Image Include="Assets\Compiled\grass1_small.dds">
+      <Filter>ZZ_Assets\Compiled</Filter>
+    </Image>
+    <Image Include="Assets\Compiled\grass2.dds">
+      <Filter>ZZ_Assets\Compiled</Filter>
+    </Image>
+    <Image Include="Assets\Compiled\grass2_small.dds">
+      <Filter>ZZ_Assets\Compiled</Filter>
+    </Image>
+    <Image Include="Assets\Compiled\grass3.dds">
+      <Filter>ZZ_Assets\Compiled</Filter>
+    </Image>
+    <Image Include="Assets\Compiled\grass3_small.dds">
+      <Filter>ZZ_Assets\Compiled</Filter>
+    </Image>
+    <Image Include="Assets\Compiled\grass4.dds">
+      <Filter>ZZ_Assets\Compiled</Filter>
+    </Image>
+    <Image Include="Assets\Compiled\grass4_small.dds">
+      <Filter>ZZ_Assets\Compiled</Filter>
+    </Image>
+    <Image Include="Assets\Compiled\misc_smoke.dds">
+      <Filter>ZZ_Assets\Compiled</Filter>
+    </Image>
+    <Image Include="Assets\Compiled\noise01.dds">
+      <Filter>ZZ_Assets\Compiled</Filter>
+    </Image>
+    <Image Include="Assets\Compiled\snow1.dds">
+      <Filter>ZZ_Assets\Compiled</Filter>
+    </Image>
+    <Image Include="Assets\Compiled\151.dds">
+      <Filter>ZZ_Assets\Compiled</Filter>
+    </Image>
+    <Image Include="Assets\Compiled\151_norm.dds">
+      <Filter>ZZ_Assets\Compiled</Filter>
+    </Image>
+    <Image Include="Assets\Compiled\156.dds">
+      <Filter>ZZ_Assets\Compiled</Filter>
+    </Image>
+    <Image Include="Assets\Compiled\156_norm.dds">
+      <Filter>ZZ_Assets\Compiled</Filter>
+    </Image>
+    <Image Include="Assets\Compiled\160.dds">
+      <Filter>ZZ_Assets\Compiled</Filter>
+    </Image>
+    <Image Include="Assets\Compiled\160_norm.dds">
+      <Filter>ZZ_Assets\Compiled</Filter>
+    </Image>
+    <Image Include="Assets\Compiled\163.dds">
+      <Filter>ZZ_Assets\Compiled</Filter>
+    </Image>
+    <Image Include="Assets\Compiled\163_norm.dds">
+      <Filter>ZZ_Assets\Compiled</Filter>
+    </Image>
+    <Image Include="Assets\Compiled\165.dds">
+      <Filter>ZZ_Assets\Compiled</Filter>
+    </Image>
+    <Image Include="Assets\Compiled\165_norm.dds">
+      <Filter>ZZ_Assets\Compiled</Filter>
+    </Image>
+    <Image Include="Assets\Compiled\172.dds">
+      <Filter>ZZ_Assets\Compiled</Filter>
+    </Image>
+    <Image Include="Assets\Compiled\172_norm.dds">
+      <Filter>ZZ_Assets\Compiled</Filter>
+    </Image>
+    <Image Include="Assets\Compiled\182.dds">
+      <Filter>ZZ_Assets\Compiled</Filter>
+    </Image>
+    <Image Include="Assets\Compiled\182_norm.dds">
+      <Filter>ZZ_Assets\Compiled</Filter>
+    </Image>
+    <Image Include="Assets\Compiled\196.dds">
+      <Filter>ZZ_Assets\Compiled</Filter>
+    </Image>
+    <Image Include="Assets\Compiled\196_norm.dds">
+      <Filter>ZZ_Assets\Compiled</Filter>
+    </Image>
+    <Image Include="Assets\Compiled\197.dds">
+      <Filter>ZZ_Assets\Compiled</Filter>
+    </Image>
+    <Image Include="Assets\Compiled\197_norm.dds">
+      <Filter>ZZ_Assets\Compiled</Filter>
+    </Image>
+    <Image Include="Assets\Compiled\green.dds">
+      <Filter>ZZ_Assets\Compiled</Filter>
+    </Image>
+    <Image Include="Assets\Compiled\1bda4806_Alpha.dds">
+      <Filter>ZZ_Assets\Compiled</Filter>
+    </Image>
+    <Image Include="Assets\Compiled\1bda4806_Defuse.dds">
+      <Filter>ZZ_Assets\Compiled</Filter>
+    </Image>
+    <Image Include="Assets\Compiled\1bda4806_Normal.dds">
+      <Filter>ZZ_Assets\Compiled</Filter>
+    </Image>
+    <Image Include="Assets\Compiled\6e2fc158_Defuse.dds">
+      <Filter>ZZ_Assets\Compiled</Filter>
+    </Image>
+    <Image Include="Assets\Compiled\6e2fc158_Normal.dds">
+      <Filter>ZZ_Assets\Compiled</Filter>
+    </Image>
+    <Image Include="Assets\Compiled\7b26aa4d_Defuse.dds">
+      <Filter>ZZ_Assets\Compiled</Filter>
+    </Image>
+    <Image Include="Assets\Compiled\7b26aa4d_Normal.dds">
+      <Filter>ZZ_Assets\Compiled</Filter>
+    </Image>
+    <Image Include="Assets\Compiled\09dbc9a9_Defuse.dds">
+      <Filter>ZZ_Assets\Compiled</Filter>
+    </Image>
+    <Image Include="Assets\Compiled\09dbc9a9_Normal.dds">
+      <Filter>ZZ_Assets\Compiled</Filter>
+    </Image>
+    <Image Include="Assets\Compiled\57c1696e_Defuse.dds">
+      <Filter>ZZ_Assets\Compiled</Filter>
+    </Image>
+    <Image Include="Assets\Compiled\57c1696e_Normal.dds">
+      <Filter>ZZ_Assets\Compiled</Filter>
+    </Image>
+    <Image Include="Assets\Compiled\00925fb3_Defuse.dds">
+      <Filter>ZZ_Assets\Compiled</Filter>
+    </Image>
+    <Image Include="Assets\Compiled\00925fb3_Normal.dds">
+      <Filter>ZZ_Assets\Compiled</Filter>
+    </Image>
+    <Image Include="Assets\Compiled\alien.dds">
+      <Filter>ZZ_Assets\Compiled</Filter>
+    </Image>
+    <Image Include="Assets\Compiled\b98d8325_Defuse.dds">
+      <Filter>ZZ_Assets\Compiled</Filter>
+    </Image>
+    <Image Include="Assets\Compiled\b98d8325_Normal.dds">
+      <Filter>ZZ_Assets\Compiled</Filter>
+    </Image>
+    <Image Include="Assets\Compiled\barrel.dds">
+      <Filter>ZZ_Assets\Compiled</Filter>
+    </Image>
+    <Image Include="Assets\Compiled\basamaklar.dds">
+      <Filter>ZZ_Assets\Compiled</Filter>
+    </Image>
+    <Image Include="Assets\Compiled\bbb4258c_Defuse.dds">
+      <Filter>ZZ_Assets\Compiled</Filter>
+    </Image>
+    <Image Include="Assets\Compiled\bbb4258c_Normal.dds">
+      <Filter>ZZ_Assets\Compiled</Filter>
+    </Image>
+    <Image Include="Assets\Compiled\beachball.dds">
+      <Filter>ZZ_Assets\Compiled</Filter>
+    </Image>
+    <Image Include="Assets\Compiled\beachball_e.dds">
+      <Filter>ZZ_Assets\Compiled</Filter>
+    </Image>
+    <Image Include="Assets\Compiled\Big_Old_House_C.dds">
+      <Filter>ZZ_Assets\Compiled</Filter>
+    </Image>
+    <Image Include="Assets\Compiled\Big_Old_House_N.dds">
+      <Filter>ZZ_Assets\Compiled</Filter>
+    </Image>
+    <Image Include="Assets\Compiled\Big_Old_House_S.dds">
+      <Filter>ZZ_Assets\Compiled</Filter>
+    </Image>
+    <Image Include="Assets\Compiled\bigrocks_norm.dds">
+      <Filter>ZZ_Assets\Compiled</Filter>
+    </Image>
+    <Image Include="Assets\Compiled\bluesky.dds">
+      <Filter>ZZ_Assets\Compiled</Filter>
+    </Image>
+    <Image Include="Assets\Compiled\Books_Albedo.dds">
+      <Filter>ZZ_Assets\Compiled</Filter>
+    </Image>
+    <Image Include="Assets\Compiled\Books_NRM.dds">
+      <Filter>ZZ_Assets\Compiled</Filter>
+    </Image>
+    <Image Include="Assets\Compiled\Books_SPEC.dds">
+      <Filter>ZZ_Assets\Compiled</Filter>
+    </Image>
+    <Image Include="Assets\Compiled\Bridge.dds">
+      <Filter>ZZ_Assets\Compiled</Filter>
+    </Image>
+    <Image Include="Assets\Compiled\Bridge_NM.dds">
+      <Filter>ZZ_Assets\Compiled</Filter>
+    </Image>
+    <Image Include="Assets\Compiled\Bridge_SP.dds">
+      <Filter>ZZ_Assets\Compiled</Filter>
+    </Image>
+    <Image Include="Assets\Compiled\BT_Tree_A.dds">
+      <Filter>ZZ_Assets\Compiled</Filter>
+    </Image>
+    <Image Include="Assets\Compiled\BT_Tree_A_Normals.dds">
+      <Filter>ZZ_Assets\Compiled</Filter>
+    </Image>
+    <Image Include="Assets\Compiled\BT_Tree_A_Specular.dds">
+      <Filter>ZZ_Assets\Compiled</Filter>
+    </Image>
+    <Image Include="Assets\Compiled\ce35a7f8_Defuse.dds">
+      <Filter>ZZ_Assets\Compiled</Filter>
+    </Image>
+    <Image Include="Assets\Compiled\ce35a7f8_Normal.dds">
+      <Filter>ZZ_Assets\Compiled</Filter>
+    </Image>
+    <Image Include="Assets\Compiled\Conifer2_D.dds">
+      <Filter>ZZ_Assets\Compiled</Filter>
+    </Image>
+    <Image Include="Assets\Compiled\Conifer2_N.dds">
+      <Filter>ZZ_Assets\Compiled</Filter>
+    </Image>
+    <Image Include="Assets\Compiled\ConiferBark_D.dds">
+      <Filter>ZZ_Assets\Compiled</Filter>
+    </Image>
+    <Image Include="Assets\Compiled\ConiferBark_n.dds">
+      <Filter>ZZ_Assets\Compiled</Filter>
+    </Image>
+    <Image Include="Assets\Compiled\d1c3d725_Defuse.dds">
+      <Filter>ZZ_Assets\Compiled</Filter>
+    </Image>
+    <Image Include="Assets\Compiled\d1c3d725_Normal.dds">
+      <Filter>ZZ_Assets\Compiled</Filter>
+    </Image>
+    <Image Include="Assets\Compiled\d4afa143_Defuse.dds">
+      <Filter>ZZ_Assets\Compiled</Filter>
+    </Image>
+    <Image Include="Assets\Compiled\d4afa143_Normal.dds">
+      <Filter>ZZ_Assets\Compiled</Filter>
+    </Image>
+    <Image Include="Assets\Compiled\DaylightBox.dds">
+      <Filter>ZZ_Assets\Compiled</Filter>
+    </Image>
+    <Image Include="Assets\Compiled\direkler.dds">
+      <Filter>ZZ_Assets\Compiled</Filter>
+    </Image>
+    <Image Include="Assets\Compiled\ee22d6e4_Defuse.dds">
+      <Filter>ZZ_Assets\Compiled</Filter>
+    </Image>
+    <Image Include="Assets\Compiled\ee22d6e4_Normal.dds">
+      <Filter>ZZ_Assets\Compiled</Filter>
+    </Image>
+    <Image Include="Assets\Compiled\Emission.dds">
+      <Filter>ZZ_Assets\Compiled</Filter>
+    </Image>
+    <Image Include="Assets\Compiled\eye.dds">
+      <Filter>ZZ_Assets\Compiled</Filter>
+    </Image>
+    <Image Include="Assets\Compiled\f779c12a_Defuse.dds">
+      <Filter>ZZ_Assets\Compiled</Filter>
+    </Image>
+    <Image Include="Assets\Compiled\f779c12a_Normal.dds">
+      <Filter>ZZ_Assets\Compiled</Filter>
+    </Image>
+    <Image Include="Assets\Compiled\Fabrics_Albedo.dds">
+      <Filter>ZZ_Assets\Compiled</Filter>
+    </Image>
+    <Image Include="Assets\Compiled\Fabrics_AO.dds">
+      <Filter>ZZ_Assets\Compiled</Filter>
+    </Image>
+    <Image Include="Assets\Compiled\Fabrics_NRM.dds">
+      <Filter>ZZ_Assets\Compiled</Filter>
+    </Image>
+    <Image Include="Assets\Compiled\Fabrics_SPEC.dds">
+      <Filter>ZZ_Assets\Compiled</Filter>
+    </Image>
+    <Image Include="Assets\Compiled\face.dds">
+      <Filter>ZZ_Assets\Compiled</Filter>
+    </Image>
+    <Image Include="Assets\Compiled\fence1.dds">
+      <Filter>ZZ_Assets\Compiled</Filter>
+    </Image>
+    <Image Include="Assets\Compiled\Fireplace_Albedo.dds">
+      <Filter>ZZ_Assets\Compiled</Filter>
+    </Image>
+    <Image Include="Assets\Compiled\Fireplace_Metalness.dds">
+      <Filter>ZZ_Assets\Compiled</Filter>
+    </Image>
+    <Image Include="Assets\Compiled\Fireplace_NRM.dds">
+      <Filter>ZZ_Assets\Compiled</Filter>
+    </Image>
+    <Image Include="Assets\Compiled\fireplace_tex.dds">
+      <Filter>ZZ_Assets\Compiled</Filter>
+    </Image>
+    <Image Include="Assets\Compiled\fireplace_uv.dds">
+      <Filter>ZZ_Assets\Compiled</Filter>
+    </Image>
+    <Image Include="Assets\Compiled\gay.dds">
+      <Filter>ZZ_Assets\Compiled</Filter>
+    </Image>
+    <Image Include="Assets\Compiled\gay_N.dds">
+      <Filter>ZZ_Assets\Compiled</Filter>
+    </Image>
+    <Image Include="Assets\Compiled\gemblue.dds">
+      <Filter>ZZ_Assets\Compiled</Filter>
+    </Image>
+    <Image Include="Assets\Compiled\gemred.dds">
+      <Filter>ZZ_Assets\Compiled</Filter>
+    </Image>
+    <Image Include="Assets\Compiled\gemwhite.dds">
+      <Filter>ZZ_Assets\Compiled</Filter>
+    </Image>
+    <Image Include="Assets\Compiled\Glass_Albedo.dds">
+      <Filter>ZZ_Assets\Compiled</Filter>
+    </Image>
+    <Image Include="Assets\Compiled\Glass_NRM.dds">
+      <Filter>ZZ_Assets\Compiled</Filter>
+    </Image>
+    <Image Include="Assets\Compiled\Glass_SPEC.dds">
+      <Filter>ZZ_Assets\Compiled</Filter>
+    </Image>
+    <Image Include="Assets\Compiled\GothicChurch_Bump.dds">
+      <Filter>ZZ_Assets\Compiled</Filter>
+    </Image>
+    <Image Include="Assets\Compiled\GothicChurch_Bump_.dds">
+      <Filter>ZZ_Assets\Compiled</Filter>
+    </Image>
+    <Image Include="Assets\Compiled\GothicChurch_Diffuse.dds">
+      <Filter>ZZ_Assets\Compiled</Filter>
+    </Image>
+    <Image Include="Assets\Compiled\GothicChurch_Illum.dds">
+      <Filter>ZZ_Assets\Compiled</Filter>
+    </Image>
+    <Image Include="Assets\Compiled\GothicChurch_Specular.dds">
+      <Filter>ZZ_Assets\Compiled</Filter>
+    </Image>
+    <Image Include="Assets\Compiled\Granite.dds">
+      <Filter>ZZ_Assets\Compiled</Filter>
+    </Image>
+    <Image Include="Assets\Compiled\grimmnight_large.dds">
+      <Filter>ZZ_Assets\Compiled</Filter>
+    </Image>
+    <Image Include="Assets\Compiled\hair.dds">
+      <Filter>ZZ_Assets\Compiled</Filter>
+    </Image>
+    <Image Include="Assets\Compiled\headlamp_lm.dds">
+      <Filter>ZZ_Assets\Compiled</Filter>
+    </Image>
+    <Image Include="Assets\Compiled\heart.dds">
+      <Filter>ZZ_Assets\Compiled</Filter>
+    </Image>
+    <Image Include="Assets\Compiled\hedge_diffuse.dds">
+      <Filter>ZZ_Assets\Compiled</Filter>
+    </Image>
+    <Image Include="Assets\Compiled\hedge_normal.dds">
+      <Filter>ZZ_Assets\Compiled</Filter>
+    </Image>
+    <Image Include="Assets\Compiled\hedgearch_diffuse.dds">
+      <Filter>ZZ_Assets\Compiled</Filter>
+    </Image>
+    <Image Include="Assets\Compiled\hedgearch_normal.dds">
+      <Filter>ZZ_Assets\Compiled</Filter>
+    </Image>
+    <Image Include="Assets\Compiled\hedgelong_diffuse.dds">
+      <Filter>ZZ_Assets\Compiled</Filter>
+    </Image>
+    <Image Include="Assets\Compiled\hedgelong_normal.dds">
+      <Filter>ZZ_Assets\Compiled</Filter>
+    </Image>
+    <Image Include="Assets\Compiled\hedgeround_diffuse.dds">
+      <Filter>ZZ_Assets\Compiled</Filter>
+    </Image>
+    <Image Include="Assets\Compiled\hedgeround_normal.dds">
+      <Filter>ZZ_Assets\Compiled</Filter>
+    </Image>
+    <Image Include="Assets\Compiled\kiris.dds">
+      <Filter>ZZ_Assets\Compiled</Filter>
+    </Image>
+    <Image Include="Assets\Compiled\lamp-glass.dds">
+      <Filter>ZZ_Assets\Compiled</Filter>
+    </Image>
+    <Image Include="Assets\Compiled\lamppost.dds">
+      <Filter>ZZ_Assets\Compiled</Filter>
+    </Image>
+    <Image Include="Assets\Compiled\leaves_tree2_n.dds">
+      <Filter>ZZ_Assets\Compiled</Filter>
+    </Image>
+    <Image Include="Assets\Compiled\leaves_tree2_s.dds">
+      <Filter>ZZ_Assets\Compiled</Filter>
+    </Image>
+    <Image Include="Assets\Compiled\leaves_tree2_t.dds">
+      <Filter>ZZ_Assets\Compiled</Filter>
+    </Image>
+    <Image Include="Assets\Compiled\MettleSky.dds">
+      <Filter>ZZ_Assets\Compiled</Filter>
+    </Image>
+    <Image Include="Assets\Compiled\Mickey_Mouse_D.dds">
+      <Filter>ZZ_Assets\Compiled</Filter>
+    </Image>
+    <Image Include="Assets\Compiled\Mickey_Mouse_N.dds">
+      <Filter>ZZ_Assets\Compiled</Filter>
+    </Image>
+    <Image Include="Assets\Compiled\mushroomred.dds">
+      <Filter>ZZ_Assets\Compiled</Filter>
+    </Image>
+    <Image Include="Assets\Compiled\ornamentowl_d.dds">
+      <Filter>ZZ_Assets\Compiled</Filter>
+    </Image>
+    <Image Include="Assets\Compiled\ornamentowl_n.dds">
+      <Filter>ZZ_Assets\Compiled</Filter>
+    </Image>
+    <Image Include="Assets\Compiled\pin.dds">
+      <Filter>ZZ_Assets\Compiled</Filter>
+    </Image>
+    <Image Include="Assets\Compiled\Plankfloor_Albedo.dds">
+      <Filter>ZZ_Assets\Compiled</Filter>
+    </Image>
+    <Image Include="Assets\Compiled\Plankfloor_NRM.dds">
+      <Filter>ZZ_Assets\Compiled</Filter>
+    </Image>
+    <Image Include="Assets\Compiled\Plankfloor_SPEC.dds">
+      <Filter>ZZ_Assets\Compiled</Filter>
+    </Image>
+    <Image Include="Assets\Compiled\plant1.dds">
+      <Filter>ZZ_Assets\Compiled</Filter>
+    </Image>
+    <Image Include="Assets\Compiled\plant2.dds">
+      <Filter>ZZ_Assets\Compiled</Filter>
+    </Image>
+    <Image Include="Assets\Compiled\plant3.dds">
+      <Filter>ZZ_Assets\Compiled</Filter>
+    </Image>
+    <Image Include="Assets\Compiled\plant4.dds">
+      <Filter>ZZ_Assets\Compiled</Filter>
+    </Image>
+    <Image Include="Assets\Compiled\plant5.dds">
+      <Filter>ZZ_Assets\Compiled</Filter>
+    </Image>
+    <Image Include="Assets\Compiled\plant6.dds">
+      <Filter>ZZ_Assets\Compiled</Filter>
+    </Image>
+    <Image Include="Assets\Compiled\plant7.dds">
+      <Filter>ZZ_Assets\Compiled</Filter>
+    </Image>
+    <Image Include="Assets\Compiled\Plants_Albedo.dds">
+      <Filter>ZZ_Assets\Compiled</Filter>
+    </Image>
+    <Image Include="Assets\Compiled\Plants_NRM.dds">
+      <Filter>ZZ_Assets\Compiled</Filter>
+    </Image>
+    <Image Include="Assets\Compiled\Plants_SPEC.dds">
+      <Filter>ZZ_Assets\Compiled</Filter>
+    </Image>
+    <Image Include="Assets\Compiled\Porch_Albedo.dds">
+      <Filter>ZZ_Assets\Compiled</Filter>
+    </Image>
+    <Image Include="Assets\Compiled\Porch_NRM.dds">
+      <Filter>ZZ_Assets\Compiled</Filter>
+    </Image>
+    <Image Include="Assets\Compiled\Porch_SPEC.dds">
+      <Filter>ZZ_Assets\Compiled</Filter>
+    </Image>
+    <Image Include="Assets\Compiled\pot1.dds">
+      <Filter>ZZ_Assets\Compiled</Filter>
+    </Image>
+    <Image Include="Assets\Compiled\pot1_nor.dds">
+      <Filter>ZZ_Assets\Compiled</Filter>
+    </Image>
+    <Image Include="Assets\Compiled\pot1_spec.dds">
+      <Filter>ZZ_Assets\Compiled</Filter>
+    </Image>
+    <Image Include="Assets\Compiled\pot2.dds">
+      <Filter>ZZ_Assets\Compiled</Filter>
+    </Image>
+    <Image Include="Assets\Compiled\pot2_nor.dds">
+      <Filter>ZZ_Assets\Compiled</Filter>
+    </Image>
+    <Image Include="Assets\Compiled\pot2_spec.dds">
+      <Filter>ZZ_Assets\Compiled</Filter>
+    </Image>
+    <Image Include="Assets\Compiled\pot3.dds">
+      <Filter>ZZ_Assets\Compiled</Filter>
+    </Image>
+    <Image Include="Assets\Compiled\pot3_nor.dds">
+      <Filter>ZZ_Assets\Compiled</Filter>
+    </Image>
+    <Image Include="Assets\Compiled\pot3_spec.dds">
+      <Filter>ZZ_Assets\Compiled</Filter>
+    </Image>
+    <Image Include="Assets\Compiled\pot4.dds">
+      <Filter>ZZ_Assets\Compiled</Filter>
+    </Image>
+    <Image Include="Assets\Compiled\pot4_nor.dds">
+      <Filter>ZZ_Assets\Compiled</Filter>
+    </Image>
+    <Image Include="Assets\Compiled\pot4_spec.dds">
+      <Filter>ZZ_Assets\Compiled</Filter>
+    </Image>
+    <Image Include="Assets\Compiled\pot5.dds">
+      <Filter>ZZ_Assets\Compiled</Filter>
+    </Image>
+    <Image Include="Assets\Compiled\pot5_nor.dds">
+      <Filter>ZZ_Assets\Compiled</Filter>
+    </Image>
+    <Image Include="Assets\Compiled\pot5_spec.dds">
+      <Filter>ZZ_Assets\Compiled</Filter>
+    </Image>
+    <Image Include="Assets\Compiled\Pottery_Albedo.dds">
+      <Filter>ZZ_Assets\Compiled</Filter>
+    </Image>
+    <Image Include="Assets\Compiled\Pottery_ao.dds">
+      <Filter>ZZ_Assets\Compiled</Filter>
+    </Image>
+    <Image Include="Assets\Compiled\Pottery_normal.dds">
+      <Filter>ZZ_Assets\Compiled</Filter>
+    </Image>
+    <Image Include="Assets\Compiled\Pottery_SPEC.dds">
+      <Filter>ZZ_Assets\Compiled</Filter>
+    </Image>
+    <Image Include="Assets\Compiled\pumpkintex.dds">
+      <Filter>ZZ_Assets\Compiled</Filter>
+    </Image>
+    <Image Include="Assets\Compiled\pupil.dds">
+      <Filter>ZZ_Assets\Compiled</Filter>
+    </Image>
+    <Image Include="Assets\Compiled\rock_D.dds">
+      <Filter>ZZ_Assets\Compiled</Filter>
+    </Image>
+    <Image Include="Assets\Compiled\rock_N.dds">
+      <Filter>ZZ_Assets\Compiled</Filter>
+    </Image>
+    <Image Include="Assets\Compiled\rock2_D.dds">
+      <Filter>ZZ_Assets\Compiled</Filter>
+    </Image>
+    <Image Include="Assets\Compiled\rock3_D.dds">
+      <Filter>ZZ_Assets\Compiled</Filter>
+    </Image>
+    <Image Include="Assets\Compiled\rock4_D.dds">
+      <Filter>ZZ_Assets\Compiled</Filter>
+    </Image>
+    <Image Include="Assets\Compiled\Roofing_albedo.dds">
+      <Filter>ZZ_Assets\Compiled</Filter>
+    </Image>
+    <Image Include="Assets\Compiled\Roofing_NRM.dds">
+      <Filter>ZZ_Assets\Compiled</Filter>
+    </Image>
+    <Image Include="Assets\Compiled\Roofing_SPEC.dds">
+      <Filter>ZZ_Assets\Compiled</Filter>
+    </Image>
+    <Image Include="Assets\Compiled\skin.dds">
+      <Filter>ZZ_Assets\Compiled</Filter>
+    </Image>
+    <Image Include="Assets\Compiled\sorceress.dds">
+      <Filter>ZZ_Assets\Compiled</Filter>
+    </Image>
+    <Image Include="Assets\Compiled\sorceress_n.dds">
+      <Filter>ZZ_Assets\Compiled</Filter>
+    </Image>
+    <Image Include="Assets\Compiled\spot_lm.dds">
+      <Filter>ZZ_Assets\Compiled</Filter>
+    </Image>
+    <Image Include="Assets\Compiled\stormydays_large.dds">
+      <Filter>ZZ_Assets\Compiled</Filter>
+    </Image>
+    <Image Include="Assets\Compiled\Tex_6990_0.dds">
+      <Filter>ZZ_Assets\Compiled</Filter>
+    </Image>
+    <Image Include="Assets\Compiled\Tex_7290_0.dds">
+      <Filter>ZZ_Assets\Compiled</Filter>
+    </Image>
+    <Image Include="Assets\Compiled\Tex_7395_0.dds">
+      <Filter>ZZ_Assets\Compiled</Filter>
+    </Image>
+    <Image Include="Assets\Compiled\Tex_7485_0.dds">
+      <Filter>ZZ_Assets\Compiled</Filter>
+    </Image>
+    <Image Include="Assets\Compiled\Tex_9195_0.dds">
+      <Filter>ZZ_Assets\Compiled</Filter>
+    </Image>
+    <Image Include="Assets\Compiled\toc.dds">
+      <Filter>ZZ_Assets\Compiled</Filter>
+    </Image>
+    <Image Include="Assets\Compiled\tree_bark.dds">
+      <Filter>ZZ_Assets\Compiled</Filter>
+    </Image>
+    <Image Include="Assets\Compiled\tree_leaves.dds">
+      <Filter>ZZ_Assets\Compiled</Filter>
+    </Image>
+    <Image Include="Assets\Compiled\TreeBark_D.dds">
+      <Filter>ZZ_Assets\Compiled</Filter>
+    </Image>
+    <Image Include="Assets\Compiled\TreeBark_N.dds">
+      <Filter>ZZ_Assets\Compiled</Filter>
+    </Image>
+    <Image Include="Assets\Compiled\TreeBark2_D.dds">
+      <Filter>ZZ_Assets\Compiled</Filter>
+    </Image>
+    <Image Include="Assets\Compiled\TreeBark2_N.dds">
+      <Filter>ZZ_Assets\Compiled</Filter>
+    </Image>
+    <Image Include="Assets\Compiled\TreeBark3_D.dds">
+      <Filter>ZZ_Assets\Compiled</Filter>
+    </Image>
+    <Image Include="Assets\Compiled\TreeBark3_N.dds">
+      <Filter>ZZ_Assets\Compiled</Filter>
+    </Image>
+    <Image Include="Assets\Compiled\TreeBranch_D.dds">
+      <Filter>ZZ_Assets\Compiled</Filter>
+    </Image>
+    <Image Include="Assets\Compiled\TreeBranch_N.dds">
+      <Filter>ZZ_Assets\Compiled</Filter>
+    </Image>
+    <Image Include="Assets\Compiled\TreeBranch2_D.dds">
+      <Filter>ZZ_Assets\Compiled</Filter>
+    </Image>
+    <Image Include="Assets\Compiled\TreeBranch2_N.dds">
+      <Filter>ZZ_Assets\Compiled</Filter>
+    </Image>
+    <Image Include="Assets\Compiled\TreeBranch3_D.dds">
+      <Filter>ZZ_Assets\Compiled</Filter>
+    </Image>
+    <Image Include="Assets\Compiled\TreeBranch3_N.dds">
+      <Filter>ZZ_Assets\Compiled</Filter>
+    </Image>
+    <Image Include="Assets\Compiled\trees_bark_002_col.dds">
+      <Filter>ZZ_Assets\Compiled</Filter>
+    </Image>
+    <Image Include="Assets\Compiled\trees_bark_002_nor.dds">
+      <Filter>ZZ_Assets\Compiled</Filter>
+    </Image>
+    <Image Include="Assets\Compiled\trees_leaves_003_col.dds">
+      <Filter>ZZ_Assets\Compiled</Filter>
+    </Image>
+    <Image Include="Assets\Compiled\Walls_Albedo.dds">
+      <Filter>ZZ_Assets\Compiled</Filter>
+    </Image>
+    <Image Include="Assets\Compiled\Walls_NRM.dds">
+      <Filter>ZZ_Assets\Compiled</Filter>
+    </Image>
+    <Image Include="Assets\Compiled\Walls_SPEC.dds">
+      <Filter>ZZ_Assets\Compiled</Filter>
+    </Image>
+    <Image Include="Assets\Compiled\water1.dds">
+      <Filter>ZZ_Assets\Compiled</Filter>
+    </Image>
+    <Image Include="Assets\Compiled\water2.dds">
+      <Filter>ZZ_Assets\Compiled</Filter>
+    </Image>
+    <Image Include="Assets\Compiled\waternorm_1.dds">
+      <Filter>ZZ_Assets\Compiled</Filter>
+    </Image>
+    <Image Include="Assets\Compiled\waternorm_2.dds">
+      <Filter>ZZ_Assets\Compiled</Filter>
+    </Image>
+    <Image Include="Assets\Compiled\white.dds">
+      <Filter>ZZ_Assets\Compiled</Filter>
+    </Image>
+    <Image Include="Assets\Compiled\Window_Albedo.dds">
+      <Filter>ZZ_Assets\Compiled</Filter>
+    </Image>
+    <Image Include="Assets\Compiled\Window_NRM.dds">
+      <Filter>ZZ_Assets\Compiled</Filter>
+    </Image>
+    <Image Include="Assets\Compiled\Window_SPEC.dds">
+      <Filter>ZZ_Assets\Compiled</Filter>
+    </Image>
+    <Image Include="Assets\Compiled\Wooden_Albedo.dds">
+      <Filter>ZZ_Assets\Compiled</Filter>
+    </Image>
+    <Image Include="Assets\Compiled\Wooden_Metalness.dds">
+      <Filter>ZZ_Assets\Compiled</Filter>
+    </Image>
+    <Image Include="Assets\Compiled\Wooden_NRM.dds">
+      <Filter>ZZ_Assets\Compiled</Filter>
+    </Image>
+    <Image Include="Assets\Compiled\woodfloor.dds">
+      <Filter>ZZ_Assets\Compiled</Filter>
+    </Image>
+    <Image Include="Assets\Compiled\yell.dds">
+      <Filter>ZZ_Assets\Compiled</Filter>
+    </Image>
+    <Image Include="Assets\Compiled\bark_tree2.dds">
+      <Filter>ZZ_Assets\Compiled</Filter>
+    </Image>
+    <Image Include="Assets\BigLogo.png">
+      <Filter>ZZ_Assets\StoreLogos</Filter>
+    </Image>
+    <Image Include="Assets\frame_scary_abstract.png">
+      <Filter>ZZ_Assets\StoreLogos</Filter>
+    </Image>
+    <Image Include="Assets\frame_scary_abstract2.png">
+      <Filter>ZZ_Assets\StoreLogos</Filter>
+    </Image>
+    <Image Include="Assets\frame_scary_abstract3.png">
+      <Filter>ZZ_Assets\StoreLogos</Filter>
+    </Image>
+    <Image Include="Assets\NewStoreLogo.scale-100.png">
+      <Filter>ZZ_Assets\StoreLogos</Filter>
+    </Image>
+    <Image Include="Assets\NewStoreLogo.scale-125.png">
+      <Filter>ZZ_Assets\StoreLogos</Filter>
+    </Image>
+    <Image Include="Assets\NewStoreLogo.scale-150.png">
+      <Filter>ZZ_Assets\StoreLogos</Filter>
+    </Image>
+    <Image Include="Assets\NewStoreLogo.scale-200.png">
+      <Filter>ZZ_Assets\StoreLogos</Filter>
+    </Image>
+    <Image Include="Assets\NewStoreLogo.scale-400.png">
+      <Filter>ZZ_Assets\StoreLogos</Filter>
+    </Image>
+    <Image Include="Assets\SplashScreen.scale-100.png">
+      <Filter>ZZ_Assets\StoreLogos</Filter>
+    </Image>
+    <Image Include="Assets\SplashScreen.scale-125.png">
+      <Filter>ZZ_Assets\StoreLogos</Filter>
+    </Image>
+    <Image Include="Assets\SplashScreen.scale-150.png">
+      <Filter>ZZ_Assets\StoreLogos</Filter>
+    </Image>
+    <Image Include="Assets\SplashScreen.scale-200.png">
+      <Filter>ZZ_Assets\StoreLogos</Filter>
+    </Image>
+    <Image Include="Assets\SplashScreen.scale-400.png">
+      <Filter>ZZ_Assets\StoreLogos</Filter>
+    </Image>
+    <Image Include="Assets\Square44x44Logo.scale-100.png">
+      <Filter>ZZ_Assets\StoreLogos</Filter>
+    </Image>
+    <Image Include="Assets\Square44x44Logo.scale-125.png">
+      <Filter>ZZ_Assets\StoreLogos</Filter>
+    </Image>
+    <Image Include="Assets\Square44x44Logo.scale-150.png">
+      <Filter>ZZ_Assets\StoreLogos</Filter>
+    </Image>
+    <Image Include="Assets\Square44x44Logo.scale-200.png">
+      <Filter>ZZ_Assets\StoreLogos</Filter>
+    </Image>
+    <Image Include="Assets\Square44x44Logo.scale-400.png">
+      <Filter>ZZ_Assets\StoreLogos</Filter>
+    </Image>
+    <Image Include="Assets\Square44x44Logo.targetsize-16.png">
+      <Filter>ZZ_Assets\StoreLogos</Filter>
+    </Image>
+    <Image Include="Assets\Square44x44Logo.targetsize-16_altform-unplated.png">
+      <Filter>ZZ_Assets\StoreLogos</Filter>
+    </Image>
+    <Image Include="Assets\Square44x44Logo.targetsize-24.png">
+      <Filter>ZZ_Assets\StoreLogos</Filter>
+    </Image>
+    <Image Include="Assets\Square44x44Logo.targetsize-24_altform-unplated.png">
+      <Filter>ZZ_Assets\StoreLogos</Filter>
+    </Image>
+    <Image Include="Assets\Square44x44Logo.targetsize-32.png">
+      <Filter>ZZ_Assets\StoreLogos</Filter>
+    </Image>
+    <Image Include="Assets\Square44x44Logo.targetsize-32_altform-unplated.png">
+      <Filter>ZZ_Assets\StoreLogos</Filter>
+    </Image>
+    <Image Include="Assets\Square44x44Logo.targetsize-48.png">
+      <Filter>ZZ_Assets\StoreLogos</Filter>
+    </Image>
+    <Image Include="Assets\Square44x44Logo.targetsize-48_altform-unplated.png">
+      <Filter>ZZ_Assets\StoreLogos</Filter>
+    </Image>
+    <Image Include="Assets\Square44x44Logo.targetsize-256.png">
+      <Filter>ZZ_Assets\StoreLogos</Filter>
+    </Image>
+    <Image Include="Assets\Square44x44Logo.targetsize-256_altform-unplated.png">
+      <Filter>ZZ_Assets\StoreLogos</Filter>
+    </Image>
+    <Image Include="Assets\Square71x71Logo.scale-100.png">
+      <Filter>ZZ_Assets\StoreLogos</Filter>
+    </Image>
+    <Image Include="Assets\Square71x71Logo.scale-125.png">
+      <Filter>ZZ_Assets\StoreLogos</Filter>
+    </Image>
+    <Image Include="Assets\Square71x71Logo.scale-150.png">
+      <Filter>ZZ_Assets\StoreLogos</Filter>
+    </Image>
+    <Image Include="Assets\Square71x71Logo.scale-200.png">
+      <Filter>ZZ_Assets\StoreLogos</Filter>
+    </Image>
+    <Image Include="Assets\Square71x71Logo.scale-400.png">
+      <Filter>ZZ_Assets\StoreLogos</Filter>
+    </Image>
+    <Image Include="Assets\Square150x150Logo.scale-100.png">
+      <Filter>ZZ_Assets\StoreLogos</Filter>
+    </Image>
+    <Image Include="Assets\Square150x150Logo.scale-125.png">
+      <Filter>ZZ_Assets\StoreLogos</Filter>
+    </Image>
+    <Image Include="Assets\Square150x150Logo.scale-150.png">
+      <Filter>ZZ_Assets\StoreLogos</Filter>
+    </Image>
+    <Image Include="Assets\Square150x150Logo.scale-200.png">
+      <Filter>ZZ_Assets\StoreLogos</Filter>
+    </Image>
+    <Image Include="Assets\Square150x150Logo.scale-400.png">
+      <Filter>ZZ_Assets\StoreLogos</Filter>
+    </Image>
+    <Image Include="Assets\Square310x310Logo.png">
+      <Filter>ZZ_Assets\StoreLogos</Filter>
+    </Image>
+    <Image Include="Assets\Square310x310Logo.scale-100.png">
+      <Filter>ZZ_Assets\StoreLogos</Filter>
+    </Image>
+    <Image Include="Assets\Square310x310Logo.scale-125.png">
+      <Filter>ZZ_Assets\StoreLogos</Filter>
+    </Image>
+    <Image Include="Assets\Square310x310Logo.scale-150.png">
+      <Filter>ZZ_Assets\StoreLogos</Filter>
+    </Image>
+    <Image Include="Assets\Square310x310Logo.scale-200.png">
+      <Filter>ZZ_Assets\StoreLogos</Filter>
+    </Image>
+    <Image Include="Assets\Square310x310Logo.scale-400.png">
+      <Filter>ZZ_Assets\StoreLogos</Filter>
+    </Image>
+    <Image Include="Assets\StoreLogo.scale-100.png">
+      <Filter>ZZ_Assets\StoreLogos</Filter>
+    </Image>
+    <Image Include="Assets\StoreLogo.scale-125.png">
+      <Filter>ZZ_Assets\StoreLogos</Filter>
+    </Image>
+    <Image Include="Assets\StoreLogo.scale-150.png">
+      <Filter>ZZ_Assets\StoreLogos</Filter>
+    </Image>
+    <Image Include="Assets\StoreLogo.scale-200.png">
+      <Filter>ZZ_Assets\StoreLogos</Filter>
+    </Image>
+    <Image Include="Assets\StoreLogo.scale-400.png">
+      <Filter>ZZ_Assets\StoreLogos</Filter>
+    </Image>
+    <Image Include="Assets\Wide310x150Logo.scale-100.png">
+      <Filter>ZZ_Assets\StoreLogos</Filter>
+    </Image>
+    <Image Include="Assets\Wide310x150Logo.scale-125.png">
+      <Filter>ZZ_Assets\StoreLogos</Filter>
+    </Image>
+    <Image Include="Assets\Wide310x150Logo.scale-150.png">
+      <Filter>ZZ_Assets\StoreLogos</Filter>
+    </Image>
+    <Image Include="Assets\Wide310x150Logo.scale-200.png">
+      <Filter>ZZ_Assets\StoreLogos</Filter>
+    </Image>
+    <Image Include="Assets\Wide310x150Logo.scale-400.png">
+      <Filter>ZZ_Assets\StoreLogos</Filter>
+    </Image>
+    <Image Include="Assets\windows-sdk.png">
+      <Filter>ZZ_Assets\StoreLogos</Filter>
+    </Image>
+    <Image Include="Assets\Compiled\carbody_blue.dds">
+      <Filter>ZZ_Assets\Compiled</Filter>
+    </Image>
+    <Image Include="Assets\Compiled\carbody_red.dds">
+      <Filter>ZZ_Assets\Compiled</Filter>
+    </Image>
+    <Image Include="Assets\Compiled\carbody_s.dds">
+      <Filter>ZZ_Assets\Compiled</Filter>
+    </Image>
+    <Image Include="Assets\Compiled\carframe.dds">
+      <Filter>ZZ_Assets\Compiled</Filter>
+    </Image>
+    <Image Include="Assets\Compiled\wheel2.dds">
+      <Filter>ZZ_Assets\Compiled</Filter>
+    </Image>
+    <Image Include="Assets\Compiled\wheel2_n.dds">
+      <Filter>ZZ_Assets\Compiled</Filter>
+    </Image>
+    <Image Include="Assets\Compiled\Eye_D.dds">
+      <Filter>ZZ_Assets\Compiled</Filter>
+    </Image>
+    <Image Include="Assets\Compiled\Eye_N.dds">
+      <Filter>ZZ_Assets\Compiled</Filter>
+    </Image>
+    <Image Include="Assets\Compiled\FirePlaceBrick_BaseColor.dds">
+      <Filter>ZZ_Assets\Compiled</Filter>
+    </Image>
+    <Image Include="Assets\Compiled\FirePlaceBrick_Normal.dds">
+      <Filter>ZZ_Assets\Compiled</Filter>
+    </Image>
+    <Image Include="Assets\Compiled\FirePlaceRock_BaseColor.dds">
+      <Filter>ZZ_Assets\Compiled</Filter>
+    </Image>
+    <Image Include="Assets\Compiled\FirePlaceRock_Normal.dds">
+      <Filter>ZZ_Assets\Compiled</Filter>
+    </Image>
+    <Image Include="Assets\Compiled\FirePlaceWood_BaseColor.dds">
+      <Filter>ZZ_Assets\Compiled</Filter>
+    </Image>
+    <Image Include="Assets\Compiled\FirePlaceWood_Normal.dds">
+      <Filter>ZZ_Assets\Compiled</Filter>
+    </Image>
+    <Image Include="Assets\Compiled\FireplaceWroughtIron_BaseColor.dds">
+      <Filter>ZZ_Assets\Compiled</Filter>
+    </Image>
+    <Image Include="Assets\Compiled\FireplaceWroughtIron_Normal.dds">
+      <Filter>ZZ_Assets\Compiled</Filter>
+    </Image>
+    <Image Include="Assets\Compiled\pinebrown.dds">
+      <Filter>ZZ_Assets\Compiled</Filter>
+    </Image>
+    <Image Include="Assets\Compiled\pinegreen.dds">
+      <Filter>ZZ_Assets\Compiled</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="Assets\LevelInfo\0info.txt">
+      <Filter>ZZ_Assets\LevelInfo</Filter>
+    </Text>
+    <Text Include="Assets\LevelInfo\1.txt">
+      <Filter>ZZ_Assets\LevelInfo</Filter>
+    </Text>
+    <Text Include="Assets\LevelInfo\2.txt">
+      <Filter>ZZ_Assets\LevelInfo</Filter>
+    </Text>
+    <Text Include="Assets\LevelInfo\3.txt">
+      <Filter>ZZ_Assets\LevelInfo</Filter>
+    </Text>
+    <Text Include="Assets\LevelInfo\4.txt">
+      <Filter>ZZ_Assets\LevelInfo</Filter>
+    </Text>
+    <Text Include="Assets\LevelInfo\5.txt">
+      <Filter>ZZ_Assets\LevelInfo</Filter>
+    </Text>
+    <Text Include="Assets\LevelInfo\6.txt">
+      <Filter>ZZ_Assets\LevelInfo</Filter>
+    </Text>
+    <Text Include="Assets\LevelInfo\7.txt">
+      <Filter>ZZ_Assets\LevelInfo</Filter>
+    </Text>
+    <Text Include="Assets\LevelInfo\8.txt">
+      <Filter>ZZ_Assets\LevelInfo</Filter>
+    </Text>
+    <Text Include="Assets\LevelInfo\9.txt">
+      <Filter>ZZ_Assets\LevelInfo</Filter>
+    </Text>
+    <Text Include="Assets\LevelInfo\10.txt">
+      <Filter>ZZ_Assets\LevelInfo</Filter>
+    </Text>
+    <Text Include="Assets\LevelInfo\11.txt">
+      <Filter>ZZ_Assets\LevelInfo</Filter>
+    </Text>
+    <Text Include="Assets\LevelInfo\12.txt">
+      <Filter>ZZ_Assets\LevelInfo</Filter>
+    </Text>
+    <Text Include="Assets\LevelInfo\13.txt">
+      <Filter>ZZ_Assets\LevelInfo</Filter>
+    </Text>
+    <Text Include="Assets\LevelInfo\14.txt">
+      <Filter>ZZ_Assets\LevelInfo</Filter>
+    </Text>
+    <Text Include="Assets\LevelInfo\15.txt">
+      <Filter>ZZ_Assets\LevelInfo</Filter>
+    </Text>
+    <Text Include="Assets\LevelInfo\16.txt">
+      <Filter>ZZ_Assets\LevelInfo</Filter>
+    </Text>
+    <Text Include="Assets\LevelInfo\17.txt">
+      <Filter>ZZ_Assets\LevelInfo</Filter>
+    </Text>
+    <Text Include="Assets\LevelInfo\18.txt">
+      <Filter>ZZ_Assets\LevelInfo</Filter>
+    </Text>
+    <Text Include="Assets\LevelInfo\19.txt">
+      <Filter>ZZ_Assets\LevelInfo</Filter>
+    </Text>
+    <Text Include="Assets\LevelInfo\20.txt">
+      <Filter>ZZ_Assets\LevelInfo</Filter>
+    </Text>
+    <Text Include="OldCode.txt">
+      <Filter>AA_Data&amp;Settings</Filter>
+    </Text>
+    <Text Include="Assets\Controls.txt">
+      <Filter>AA_Data&amp;Settings</Filter>
+    </Text>
+    <Text Include="Notes.txt">
+      <Filter>AA_Data&amp;Settings</Filter>
+    </Text>
+    <Text Include="Assets\Compiled\Info.txt">
+      <Filter>ZZ_Assets\Compiled</Filter>
+    </Text>
+  </ItemGroup>
+  <ItemGroup>
+    <Media Include="Assets\Sounds\thunder_strike.wav">
+      <Filter>ZZ_Assets\Sounds</Filter>
+    </Media>
+    <Media Include="Assets\Sounds\forest.wav">
+      <Filter>ZZ_Assets\Sounds</Filter>
+    </Media>
+    <Media Include="Assets\Sounds\box1.mp3">
+      <Filter>ZZ_Assets\Sounds</Filter>
+    </Media>
+    <Media Include="Assets\Sounds\box2.mp3">
+      <Filter>ZZ_Assets\Sounds</Filter>
+    </Media>
+    <Media Include="Assets\Sounds\box3.mp3">
+      <Filter>ZZ_Assets\Sounds</Filter>
+    </Media>
+    <Media Include="Assets\Sounds\box4.mp3">
+      <Filter>ZZ_Assets\Sounds</Filter>
+    </Media>
+    <Media Include="Assets\Sounds\box5.mp3">
+      <Filter>ZZ_Assets\Sounds</Filter>
+    </Media>
+    <Media Include="Assets\Sounds\box6.mp3">
+      <Filter>ZZ_Assets\Sounds</Filter>
+    </Media>
+    <Media Include="Assets\Sounds\box7.mp3">
+      <Filter>ZZ_Assets\Sounds</Filter>
+    </Media>
+    <Media Include="Assets\Sounds\box8.mp3">
+      <Filter>ZZ_Assets\Sounds</Filter>
+    </Media>
+    <Media Include="Assets\Sounds\box9.mp3">
+      <Filter>ZZ_Assets\Sounds</Filter>
+    </Media>
+    <Media Include="Assets\Sounds\box10.mp3">
+      <Filter>ZZ_Assets\Sounds</Filter>
+    </Media>
+    <Media Include="Assets\Sounds\fireloop.mp3">
+      <Filter>ZZ_Assets\Sounds</Filter>
+    </Media>
+    <Media Include="Assets\Sounds\horrorambient.mp3">
+      <Filter>ZZ_Assets\Sounds</Filter>
+    </Media>
+    <Media Include="Assets\MusicTracks\chillpiano.mp3">
+      <Filter>ZZ_Assets\MusicTracks</Filter>
+    </Media>
+    <Media Include="Assets\MusicTracks\snowland.mp3">
+      <Filter>ZZ_Assets\MusicTracks</Filter>
+    </Media>
+    <Media Include="Assets\MusicTracks\relaxingsleep.mp3">
+      <Filter>ZZ_Assets\MusicTracks</Filter>
+    </Media>
+    <Media Include="Assets\MusicTracks\sunsetbeach.mp3">
+      <Filter>ZZ_Assets\MusicTracks</Filter>
+    </Media>
+    <Media Include="Assets\Sounds\torchoff.mp3">
+      <Filter>ZZ_Assets\Sounds</Filter>
+    </Media>
+    <Media Include="Assets\Sounds\torchon.mp3">
+      <Filter>ZZ_Assets\Sounds</Filter>
+    </Media>
+    <Media Include="Assets\MusicTracks\buildfun.mp3">
+      <Filter>ZZ_Assets\MusicTracks</Filter>
+    </Media>
+    <Media Include="Assets\Sounds\jumppp22.wav">
+      <Filter>ZZ_Assets\Sounds</Filter>
+    </Media>
+    <Media Include="Assets\Sounds\dice2.wav">
+      <Filter>ZZ_Assets\Sounds</Filter>
+    </Media>
+    <Media Include="Assets\MusicTracks\the_field_of_dreams.mp3">
+      <Filter>ZZ_Assets\MusicTracks</Filter>
+    </Media>
+    <Media Include="Assets\MusicTracks\trippin.mp3">
+      <Filter>ZZ_Assets\MusicTracks</Filter>
+    </Media>
+  </ItemGroup>
+</Project>

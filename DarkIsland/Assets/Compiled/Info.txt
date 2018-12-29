@@ -1,0 +1,7 @@
+This is where the compiled assets from AssetsProject and AssetsProjectModels
+
+I did it this way becuase I noticed that projects can compile in parralel and assets seem to compile with a wierd delay
+
+So It builds faster. The only problem is after compiling the first time you get errors because the assests did not compile. 
+
+Build after those errors and its sorted.

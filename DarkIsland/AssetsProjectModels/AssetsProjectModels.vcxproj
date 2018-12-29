@@ -1,0 +1,215 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <VCProjectVersion>15.0</VCProjectVersion>
+    <ProjectGuid>{9AC399F6-FD60-41F8-95D0-77ACA38B4B7A}</ProjectGuid>
+    <RootNamespace>AssetsProjectModels</RootNamespace>
+    <WindowsTargetPlatformVersion>10.0.17763.0</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v141</PlatformToolset>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v141</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v141</PlatformToolset>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v141</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+    <Import Project="$(VCTargetsPath)\BuildCustomizations\ImageContentTask.props" />
+    <Import Project="$(VCTargetsPath)\BuildCustomizations\MeshContentTask.props" />
+  </ImportGroup>
+  <ImportGroup Label="Shared">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup />
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <ConformanceMode>true</ConformanceMode>
+    </ClCompile>
+    <Link>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+    </Link>
+    <MeshContentTask>
+      <ContentOutput>..\Assets\Compiled\%(Filename).cmo</ContentOutput>
+    </MeshContentTask>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <SDLCheck>true</SDLCheck>
+      <ConformanceMode>true</ConformanceMode>
+    </ClCompile>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <SDLCheck>true</SDLCheck>
+      <ConformanceMode>true</ConformanceMode>
+    </ClCompile>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <ConformanceMode>true</ConformanceMode>
+    </ClCompile>
+    <Link>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <MeshContentTask Include="Assets\CoModels\beachball.fbx" />
+    <MeshContentTask Include="Assets\CoModels\big_disk.fbx" />
+    <MeshContentTask Include="Assets\CoModels\Big_Old_House.fbx" />
+    <MeshContentTask Include="Assets\CoModels\block.fbx" />
+    <MeshContentTask Include="Assets\CoModels\bridge_old.fbx" />
+    <MeshContentTask Include="Assets\CoModels\bttreeA.fbx" />
+    <MeshContentTask Include="Assets\CoModels\buggy.fbx" />
+    <MeshContentTask Include="Assets\CoModels\buggy_long.fbx" />
+    <MeshContentTask Include="Assets\CoModels\column.fbx" />
+    <MeshContentTask Include="Assets\CoModels\conifer.fbx" />
+    <MeshContentTask Include="Assets\CoModels\dock.fbx" />
+    <MeshContentTask Include="Assets\CoModels\eye.fbx" />
+    <MeshContentTask Include="Assets\CoModels\fence1.fbx" />
+    <MeshContentTask Include="Assets\CoModels\fireplace.fbx" />
+    <MeshContentTask Include="Assets\CoModels\Fireplace2.fbx" />
+    <MeshContentTask Include="Assets\CoModels\flag-pole.fbx" />
+    <MeshContentTask Include="Assets\CoModels\gem1.fbx" />
+    <MeshContentTask Include="Assets\CoModels\gem2.fbx" />
+    <MeshContentTask Include="Assets\CoModels\gem3.fbx" />
+    <MeshContentTask Include="Assets\CoModels\girl_anim.fbx" />
+    <MeshContentTask Include="Assets\CoModels\GothicChurch.fbx" />
+    <MeshContentTask Include="Assets\CoModels\heart.fbx" />
+    <MeshContentTask Include="Assets\CoModels\hedge1.fbx" />
+    <MeshContentTask Include="Assets\CoModels\hedge2.fbx" />
+    <MeshContentTask Include="Assets\CoModels\hedgearch.fbx" />
+    <MeshContentTask Include="Assets\CoModels\hedgeround.fbx" />
+    <MeshContentTask Include="Assets\CoModels\Hut.fbx" />
+    <MeshContentTask Include="Assets\CoModels\lamp_post.fbx" />
+    <MeshContentTask Include="Assets\CoModels\lamp_post2.fbx" />
+    <MeshContentTask Include="Assets\CoModels\lighthouse.fbx" />
+    <MeshContentTask Include="Assets\CoModels\mariobox.fbx" />
+    <MeshContentTask Include="Assets\CoModels\Medieval tower_mid_.fbx" />
+    <MeshContentTask Include="Assets\CoModels\mikey.fbx" />
+    <MeshContentTask Include="Assets\CoModels\Mushroom.fbx" />
+    <MeshContentTask Include="Assets\CoModels\oil_barrel.fbx" />
+    <MeshContentTask Include="Assets\CoModels\old_dock.fbx" />
+    <MeshContentTask Include="Assets\CoModels\owlonown.fbx" />
+    <MeshContentTask Include="Assets\CoModels\owlornament.fbx" />
+    <MeshContentTask Include="Assets\CoModels\pin.fbx" />
+    <MeshContentTask Include="Assets\CoModels\pinetree.fbx" />
+    <MeshContentTask Include="Assets\CoModels\plant1.fbx" />
+    <MeshContentTask Include="Assets\CoModels\plant2.fbx" />
+    <MeshContentTask Include="Assets\CoModels\plant3.fbx" />
+    <MeshContentTask Include="Assets\CoModels\plant4.fbx" />
+    <MeshContentTask Include="Assets\CoModels\plant5.fbx" />
+    <MeshContentTask Include="Assets\CoModels\plant6.fbx" />
+    <MeshContentTask Include="Assets\CoModels\plant7.fbx" />
+    <MeshContentTask Include="Assets\CoModels\pumpkined.fbx" />
+    <MeshContentTask Include="Assets\CoModels\rock1.fbx" />
+    <MeshContentTask Include="Assets\CoModels\Rock2.FBX" />
+    <MeshContentTask Include="Assets\CoModels\Rock3.FBX" />
+    <MeshContentTask Include="Assets\CoModels\Rock4.FBX" />
+    <MeshContentTask Include="Assets\CoModels\Rock5.FBX" />
+    <MeshContentTask Include="Assets\CoModels\Rock6.FBX" />
+    <MeshContentTask Include="Assets\CoModels\Rock7.FBX" />
+    <MeshContentTask Include="Assets\CoModels\Rock8.FBX" />
+    <MeshContentTask Include="Assets\CoModels\Rock9.FBX" />
+    <MeshContentTask Include="Assets\CoModels\ruins.fbx" />
+    <MeshContentTask Include="Assets\CoModels\star.fbx" />
+    <MeshContentTask Include="Assets\CoModels\statue1.fbx" />
+    <MeshContentTask Include="Assets\CoModels\tree.fbx" />
+    <MeshContentTask Include="Assets\CoModels\tree01.fbx" />
+    <MeshContentTask Include="Assets\CoModels\tree2.fbx" />
+    <MeshContentTask Include="Assets\CoModels\trees_0.fbx" />
+    <MeshContentTask Include="Assets\CoModels\untitled.fbx" />
+    <MeshContentTask Include="Assets\CoModels\wheel.fbx">
+      <DeploymentContent>false</DeploymentContent>
+    </MeshContentTask>
+    <MeshContentTask Include="Assets\CoModels\wheel2.fbx">
+      <DeploymentContent>false</DeploymentContent>
+    </MeshContentTask>
+    <MeshContentTask Include="Assets\CoModels\wheel3.fbx">
+      <DeploymentContent>false</DeploymentContent>
+    </MeshContentTask>
+    <MeshContentTask Include="Assets\CoModels\wheel4.fbx">
+      <DeploymentContent>false</DeploymentContent>
+    </MeshContentTask>
+    <MeshContentTask Include="Assets\CoModels\wheel5.fbx">
+      <DeploymentContent>false</DeploymentContent>
+    </MeshContentTask>
+    <MeshContentTask Include="Assets\CoModels\wheel6.fbx">
+      <DeploymentContent>false</DeploymentContent>
+    </MeshContentTask>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="packages.config" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+    <Import Project="$(VCTargetsPath)\BuildCustomizations\ImageContentTask.targets" />
+    <Import Project="$(VCTargetsPath)\BuildCustomizations\MeshContentTask.targets" />
+  </ImportGroup>
+</Project>

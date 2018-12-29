@@ -1,0 +1,4 @@
+20/11/2018
+
+Updated		m_Res->m_uiControl->SetDat( ...
+

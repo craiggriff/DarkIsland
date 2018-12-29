@@ -1,0 +1,31 @@
+PLAY MODE:
+
+WSAD = Movement
+Mouse = Look Direction
+
+2 = Enter edit mode
+
+
+
+EDIT MODE:
+
+x = paint land texture
+num pad 1 - 9 = choose land texture
+num pad 0 = set all land current texture
+
+esc = switch to delete when in edit mode
+
+ctrl = level land to current cursor
+
+mouse wheel = choose item
+
+click mouse = add item to area
+
+shift = move faster
+
+QZ = move up and down in world space
+
+K = Generate Random terrain
+L = Flatten Terrain
+J = Clear All models
+

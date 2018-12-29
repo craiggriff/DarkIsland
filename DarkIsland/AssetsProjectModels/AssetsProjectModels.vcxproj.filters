@@ -1,0 +1,241 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Assets">
+      <UniqueIdentifier>{7c0e53a2-ad38-425d-97b3-585f8458ed7c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Assets\CoModels">
+      <UniqueIdentifier>{7ebaf356-f006-4eec-8796-721a0087e500}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <MeshContentTask Include="Assets\CoModels\beachball.fbx">
+      <Filter>Assets\CoModels</Filter>
+    </MeshContentTask>
+    <MeshContentTask Include="Assets\CoModels\big_disk.fbx">
+      <Filter>Assets\CoModels</Filter>
+    </MeshContentTask>
+    <MeshContentTask Include="Assets\CoModels\Big_Old_House.fbx">
+      <Filter>Assets\CoModels</Filter>
+    </MeshContentTask>
+    <MeshContentTask Include="Assets\CoModels\block.fbx">
+      <Filter>Assets\CoModels</Filter>
+    </MeshContentTask>
+    <MeshContentTask Include="Assets\CoModels\bridge_old.fbx">
+      <Filter>Assets\CoModels</Filter>
+    </MeshContentTask>
+    <MeshContentTask Include="Assets\CoModels\bttreeA.fbx">
+      <Filter>Assets\CoModels</Filter>
+    </MeshContentTask>
+    <MeshContentTask Include="Assets\CoModels\column.fbx">
+      <Filter>Assets\CoModels</Filter>
+    </MeshContentTask>
+    <MeshContentTask Include="Assets\CoModels\conifer.fbx">
+      <Filter>Assets\CoModels</Filter>
+    </MeshContentTask>
+    <MeshContentTask Include="Assets\CoModels\dock.fbx">
+      <Filter>Assets\CoModels</Filter>
+    </MeshContentTask>
+    <MeshContentTask Include="Assets\CoModels\fence1.fbx">
+      <Filter>Assets\CoModels</Filter>
+    </MeshContentTask>
+    <MeshContentTask Include="Assets\CoModels\fireplace.fbx">
+      <Filter>Assets\CoModels</Filter>
+    </MeshContentTask>
+    <MeshContentTask Include="Assets\CoModels\flag-pole.fbx">
+      <Filter>Assets\CoModels</Filter>
+    </MeshContentTask>
+    <MeshContentTask Include="Assets\CoModels\gem1.fbx">
+      <Filter>Assets\CoModels</Filter>
+    </MeshContentTask>
+    <MeshContentTask Include="Assets\CoModels\gem2.fbx">
+      <Filter>Assets\CoModels</Filter>
+    </MeshContentTask>
+    <MeshContentTask Include="Assets\CoModels\gem3.fbx">
+      <Filter>Assets\CoModels</Filter>
+    </MeshContentTask>
+    <MeshContentTask Include="Assets\CoModels\girl_anim.fbx">
+      <Filter>Assets\CoModels</Filter>
+    </MeshContentTask>
+    <MeshContentTask Include="Assets\CoModels\GothicChurch.fbx">
+      <Filter>Assets\CoModels</Filter>
+    </MeshContentTask>
+    <MeshContentTask Include="Assets\CoModels\heart.fbx">
+      <Filter>Assets\CoModels</Filter>
+    </MeshContentTask>
+    <MeshContentTask Include="Assets\CoModels\hedge1.fbx">
+      <Filter>Assets\CoModels</Filter>
+    </MeshContentTask>
+    <MeshContentTask Include="Assets\CoModels\hedge2.fbx">
+      <Filter>Assets\CoModels</Filter>
+    </MeshContentTask>
+    <MeshContentTask Include="Assets\CoModels\hedgearch.fbx">
+      <Filter>Assets\CoModels</Filter>
+    </MeshContentTask>
+    <MeshContentTask Include="Assets\CoModels\hedgeround.fbx">
+      <Filter>Assets\CoModels</Filter>
+    </MeshContentTask>
+    <MeshContentTask Include="Assets\CoModels\Hut.fbx">
+      <Filter>Assets\CoModels</Filter>
+    </MeshContentTask>
+    <MeshContentTask Include="Assets\CoModels\lamp_post.fbx">
+      <Filter>Assets\CoModels</Filter>
+    </MeshContentTask>
+    <MeshContentTask Include="Assets\CoModels\lamp_post2.fbx">
+      <Filter>Assets\CoModels</Filter>
+    </MeshContentTask>
+    <MeshContentTask Include="Assets\CoModels\lighthouse.fbx">
+      <Filter>Assets\CoModels</Filter>
+    </MeshContentTask>
+    <MeshContentTask Include="Assets\CoModels\mariobox.fbx">
+      <Filter>Assets\CoModels</Filter>
+    </MeshContentTask>
+    <MeshContentTask Include="Assets\CoModels\Medieval tower_mid_.fbx">
+      <Filter>Assets\CoModels</Filter>
+    </MeshContentTask>
+    <MeshContentTask Include="Assets\CoModels\mikey.fbx">
+      <Filter>Assets\CoModels</Filter>
+    </MeshContentTask>
+    <MeshContentTask Include="Assets\CoModels\Mushroom.fbx">
+      <Filter>Assets\CoModels</Filter>
+    </MeshContentTask>
+    <MeshContentTask Include="Assets\CoModels\oil_barrel.fbx">
+      <Filter>Assets\CoModels</Filter>
+    </MeshContentTask>
+    <MeshContentTask Include="Assets\CoModels\old_dock.fbx">
+      <Filter>Assets\CoModels</Filter>
+    </MeshContentTask>
+    <MeshContentTask Include="Assets\CoModels\owlonown.fbx">
+      <Filter>Assets\CoModels</Filter>
+    </MeshContentTask>
+    <MeshContentTask Include="Assets\CoModels\owlornament.fbx">
+      <Filter>Assets\CoModels</Filter>
+    </MeshContentTask>
+    <MeshContentTask Include="Assets\CoModels\pin.fbx">
+      <Filter>Assets\CoModels</Filter>
+    </MeshContentTask>
+    <MeshContentTask Include="Assets\CoModels\plant1.fbx">
+      <Filter>Assets\CoModels</Filter>
+    </MeshContentTask>
+    <MeshContentTask Include="Assets\CoModels\plant2.fbx">
+      <Filter>Assets\CoModels</Filter>
+    </MeshContentTask>
+    <MeshContentTask Include="Assets\CoModels\plant3.fbx">
+      <Filter>Assets\CoModels</Filter>
+    </MeshContentTask>
+    <MeshContentTask Include="Assets\CoModels\plant4.fbx">
+      <Filter>Assets\CoModels</Filter>
+    </MeshContentTask>
+    <MeshContentTask Include="Assets\CoModels\plant5.fbx">
+      <Filter>Assets\CoModels</Filter>
+    </MeshContentTask>
+    <MeshContentTask Include="Assets\CoModels\plant6.fbx">
+      <Filter>Assets\CoModels</Filter>
+    </MeshContentTask>
+    <MeshContentTask Include="Assets\CoModels\plant7.fbx">
+      <Filter>Assets\CoModels</Filter>
+    </MeshContentTask>
+    <MeshContentTask Include="Assets\CoModels\pumpkined.fbx">
+      <Filter>Assets\CoModels</Filter>
+    </MeshContentTask>
+    <MeshContentTask Include="Assets\CoModels\rock1.fbx">
+      <Filter>Assets\CoModels</Filter>
+    </MeshContentTask>
+    <MeshContentTask Include="Assets\CoModels\Rock2.FBX">
+      <Filter>Assets\CoModels</Filter>
+    </MeshContentTask>
+    <MeshContentTask Include="Assets\CoModels\Rock3.FBX">
+      <Filter>Assets\CoModels</Filter>
+    </MeshContentTask>
+    <MeshContentTask Include="Assets\CoModels\Rock4.FBX">
+      <Filter>Assets\CoModels</Filter>
+    </MeshContentTask>
+    <MeshContentTask Include="Assets\CoModels\Rock5.FBX">
+      <Filter>Assets\CoModels</Filter>
+    </MeshContentTask>
+    <MeshContentTask Include="Assets\CoModels\Rock6.FBX">
+      <Filter>Assets\CoModels</Filter>
+    </MeshContentTask>
+    <MeshContentTask Include="Assets\CoModels\Rock7.FBX">
+      <Filter>Assets\CoModels</Filter>
+    </MeshContentTask>
+    <MeshContentTask Include="Assets\CoModels\Rock8.FBX">
+      <Filter>Assets\CoModels</Filter>
+    </MeshContentTask>
+    <MeshContentTask Include="Assets\CoModels\Rock9.FBX">
+      <Filter>Assets\CoModels</Filter>
+    </MeshContentTask>
+    <MeshContentTask Include="Assets\CoModels\ruins.fbx">
+      <Filter>Assets\CoModels</Filter>
+    </MeshContentTask>
+    <MeshContentTask Include="Assets\CoModels\star.fbx">
+      <Filter>Assets\CoModels</Filter>
+    </MeshContentTask>
+    <MeshContentTask Include="Assets\CoModels\statue1.fbx">
+      <Filter>Assets\CoModels</Filter>
+    </MeshContentTask>
+    <MeshContentTask Include="Assets\CoModels\tree.fbx">
+      <Filter>Assets\CoModels</Filter>
+    </MeshContentTask>
+    <MeshContentTask Include="Assets\CoModels\tree01.fbx">
+      <Filter>Assets\CoModels</Filter>
+    </MeshContentTask>
+    <MeshContentTask Include="Assets\CoModels\tree2.fbx">
+      <Filter>Assets\CoModels</Filter>
+    </MeshContentTask>
+    <MeshContentTask Include="Assets\CoModels\trees_0.fbx">
+      <Filter>Assets\CoModels</Filter>
+    </MeshContentTask>
+    <MeshContentTask Include="Assets\CoModels\untitled.fbx">
+      <Filter>Assets\CoModels</Filter>
+    </MeshContentTask>
+    <MeshContentTask Include="Assets\CoModels\buggy.fbx">
+      <Filter>Assets\CoModels</Filter>
+    </MeshContentTask>
+    <MeshContentTask Include="Assets\CoModels\buggy_long.fbx">
+      <Filter>Assets\CoModels</Filter>
+    </MeshContentTask>
+    <MeshContentTask Include="Assets\CoModels\wheel2.fbx">
+      <Filter>Assets\CoModels</Filter>
+    </MeshContentTask>
+    <MeshContentTask Include="Assets\CoModels\wheel.fbx">
+      <Filter>Assets\CoModels</Filter>
+    </MeshContentTask>
+    <MeshContentTask Include="Assets\CoModels\wheel3.fbx">
+      <Filter>Assets\CoModels</Filter>
+    </MeshContentTask>
+    <MeshContentTask Include="Assets\CoModels\wheel4.fbx">
+      <Filter>Assets\CoModels</Filter>
+    </MeshContentTask>
+    <MeshContentTask Include="Assets\CoModels\wheel5.fbx">
+      <Filter>Assets\CoModels</Filter>
+    </MeshContentTask>
+    <MeshContentTask Include="Assets\CoModels\wheel6.fbx">
+      <Filter>Assets\CoModels</Filter>
+    </MeshContentTask>
+    <MeshContentTask Include="Assets\CoModels\eye.fbx">
+      <Filter>Assets\CoModels</Filter>
+    </MeshContentTask>
+    <MeshContentTask Include="Assets\CoModels\Fireplace2.fbx">
+      <Filter>Assets\CoModels</Filter>
+    </MeshContentTask>
+    <MeshContentTask Include="Assets\CoModels\pinetree.fbx">
+      <Filter>Assets\CoModels</Filter>
+    </MeshContentTask>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="packages.config" />
+  </ItemGroup>
+</Project>

@@ -1,0 +1,442 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <VCProjectVersion>15.0</VCProjectVersion>
+    <ProjectGuid>{BFF2C66A-86E9-4654-B564-DD8AF2FE4B1A}</ProjectGuid>
+    <RootNamespace>AssetsProject</RootNamespace>
+    <WindowsTargetPlatformVersion>10.0.17763.0</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v141</PlatformToolset>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v141</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v141</PlatformToolset>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v141</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+    <Import Project="$(VCTargetsPath)\BuildCustomizations\ImageContentTask.props" />
+    <Import Project="$(VCTargetsPath)\BuildCustomizations\MeshContentTask.props" />
+  </ImportGroup>
+  <ImportGroup Label="Shared">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup />
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <ConformanceMode>true</ConformanceMode>
+    </ClCompile>
+    <Link>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+    </Link>
+    <ImageContentTask>
+      <ContentOutput>..\Assets\Compiled\%(Filename).dds</ContentOutput>
+      <Compress>BC1_UNORM</Compress>
+    </ImageContentTask>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <SDLCheck>true</SDLCheck>
+      <ConformanceMode>true</ConformanceMode>
+    </ClCompile>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <SDLCheck>true</SDLCheck>
+      <ConformanceMode>true</ConformanceMode>
+    </ClCompile>
+    <ImageContentTask>
+      <Compress>BC1_UNORM</Compress>
+      <ContentOutput>..\Assets\Compiled\%(Filename).dds</ContentOutput>
+    </ImageContentTask>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <ConformanceMode>true</ConformanceMode>
+    </ClCompile>
+    <Link>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ImageContentTask Include="Assets\Textures\Particle\alpha1.png">
+      <ContentOutput Condition="'$(Configuration)|$(Platform)'=='Release|x64'">..\Assets\Compiled\%(Filename).dds</ContentOutput>
+    </ImageContentTask>
+    <ImageContentTask Include="Assets\Textures\Particle\drop.png">
+      <ContentOutput Condition="'$(Configuration)|$(Platform)'=='Release|x64'">..\Assets\Compiled\%(Filename).dds</ContentOutput>
+    </ImageContentTask>
+    <ImageContentTask Include="Assets\Textures\Particle\fire01.png">
+      <ContentOutput Condition="'$(Configuration)|$(Platform)'=='Release|x64'">..\Assets\Compiled\%(Filename).dds</ContentOutput>
+    </ImageContentTask>
+    <ImageContentTask Include="Assets\Textures\Particle\grass1.png">
+      <ContentOutput Condition="'$(Configuration)|$(Platform)'=='Release|x64'">..\Assets\Compiled\%(Filename).dds</ContentOutput>
+    </ImageContentTask>
+    <ImageContentTask Include="Assets\Textures\Particle\grass1_small.png">
+      <ContentOutput Condition="'$(Configuration)|$(Platform)'=='Release|x64'">..\Assets\Compiled\%(Filename).dds</ContentOutput>
+    </ImageContentTask>
+    <ImageContentTask Include="Assets\Textures\Particle\grass2.png">
+      <ContentOutput Condition="'$(Configuration)|$(Platform)'=='Release|x64'">..\Assets\Compiled\%(Filename).dds</ContentOutput>
+    </ImageContentTask>
+    <ImageContentTask Include="Assets\Textures\Particle\grass2_small.png">
+      <ContentOutput Condition="'$(Configuration)|$(Platform)'=='Release|x64'">..\Assets\Compiled\%(Filename).dds</ContentOutput>
+    </ImageContentTask>
+    <ImageContentTask Include="Assets\Textures\Particle\grass3.png">
+      <ContentOutput Condition="'$(Configuration)|$(Platform)'=='Release|x64'">..\Assets\Compiled\%(Filename).dds</ContentOutput>
+    </ImageContentTask>
+    <ImageContentTask Include="Assets\Textures\Particle\grass3_small.png">
+      <ContentOutput Condition="'$(Configuration)|$(Platform)'=='Release|x64'">..\Assets\Compiled\%(Filename).dds</ContentOutput>
+    </ImageContentTask>
+    <ImageContentTask Include="Assets\Textures\Particle\grass4.png">
+      <ContentOutput Condition="'$(Configuration)|$(Platform)'=='Release|x64'">..\Assets\Compiled\%(Filename).dds</ContentOutput>
+    </ImageContentTask>
+    <ImageContentTask Include="Assets\Textures\Particle\grass4_small.png">
+      <ContentOutput Condition="'$(Configuration)|$(Platform)'=='Release|x64'">..\Assets\Compiled\%(Filename).dds</ContentOutput>
+    </ImageContentTask>
+    <ImageContentTask Include="Assets\Textures\Particle\misc_smoke.png">
+      <ContentOutput Condition="'$(Configuration)|$(Platform)'=='Release|x64'">..\Assets\Compiled\%(Filename).dds</ContentOutput>
+    </ImageContentTask>
+    <ImageContentTask Include="Assets\Textures\Particle\noise01.png">
+      <ContentOutput Condition="'$(Configuration)|$(Platform)'=='Release|x64'">..\Assets\Compiled\%(Filename).dds</ContentOutput>
+    </ImageContentTask>
+    <ImageContentTask Include="Assets\Textures\Particle\snow1.png">
+      <ContentOutput Condition="'$(Configuration)|$(Platform)'=='Release|x64'">..\Assets\Compiled\%(Filename).dds</ContentOutput>
+    </ImageContentTask>
+  </ItemGroup>
+  <ItemGroup>
+    <ImageContentTask Include="Assets\Textures\Ground\151.JPG" />
+    <ImageContentTask Include="Assets\Textures\Ground\151_norm.JPG" />
+    <ImageContentTask Include="Assets\Textures\Ground\156.JPG" />
+    <ImageContentTask Include="Assets\Textures\Ground\156_norm.JPG" />
+    <ImageContentTask Include="Assets\Textures\Ground\160.JPG" />
+    <ImageContentTask Include="Assets\Textures\Ground\160_norm.JPG" />
+    <ImageContentTask Include="Assets\Textures\Ground\163.JPG" />
+    <ImageContentTask Include="Assets\Textures\Ground\163_norm.JPG" />
+    <ImageContentTask Include="Assets\Textures\Ground\165.JPG" />
+    <ImageContentTask Include="Assets\Textures\Ground\165_norm.JPG" />
+    <ImageContentTask Include="Assets\Textures\Ground\172.JPG" />
+    <ImageContentTask Include="Assets\Textures\Ground\172_norm.JPG" />
+    <ImageContentTask Include="Assets\Textures\Ground\182.JPG" />
+    <ImageContentTask Include="Assets\Textures\Ground\182_norm.JPG" />
+    <ImageContentTask Include="Assets\Textures\Ground\196.JPG" />
+    <ImageContentTask Include="Assets\Textures\Ground\196_norm.JPG" />
+    <ImageContentTask Include="Assets\Textures\Ground\197.JPG" />
+    <ImageContentTask Include="Assets\Textures\Ground\197_norm.JPG" />
+    <ImageContentTask Include="Assets\Textures\Ground\green.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <ImageContentTask Include="Assets\Textures\LightMap\headlamp_lm.png" />
+    <ImageContentTask Include="Assets\Textures\LightMap\spot_lm.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <ImageContentTask Include="Assets\Textures\Model\barrel.png" />
+    <ImageContentTask Include="Assets\Textures\Model\beachball.png" />
+    <ImageContentTask Include="Assets\Textures\Model\beachball_e.png" />
+    <ImageContentTask Include="Assets\Textures\Model\bigrocks_norm.JPG" />
+    <ImageContentTask Include="Assets\Textures\Model\Big_Old_House_C.jpg" />
+    <ImageContentTask Include="Assets\Textures\Model\Big_Old_House_N.jpg" />
+    <ImageContentTask Include="Assets\Textures\Model\Big_Old_House_S.jpg" />
+    <ImageContentTask Include="Assets\Textures\Model\Bridge.png" />
+    <ImageContentTask Include="Assets\Textures\Model\Bridge_NM.png" />
+    <ImageContentTask Include="Assets\Textures\Model\Bridge_SP.png" />
+    <ImageContentTask Include="Assets\Textures\Model\BT_Tree_A.tif" />
+    <ImageContentTask Include="Assets\Textures\Model\BT_Tree_A_Normals.tif" />
+    <ImageContentTask Include="Assets\Textures\Model\BT_Tree_A_Specular.tif" />
+    <ImageContentTask Include="Assets\Textures\Model\fence1.png" />
+    <ImageContentTask Include="Assets\Textures\Model\fireplace_tex.png" />
+    <ImageContentTask Include="Assets\Textures\Model\fireplace_uv.png" />
+    <ImageContentTask Include="Assets\Textures\Model\gay.png" />
+    <ImageContentTask Include="Assets\Textures\Model\gay_N.png" />
+    <ImageContentTask Include="Assets\Textures\Model\gemblue.png" />
+    <ImageContentTask Include="Assets\Textures\Model\gemred.png" />
+    <ImageContentTask Include="Assets\Textures\Model\gemwhite.png" />
+    <ImageContentTask Include="Assets\Textures\Model\GothicChurch_Bump.png" />
+    <ImageContentTask Include="Assets\Textures\Model\GothicChurch_Bump_.png" />
+    <ImageContentTask Include="Assets\Textures\Model\GothicChurch_Diffuse.png" />
+    <ImageContentTask Include="Assets\Textures\Model\GothicChurch_Illum.png" />
+    <ImageContentTask Include="Assets\Textures\Model\GothicChurch_Specular.png" />
+    <ImageContentTask Include="Assets\Textures\Model\Granite.png" />
+    <ImageContentTask Include="Assets\Textures\Model\heart.png" />
+    <ImageContentTask Include="Assets\Textures\Model\hedgearch_diffuse.png" />
+    <ImageContentTask Include="Assets\Textures\Model\hedgearch_normal.png" />
+    <ImageContentTask Include="Assets\Textures\Model\hedgelong_diffuse.png" />
+    <ImageContentTask Include="Assets\Textures\Model\hedgelong_normal.png" />
+    <ImageContentTask Include="Assets\Textures\Model\hedgeround_diffuse.png" />
+    <ImageContentTask Include="Assets\Textures\Model\hedgeround_normal.png" />
+    <ImageContentTask Include="Assets\Textures\Model\hedge_diffuse.png" />
+    <ImageContentTask Include="Assets\Textures\Model\hedge_normal.png" />
+    <ImageContentTask Include="Assets\Textures\Model\lamp-glass.png" />
+    <ImageContentTask Include="Assets\Textures\Model\lamppost.png" />
+    <ImageContentTask Include="Assets\Textures\Model\leaves_tree2_n.png" />
+    <ImageContentTask Include="Assets\Textures\Model\leaves_tree2_s.png" />
+    <ImageContentTask Include="Assets\Textures\Model\leaves_tree2_t.png" />
+    <ImageContentTask Include="Assets\Textures\Model\Mickey_Mouse_D.png" />
+    <ImageContentTask Include="Assets\Textures\Model\Mickey_Mouse_N.png" />
+    <ImageContentTask Include="Assets\Textures\Model\mushroomred.png" />
+    <ImageContentTask Include="Assets\Textures\Model\ornamentowl_d.png" />
+    <ImageContentTask Include="Assets\Textures\Model\ornamentowl_n.png" />
+    <ImageContentTask Include="Assets\Textures\Model\pin.png" />
+    <ImageContentTask Include="Assets\Textures\Model\pumpkintex.png" />
+    <ImageContentTask Include="Assets\Textures\Model\sorceress.png" />
+    <ImageContentTask Include="Assets\Textures\Model\sorceress_n.png" />
+    <ImageContentTask Include="Assets\Textures\Model\Tex_6990_0.png" />
+    <ImageContentTask Include="Assets\Textures\Model\Tex_7290_0.png" />
+    <ImageContentTask Include="Assets\Textures\Model\Tex_7395_0.png" />
+    <ImageContentTask Include="Assets\Textures\Model\Tex_7485_0.png" />
+    <ImageContentTask Include="Assets\Textures\Model\Tex_9195_0.png" />
+    <ImageContentTask Include="Assets\Textures\Model\toc.png" />
+    <ImageContentTask Include="Assets\Textures\Model\trees_bark_002_col.jpg" />
+    <ImageContentTask Include="Assets\Textures\Model\trees_bark_002_nor.jpg" />
+    <ImageContentTask Include="Assets\Textures\Model\trees_leaves_003_col.png" />
+    <ImageContentTask Include="Assets\Textures\Model\tree_bark.png" />
+    <ImageContentTask Include="Assets\Textures\Model\tree_leaves.png" />
+    <ImageContentTask Include="Assets\Textures\Model\white.png" />
+    <ImageContentTask Include="Assets\Textures\Model\woodfloor.png" />
+    <ImageContentTask Include="Assets\Textures\Model\yell.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <ImageContentTask Include="Assets\Textures\Model\Dock\basamaklar.jpg" />
+    <ImageContentTask Include="Assets\Textures\Model\Dock\direkler.jpg" />
+    <ImageContentTask Include="Assets\Textures\Model\Dock\kiris.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <ImageContentTask Include="Assets\Textures\Model\GirlAnim\eye.png" />
+    <ImageContentTask Include="Assets\Textures\Model\GirlAnim\face.png" />
+    <ImageContentTask Include="Assets\Textures\Model\GirlAnim\hair.png" />
+    <ImageContentTask Include="Assets\Textures\Model\GirlAnim\pupil.png" />
+    <ImageContentTask Include="Assets\Textures\Model\GirlAnim\skin.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <ImageContentTask Include="Assets\Textures\Model\Hut\Books_Albedo.png" />
+    <ImageContentTask Include="Assets\Textures\Model\Hut\Books_NRM.png" />
+    <ImageContentTask Include="Assets\Textures\Model\Hut\Books_SPEC.tif" />
+    <ImageContentTask Include="Assets\Textures\Model\Hut\Emission.PNG" />
+    <ImageContentTask Include="Assets\Textures\Model\Hut\Fabrics_Albedo.png" />
+    <ImageContentTask Include="Assets\Textures\Model\Hut\Fabrics_AO.png" />
+    <ImageContentTask Include="Assets\Textures\Model\Hut\Fabrics_NRM.png" />
+    <ImageContentTask Include="Assets\Textures\Model\Hut\Fabrics_SPEC.tif" />
+    <ImageContentTask Include="Assets\Textures\Model\Hut\Fireplace_Albedo.png" />
+    <ImageContentTask Include="Assets\Textures\Model\Hut\Fireplace_Metalness.tif" />
+    <ImageContentTask Include="Assets\Textures\Model\Hut\Fireplace_NRM.png" />
+    <ImageContentTask Include="Assets\Textures\Model\Hut\Glass_Albedo.png" />
+    <ImageContentTask Include="Assets\Textures\Model\Hut\Glass_NRM.png" />
+    <ImageContentTask Include="Assets\Textures\Model\Hut\Glass_SPEC.tif" />
+    <ImageContentTask Include="Assets\Textures\Model\Hut\Plankfloor_Albedo.png" />
+    <ImageContentTask Include="Assets\Textures\Model\Hut\Plankfloor_NRM.png" />
+    <ImageContentTask Include="Assets\Textures\Model\Hut\Plankfloor_SPEC.tif" />
+    <ImageContentTask Include="Assets\Textures\Model\Hut\Plants_Albedo.tif" />
+    <ImageContentTask Include="Assets\Textures\Model\Hut\Plants_NRM.png" />
+    <ImageContentTask Include="Assets\Textures\Model\Hut\Plants_SPEC.tif" />
+    <ImageContentTask Include="Assets\Textures\Model\Hut\Porch_Albedo.png" />
+    <ImageContentTask Include="Assets\Textures\Model\Hut\Porch_NRM.png" />
+    <ImageContentTask Include="Assets\Textures\Model\Hut\Porch_SPEC.tif" />
+    <ImageContentTask Include="Assets\Textures\Model\Hut\Pottery_Albedo.png" />
+    <ImageContentTask Include="Assets\Textures\Model\Hut\Pottery_ao.png" />
+    <ImageContentTask Include="Assets\Textures\Model\Hut\Pottery_normal.png" />
+    <ImageContentTask Include="Assets\Textures\Model\Hut\Pottery_SPEC.tif" />
+    <ImageContentTask Include="Assets\Textures\Model\Hut\Roofing_albedo.png" />
+    <ImageContentTask Include="Assets\Textures\Model\Hut\Roofing_NRM.png" />
+    <ImageContentTask Include="Assets\Textures\Model\Hut\Roofing_SPEC.tif" />
+    <ImageContentTask Include="Assets\Textures\Model\Hut\Walls_Albedo.png" />
+    <ImageContentTask Include="Assets\Textures\Model\Hut\Walls_NRM.png" />
+    <ImageContentTask Include="Assets\Textures\Model\Hut\Walls_SPEC.tif" />
+    <ImageContentTask Include="Assets\Textures\Model\Hut\Window_Albedo.png" />
+    <ImageContentTask Include="Assets\Textures\Model\Hut\Window_NRM.png" />
+    <ImageContentTask Include="Assets\Textures\Model\Hut\Window_SPEC.tif" />
+    <ImageContentTask Include="Assets\Textures\Model\Hut\Wooden_Albedo.png" />
+    <ImageContentTask Include="Assets\Textures\Model\Hut\Wooden_Metalness.tif" />
+    <ImageContentTask Include="Assets\Textures\Model\Hut\Wooden_NRM.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <ImageContentTask Include="Assets\Textures\Model\Lighthouse\00925fb3_Defuse.tga" />
+    <ImageContentTask Include="Assets\Textures\Model\Lighthouse\00925fb3_Normal.tga" />
+    <ImageContentTask Include="Assets\Textures\Model\Lighthouse\09dbc9a9_Defuse.tga" />
+    <ImageContentTask Include="Assets\Textures\Model\Lighthouse\09dbc9a9_Normal.tga" />
+    <ImageContentTask Include="Assets\Textures\Model\Lighthouse\1bda4806_Alpha.tga" />
+    <ImageContentTask Include="Assets\Textures\Model\Lighthouse\1bda4806_Defuse.tga" />
+    <ImageContentTask Include="Assets\Textures\Model\Lighthouse\1bda4806_Normal.tga" />
+    <ImageContentTask Include="Assets\Textures\Model\Lighthouse\57c1696e_Defuse.tga" />
+    <ImageContentTask Include="Assets\Textures\Model\Lighthouse\57c1696e_Normal.tga" />
+    <ImageContentTask Include="Assets\Textures\Model\Lighthouse\6e2fc158_Defuse.tga" />
+    <ImageContentTask Include="Assets\Textures\Model\Lighthouse\6e2fc158_Normal.tga" />
+    <ImageContentTask Include="Assets\Textures\Model\Lighthouse\7b26aa4d_Defuse.tga" />
+    <ImageContentTask Include="Assets\Textures\Model\Lighthouse\7b26aa4d_Normal.tga" />
+    <ImageContentTask Include="Assets\Textures\Model\Lighthouse\b98d8325_Defuse.tga" />
+    <ImageContentTask Include="Assets\Textures\Model\Lighthouse\b98d8325_Normal.tga" />
+    <ImageContentTask Include="Assets\Textures\Model\Lighthouse\bbb4258c_Defuse.tga" />
+    <ImageContentTask Include="Assets\Textures\Model\Lighthouse\bbb4258c_Normal.tga" />
+    <ImageContentTask Include="Assets\Textures\Model\Lighthouse\ce35a7f8_Defuse.tga" />
+    <ImageContentTask Include="Assets\Textures\Model\Lighthouse\ce35a7f8_Normal.tga" />
+    <ImageContentTask Include="Assets\Textures\Model\Lighthouse\d1c3d725_Defuse.tga" />
+    <ImageContentTask Include="Assets\Textures\Model\Lighthouse\d1c3d725_Normal.tga" />
+    <ImageContentTask Include="Assets\Textures\Model\Lighthouse\d4afa143_Defuse.tga" />
+    <ImageContentTask Include="Assets\Textures\Model\Lighthouse\d4afa143_Normal.tga" />
+    <ImageContentTask Include="Assets\Textures\Model\Lighthouse\ee22d6e4_Defuse.tga" />
+    <ImageContentTask Include="Assets\Textures\Model\Lighthouse\ee22d6e4_Normal.tga" />
+    <ImageContentTask Include="Assets\Textures\Model\Lighthouse\f779c12a_Defuse.tga" />
+    <ImageContentTask Include="Assets\Textures\Model\Lighthouse\f779c12a_Normal.tga" />
+  </ItemGroup>
+  <ItemGroup>
+    <ImageContentTask Include="Assets\Textures\Model\Nature\Conifer2_D.png" />
+    <ImageContentTask Include="Assets\Textures\Model\Nature\Conifer2_N.png" />
+    <ImageContentTask Include="Assets\Textures\Model\Nature\ConiferBark_D.png" />
+    <ImageContentTask Include="Assets\Textures\Model\Nature\ConiferBark_n.png" />
+    <ImageContentTask Include="Assets\Textures\Model\Nature\rock2_D.png" />
+    <ImageContentTask Include="Assets\Textures\Model\Nature\rock3_D.png" />
+    <ImageContentTask Include="Assets\Textures\Model\Nature\rock4_D.png" />
+    <ImageContentTask Include="Assets\Textures\Model\Nature\rock_D.png" />
+    <ImageContentTask Include="Assets\Textures\Model\Nature\rock_N.png" />
+    <ImageContentTask Include="Assets\Textures\Model\Nature\TreeBark2_D.png" />
+    <ImageContentTask Include="Assets\Textures\Model\Nature\TreeBark2_N.png" />
+    <ImageContentTask Include="Assets\Textures\Model\Nature\TreeBark3_D.png" />
+    <ImageContentTask Include="Assets\Textures\Model\Nature\TreeBark3_N.png" />
+    <ImageContentTask Include="Assets\Textures\Model\Nature\TreeBark_D.png" />
+    <ImageContentTask Include="Assets\Textures\Model\Nature\TreeBark_N.png" />
+    <ImageContentTask Include="Assets\Textures\Model\Nature\TreeBranch2_D.png" />
+    <ImageContentTask Include="Assets\Textures\Model\Nature\TreeBranch2_N.png" />
+    <ImageContentTask Include="Assets\Textures\Model\Nature\TreeBranch3_D.png" />
+    <ImageContentTask Include="Assets\Textures\Model\Nature\TreeBranch3_N.png" />
+    <ImageContentTask Include="Assets\Textures\Model\Nature\TreeBranch_D.png" />
+    <ImageContentTask Include="Assets\Textures\Model\Nature\TreeBranch_N.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <ImageContentTask Include="Assets\Textures\Model\Plants\plant1.png" />
+    <ImageContentTask Include="Assets\Textures\Model\Plants\plant2.png" />
+    <ImageContentTask Include="Assets\Textures\Model\Plants\plant3.png" />
+    <ImageContentTask Include="Assets\Textures\Model\Plants\plant4.png" />
+    <ImageContentTask Include="Assets\Textures\Model\Plants\plant5.png" />
+    <ImageContentTask Include="Assets\Textures\Model\Plants\plant6.png" />
+    <ImageContentTask Include="Assets\Textures\Model\Plants\plant7.png" />
+    <ImageContentTask Include="Assets\Textures\Model\Plants\pot1.png" />
+    <ImageContentTask Include="Assets\Textures\Model\Plants\pot1_nor.jpg" />
+    <ImageContentTask Include="Assets\Textures\Model\Plants\pot1_spec.png" />
+    <ImageContentTask Include="Assets\Textures\Model\Plants\pot2.png" />
+    <ImageContentTask Include="Assets\Textures\Model\Plants\pot2_nor.jpg" />
+    <ImageContentTask Include="Assets\Textures\Model\Plants\pot2_spec.png" />
+    <ImageContentTask Include="Assets\Textures\Model\Plants\pot3.png" />
+    <ImageContentTask Include="Assets\Textures\Model\Plants\pot3_nor.jpg" />
+    <ImageContentTask Include="Assets\Textures\Model\Plants\pot3_spec.png" />
+    <ImageContentTask Include="Assets\Textures\Model\Plants\pot4.png" />
+    <ImageContentTask Include="Assets\Textures\Model\Plants\pot4_nor.jpg" />
+    <ImageContentTask Include="Assets\Textures\Model\Plants\pot4_spec.png" />
+    <ImageContentTask Include="Assets\Textures\Model\Plants\pot5.png" />
+    <ImageContentTask Include="Assets\Textures\Model\Plants\pot5_nor.jpg" />
+    <ImageContentTask Include="Assets\Textures\Model\Plants\pot5_spec.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <ImageContentTask Include="Assets\Textures\Sky\alien.png" />
+    <ImageContentTask Include="Assets\Textures\Sky\bluesky.jpg" />
+    <ImageContentTask Include="Assets\Textures\Sky\DaylightBox.png" />
+    <ImageContentTask Include="Assets\Textures\Sky\grimmnight_large.jpg" />
+    <ImageContentTask Include="Assets\Textures\Sky\MettleSky.jpg" />
+    <ImageContentTask Include="Assets\Textures\Sky\stormydays_large.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <ImageContentTask Include="Assets\Textures\Water\water1.png" />
+    <ImageContentTask Include="Assets\Textures\Water\water2.png" />
+    <ImageContentTask Include="Assets\Textures\Water\waternorm_1.png" />
+    <ImageContentTask Include="Assets\Textures\Water\waternorm_2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <ImageContentTask Include="Assets\Textures\Model\bark_tree2.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <ImageContentTask Include="Assets\Textures\Model\car\carbody_blue.png" />
+    <ImageContentTask Include="Assets\Textures\Model\car\carbody_red.png" />
+    <ImageContentTask Include="Assets\Textures\Model\car\carbody_s.png" />
+    <ImageContentTask Include="Assets\Textures\Model\car\carframe.png" />
+    <ImageContentTask Include="Assets\Textures\Model\car\wheel2.png" />
+    <ImageContentTask Include="Assets\Textures\Model\car\wheel2_n.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <ImageContentTask Include="Assets\Textures\Model\Eye_D.jpg" />
+    <ImageContentTask Include="Assets\Textures\Model\Eye_N.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="packages.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <ImageContentTask Include="Assets\Textures\Model\FirePlaceBrick_BaseColor.png" />
+    <ImageContentTask Include="Assets\Textures\Model\FirePlaceBrick_Normal.png" />
+    <ImageContentTask Include="Assets\Textures\Model\FirePlaceRock_BaseColor.png" />
+    <ImageContentTask Include="Assets\Textures\Model\FirePlaceRock_Normal.png" />
+    <ImageContentTask Include="Assets\Textures\Model\FirePlaceWood_BaseColor.png" />
+    <ImageContentTask Include="Assets\Textures\Model\FirePlaceWood_Normal.png" />
+    <ImageContentTask Include="Assets\Textures\Model\FireplaceWroughtIron_BaseColor.png" />
+    <ImageContentTask Include="Assets\Textures\Model\FireplaceWroughtIron_Normal.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <ImageContentTask Include="Assets\Textures\Model\pinebrown.png" />
+    <ImageContentTask Include="Assets\Textures\Model\pinegreen.png" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+    <Import Project="$(VCTargetsPath)\BuildCustomizations\ImageContentTask.targets" />
+    <Import Project="$(VCTargetsPath)\BuildCustomizations\MeshContentTask.targets" />
+  </ImportGroup>
+</Project>
