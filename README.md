@@ -4,8 +4,7 @@
 
 # DirectX and XAML Dark Island Game
 
-First Person adventure in strange locations
-In the windows Store :
+First person adventure in strange locations
 
 [Link to the Game Here](https://www.microsoft.com/store/apps/9PPH9XD86XWS)
 
