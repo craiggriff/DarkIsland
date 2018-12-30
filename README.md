@@ -5,10 +5,9 @@
 # DirectX and XAML Dark Island Game
 
 First Person adventure in strange locations
+In the windows Store :
 
-Store Link:
-
-	ms-windows-store://pdp/?productid=9PPH9XD86XWS
+[Link to the Game Here](https://www.microsoft.com/store/apps/9PPH9XD86XWS)
 
 ![Screenshot](ReleaseArt/new_4k_hero.png)
 
