@@ -2,7 +2,7 @@
   category: Gaming
 --->
 
-# DirectX and XAML Dark Island Game
+# DirectX 11 Dark Island Game
 
 First person adventure in strange locations
 
