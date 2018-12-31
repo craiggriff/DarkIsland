@@ -2381,6 +2381,7 @@
   </ItemGroup>
   <ItemGroup>
     <Media Include="Assets\MusicTracks\buildfun.mp3" />
+    <Media Include="Assets\MusicTracks\Dark_Rainy_Night.mp3" />
     <Media Include="Assets\MusicTracks\the_field_of_dreams.mp3" />
     <Media Include="Assets\MusicTracks\trippin.mp3" />
     <Media Include="Assets\Sounds\jumppp22.wav" />

@@ -183,7 +183,7 @@ void Audio::SetTrack(int track)
 	case 5:m_musicStreamer.Initialize(L"Assets/MusicTracks/sunsetbeach.mp3"); break;
 	case 6:m_musicStreamer.Initialize(L"Assets/MusicTracks/buildfun.mp3"); break;
 	case 7:m_musicStreamer.Initialize(L"Assets/MusicTracks/the_field_of_dreams.mp3"); break;
-	case 8:m_musicStreamer.Initialize(L"Assets/MusicTracks/trippin.mp3"); break;
+	case 8:m_musicStreamer.Initialize(L"Assets/MusicTracks/Dark_Rainy_Night.mp3"); break;
 	}
 
 	//m_musicStreamer.Initialize(L"Assets/reckoner.wma");

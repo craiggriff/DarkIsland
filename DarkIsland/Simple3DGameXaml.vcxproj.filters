@@ -2146,5 +2146,8 @@
     <Media Include="Assets\MusicTracks\trippin.mp3">
       <Filter>ZZ_Assets\MusicTracks</Filter>
     </Media>
+    <Media Include="Assets\MusicTracks\Dark_Rainy_Night.mp3">
+      <Filter>ZZ_Assets\MusicTracks</Filter>
+    </Media>
   </ItemGroup>
 </Project>
