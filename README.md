@@ -10,7 +10,7 @@ First person adventure in strange locations
 
 [Link to UTube Video Here](https://youtu.be/xuV3azXLA1Y)
 
-[Link to other UTube Video Here](https://youtu.be/xuV3azXLA1Y)
+[Link UTube Video 2 Here](https://youtu.be/bO_RbrSHV0Y)
 
 ![Screenshot](ReleaseArt/new_4k_hero.png)
 
