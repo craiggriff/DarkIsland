@@ -2,13 +2,13 @@
   category: Gaming
 --->
 
-# DirectX and XAML Dark Island Game
+# DirectX 11 Dark Island Game
 
-First Person adventure in strange locations
+First person adventure in strange locations
 
-Store Link:
+[Link to the Game Here](https://www.microsoft.com/store/apps/9PPH9XD86XWS)
 
-	ms-windows-store://pdp/?productid=9PPH9XD86XWS
+[Link to UTube Video Here](https://youtu.be/xuV3azXLA1Y)
 
 ![Screenshot](ReleaseArt/new_4k_hero.png)
 
