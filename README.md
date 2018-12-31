@@ -6,11 +6,11 @@
 
 First person adventure in strange locations
 
-[Link to the Game Here](https://www.microsoft.com/store/apps/9PPH9XD86XWS)
+[Free Game](https://www.microsoft.com/store/apps/9PPH9XD86XWS)
 
-[Link to UTube Video Here](https://youtu.be/xuV3azXLA1Y)
+[Youtube Video 1](https://youtu.be/xuV3azXLA1Y)
 
-[Link to UTube Video Here](https://youtu.be/bO_RbrSHV0Y)
+[Youtube Video 2](https://youtu.be/bO_RbrSHV0Y)
 
 ![Screenshot](ReleaseArt/new_4k_hero.png)
 
