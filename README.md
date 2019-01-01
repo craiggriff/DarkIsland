@@ -8,7 +8,7 @@ First person adventure in strange locations
 
 [Free Game](https://www.microsoft.com/store/apps/9PPH9XD86XWS)
 
-[Youtube Video 1](https://youtu.be/xuV3azXLA1Y)
+[Youtube Video 1](https://www.youtube.com/watch?v=Y3lyNBmluQ4&feature=youtu.be)
 
 [Youtube Video 2](https://youtu.be/bO_RbrSHV0Y)
 
