@@ -128,7 +128,7 @@ task<void> Physics::Update(float timeDelta, float timeTotal)
 {
 	return create_task([this, timeDelta, timeTotal]
 	{
-		float substeps = 1.0f;
+		float substeps = 2.0f;
 		high_impulse = 0;
 		bCollideTest = 0;
 		//m_dynamicsWorld->stepSimulation(1/20.f,10);
