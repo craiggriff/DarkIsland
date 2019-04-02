@@ -735,16 +735,14 @@
     <ImageContentTask Include="Assets\Textures\Model\FireplaceWroughtIron_Normal.png">
       <Filter>Resource Files</Filter>
     </ImageContentTask>
+    <ImageContentTask Include="Assets\Textures\Model\pinebrown.png">
+      <Filter>Resource Files</Filter>
+    </ImageContentTask>
+    <ImageContentTask Include="Assets\Textures\Model\pinegreen.png">
+      <Filter>Resource Files</Filter>
+    </ImageContentTask>
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />
-  </ItemGroup>
-  <ItemGroup>
-    <Image Include="Assets\Textures\Model\pinebrown.png">
-      <Filter>Assets\Textures\Model</Filter>
-    </Image>
-    <Image Include="Assets\Textures\Model\pinegreen.png">
-      <Filter>Assets\Textures\Model</Filter>
-    </Image>
   </ItemGroup>
 </Project>

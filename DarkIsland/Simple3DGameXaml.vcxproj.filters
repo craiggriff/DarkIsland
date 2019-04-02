@@ -134,9 +134,6 @@
     <ClCompile Include="GameHud.cpp">
       <Filter>BB_GameMain</Filter>
     </ClCompile>
-    <ClCompile Include="AllResources.cpp">
-      <Filter>BB_GameMain</Filter>
-    </ClCompile>
     <ClCompile Include="MediaStreamer.cpp" />
     <ClCompile Include="Statics.cpp">
       <Filter>CC_GameObjects</Filter>
@@ -254,6 +251,9 @@
     </ClCompile>
     <ClCompile Include="FilterableVehicleRaycaster.cpp">
       <Filter>BB_GameMain</Filter>
+    </ClCompile>
+    <ClCompile Include="AllResources.cpp">
+      <Filter>BB_GameMain\Shaders\ShadersC</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
@@ -761,6 +761,7 @@
     <None Include="Assets\Compiled\pinetree.cmo">
       <Filter>ZZ_Assets\Compiled</Filter>
     </None>
+    <None Include="DarkIsland_StoreKey.pfx" />
   </ItemGroup>
   <ItemGroup>
     <FxCompile Include="Shaders\DefGroundPixelShader.hlsl">
