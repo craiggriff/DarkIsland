@@ -762,6 +762,7 @@
       <Filter>ZZ_Assets\Compiled</Filter>
     </None>
     <None Include="DarkIsland_StoreKey.pfx" />
+    <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
     <FxCompile Include="Shaders\DefGroundPixelShader.hlsl">

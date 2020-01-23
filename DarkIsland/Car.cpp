@@ -9,8 +9,6 @@ using namespace Game;
 
 //===============================================================================================
 
-
-
 static int rightIndex = 0;
 static int upIndex = 1;
 static int forwardIndex = 2;
@@ -278,6 +276,7 @@ void Car::updateWheelTransformForRender(CarSimulation * simulation)
 		CommonRenderInterface* renderer = m_guiHelper->getRenderInterface();
 		if (renderer)
 		{
+
 			btTransform tr = vehicle->getWheelInfo(i).m_worldTransform;
 			btVector3 pos = tr.getOrigin();
 			btQuaternion orn = tr.getRotation();

@@ -418,9 +418,6 @@
     <ImageContentTask Include="Assets\Textures\Model\Eye_N.jpg" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="packages.config" />
-  </ItemGroup>
-  <ItemGroup>
     <ImageContentTask Include="Assets\Textures\Model\FirePlaceBrick_BaseColor.png" />
     <ImageContentTask Include="Assets\Textures\Model\FirePlaceBrick_Normal.png" />
     <ImageContentTask Include="Assets\Textures\Model\FirePlaceRock_BaseColor.png" />
@@ -433,6 +430,9 @@
   <ItemGroup>
     <ImageContentTask Include="Assets\Textures\Model\pinebrown.png" />
     <ImageContentTask Include="Assets\Textures\Model\pinegreen.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="packages.config" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
