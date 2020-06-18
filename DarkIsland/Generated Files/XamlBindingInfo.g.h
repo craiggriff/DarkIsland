@@ -25,6 +25,12 @@ namespace XamlBindingInfo
         virtual void ProcessBindings(::Platform::Object^ item, int itemIndex, int phase, int* nextPhase) = 0;
         virtual void SubscribeForDataContextChanged(::Windows::UI::Xaml::FrameworkElement^ object, ::XamlBindingInfo::XamlBindings^ handler) = 0;
         virtual void DisconnectUnloadedObject(int connectionId) = 0;
+        virtual ::Windows::UI::Xaml::Markup::IComponentConnector^ GetBindingConnector(int connectionId, ::Platform::Object^ target) = 0;
+        virtual ::XamlBindingInfo::XamlBindings^ GetParent() = 0;
+        virtual void SetParent(::XamlBindingInfo::XamlBindings^ parent) = 0;
+        virtual bool ContainsElement(int connectionId) = 0;
+        virtual void RegisterForElementConnection(int connectionId, ::XamlBindingInfo::XamlBindings^ connector) = 0;
+        virtual void SetOwningBindingsClass(::XamlBindingInfo::XamlBindings^ owningBindings) = 0;
     };
 
     class IXamlBindingTracking
@@ -40,6 +46,7 @@ namespace XamlBindingInfo
     ref class XamlBindings sealed :
         ::Windows::UI::Xaml::IDataTemplateExtension,
         ::Windows::UI::Xaml::Markup::IComponentConnector,
+        ::Windows::UI::Xaml::Markup::IComponentConnector2,
         ::Windows::UI::Xaml::Markup::IDataTemplateComponent
     {
     internal:
@@ -65,9 +72,33 @@ namespace XamlBindingInfo
         virtual void ResetTemplate();
 
         virtual void DisconnectUnloadedObject(int connectionId);
+        // IComponentConnector2
+        virtual ::Windows::UI::Xaml::Markup::IComponentConnector^ GetBindingConnector(int connectionId, ::Platform::Object^ target);
+
+        virtual ::XamlBindingInfo::XamlBindings^ GetParent();
+        virtual void SetParent(::XamlBindingInfo::XamlBindings^ parent);
+        virtual bool ContainsElement(int connectionId);
+        virtual void RegisterForElementConnection(int connectionId, ::XamlBindingInfo::XamlBindings^ connector);
     private:
         ~XamlBindings();
         ::XamlBindingInfo::IXamlBindings* _pBindings = nullptr;
+    };
+
+    ref class WeakRefWrapper sealed
+    {
+    private:
+        ::Platform::WeakReference weakRef;
+    public:
+
+        WeakRefWrapper(::Platform::Object^ obj)
+        {
+            weakRef = obj;
+        }
+
+        ::Platform::Object^ Resolve()
+        {
+            return weakRef.Resolve<::Platform::Object>();
+        }
     };
 
     template <class TBindingsTracking>
@@ -79,6 +110,7 @@ namespace XamlBindingInfo
         ::Windows::Foundation::EventRegistrationToken _dataContextChangedToken;
         static const int NOT_PHASED = (1 << 31);
         static const int DATA_CHANGED = (1 << 30);
+        ::Platform::WeakReference owningXamlBindings;
 
     protected:
         XamlBindingsBase()
@@ -140,6 +172,40 @@ namespace XamlBindingInfo
         {
             // Overridden in the binding class as needed.
             *nextPhase = -1;
+        }
+        virtual void SetOwningBindingsClass(::XamlBindingInfo::XamlBindings^ owningBindings) override
+        {
+            owningXamlBindings = owningBindings;
+        }
+
+        virtual ::Windows::UI::Xaml::Markup::IComponentConnector^ GetBindingConnector(int connectionId, ::Platform::Object^ target)
+        {
+            // Overridden in the bindings class as needed.
+            connectionId;
+            target;
+            return nullptr;
+        }
+
+        virtual ::XamlBindingInfo::XamlBindings^ GetParent()
+        {
+            return nullptr;
+        }
+
+        virtual void SetParent(::XamlBindingInfo::XamlBindings^ parent)
+        {
+            parent;
+        }
+
+        virtual bool ContainsElement(int connectionId)
+        {
+            connectionId;
+            return false;
+        }
+
+        virtual void RegisterForElementConnection(int connectionId, ::XamlBindingInfo::XamlBindings^ connector)
+        {
+            connectionId;
+            connector;
         }
     };
 

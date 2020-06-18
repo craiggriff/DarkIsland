@@ -66,6 +66,8 @@ namespace Game
     private:
         bool _contentLoaded;
     
+        class DirectXPage_obj26_Bindings;
+        class DirectXPage_obj1_Bindings;
     
         private: ::Windows::UI::Xaml::Controls::SwapChainPanel^ DXSwapChainPanel;
         private: ::Windows::UI::Xaml::VisualStateGroup^ GameInfoOverlayStates;

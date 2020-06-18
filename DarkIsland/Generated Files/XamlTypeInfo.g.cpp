@@ -99,6 +99,7 @@ struct TypeInfo
     int     createFromStringIndex;
     ::Windows::UI::Xaml::Interop::TypeKind kindofType;
     unsigned int flags;
+    int boxedTypeIndex;
 };
 
 const TypeInfo TypeInfos[] = 
@@ -109,42 +110,49 @@ const TypeInfo TypeInfos[] =
     -1,
     0, 0, -1, ::Windows::UI::Xaml::Interop::TypeKind::Metadata,
     TypeInfo_Flags_IsSystemType | TypeInfo_Flags_None,
+    -1,
     //   1
     L"Object", L"",
     nullptr, nullptr, nullptr, nullptr,
     -1,
     0, 0, -1, ::Windows::UI::Xaml::Interop::TypeKind::Metadata,
     TypeInfo_Flags_IsSystemType | TypeInfo_Flags_None,
+    -1,
     //   2
     L"String", L"",
     nullptr, nullptr, nullptr, nullptr,
     -1,
     0, 0, -1, ::Windows::UI::Xaml::Interop::TypeKind::Metadata,
     TypeInfo_Flags_IsSystemType | TypeInfo_Flags_None,
+    -1,
     //   3
     L"Game.DirectXPage", L"",
     &ActivateType<::Game::DirectXPage>, nullptr, nullptr, nullptr,
     5, // Windows.UI.Xaml.Controls.Page
     0, 0, -1, ::Windows::UI::Xaml::Interop::TypeKind::Custom,
     TypeInfo_Flags_IsLocalType | TypeInfo_Flags_None,
+    -1,
     //   4
     L"Game.ProductItem", L"",
     nullptr, nullptr, nullptr, nullptr,
     1, // Object
     0, 0, -1, ::Windows::UI::Xaml::Interop::TypeKind::Custom,
     TypeInfo_Flags_IsLocalType | TypeInfo_Flags_IsBindable | TypeInfo_Flags_None,
+    -1,
     //   5
     L"Windows.UI.Xaml.Controls.Page", L"",
     nullptr, nullptr, nullptr, nullptr,
     -1,
     6, 0, -1, ::Windows::UI::Xaml::Interop::TypeKind::Metadata,
     TypeInfo_Flags_IsSystemType | TypeInfo_Flags_None,
+    -1,
     //   6
     L"Windows.UI.Xaml.Controls.UserControl", L"",
     nullptr, nullptr, nullptr, nullptr,
     -1,
     6, 0, -1, ::Windows::UI::Xaml::Interop::TypeKind::Metadata,
     TypeInfo_Flags_IsSystemType | TypeInfo_Flags_None,
+    -1,
     //  Last type here is for padding
     L"", L"",
     nullptr, nullptr, nullptr, nullptr,
@@ -193,6 +201,22 @@ const UINT TypeInfoLookup[] = {
       6,   //  36
       7,   //  37
 };
+
+const TypeInfo* GetTypeInfo(::Platform::String^ typeName)
+{
+    auto typeNameLength = typeName->Length();
+    if (typeNameLength < _countof(TypeInfoLookup) - 1)
+    {
+        for (UINT i = TypeInfoLookup[typeNameLength]; i < TypeInfoLookup[typeNameLength+1]; i++)
+        {
+            if (typeName == ::Platform::StringReference(TypeInfos[i].typeName))
+            {
+                return &TypeInfos[i];
+            }
+        }
+    }
+    return nullptr;
+}
 
 struct MemberInfo 
 {
@@ -258,21 +282,6 @@ PCWSTR GetShortName(PCWSTR longName)
     return separator != nullptr ? separator + 1: longName;
 }
 
-const TypeInfo* GetTypeInfo(::Platform::String^ typeName)
-{
-    auto typeNameLength = typeName->Length();
-    if (typeNameLength < _countof(TypeInfoLookup) - 1)
-    {
-        for (UINT i = TypeInfoLookup[typeNameLength]; i < TypeInfoLookup[typeNameLength+1]; i++)
-        {
-            if (typeName == ::Platform::StringReference(TypeInfos[i].typeName))
-            {
-                return &TypeInfos[i];
-            }
-        }
-    }
-    return nullptr;
-}
 
 const MemberInfo* GetMemberInfo(::Platform::String^ longMemberName)
 {
@@ -305,6 +314,8 @@ const MemberInfo* GetMemberInfo(::Platform::String^ longMemberName)
     return nullptr;
 }
 
+#pragma warning(push)
+#pragma warning(disable: 4691)
 ::Platform::Collections::Vector<::Windows::UI::Xaml::Markup::IXamlMetadataProvider^>^ ::XamlTypeInfo::InfoProvider::XamlTypeInfoProvider::OtherProviders::get()
 {
     if(_otherProviders == nullptr)
@@ -314,6 +325,7 @@ const MemberInfo* GetMemberInfo(::Platform::String^ longMemberName)
     }
     return _otherProviders;
 }
+#pragma warning(pop)
 
 ::Windows::UI::Xaml::Markup::IXamlType^ ::XamlTypeInfo::InfoProvider::XamlTypeInfoProvider::CreateXamlType(::Platform::String^ typeName)
 {
@@ -344,6 +356,7 @@ const MemberInfo* GetMemberInfo(::Platform::String^ longMemberName)
         userType->IsBindable = pTypeInfo->flags & TypeInfo_Flags_IsBindable;
         userType->IsMarkupExtension = pTypeInfo->flags & TypeInfo_Flags_IsMarkupExtension;
         userType->CreateFromStringMethod = nullptr;
+        userType->SetBoxedType(this->GetXamlTypeByName(::Platform::StringReference(pTypeInfo->boxedTypeIndex >= 0 ? TypeInfos[pTypeInfo->boxedTypeIndex].typeName : L"")));
         int nextMemberIndex = pTypeInfo->firstMemberIndex;
         for (int i=pTypeInfo->firstMemberIndex; i < pNextTypeInfo->firstMemberIndex; i++)
         {

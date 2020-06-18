@@ -169,7 +169,7 @@ namespace XamlTypeInfo
             ::Platform::String^ _fullName;
         };
 
-        ref class XamlUserType sealed : public [::Platform::Metadata::RuntimeClassName] ::Windows::UI::Xaml::Markup::IXamlType
+        ref class XamlUserType sealed : public [::Platform::Metadata::RuntimeClassName] ::Windows::UI::Xaml::Markup::IXamlType2
         {
         internal:
             XamlUserType(::XamlTypeInfo::InfoProvider::XamlTypeInfoProvider^ provider, ::Platform::String^ fullName, ::Windows::UI::Xaml::Markup::IXamlType^ baseType);            
@@ -255,6 +255,11 @@ namespace XamlTypeInfo
                 ::Windows::UI::Xaml::Markup::IXamlType^ get();
             }
 
+            virtual property ::Windows::UI::Xaml::Markup::IXamlType^ BoxedType
+            { 
+                ::Windows::UI::Xaml::Markup::IXamlType^ get();
+            }
+
             virtual ::Windows::UI::Xaml::Markup::IXamlMember^ GetMember(::Platform::String^ name);
             virtual ::Platform::Object^ ActivateInstance();
             virtual void AddToMap(::Platform::Object^ instance, ::Platform::Object^ key, ::Platform::Object^ value);
@@ -304,6 +309,7 @@ namespace XamlTypeInfo
                 void set(::Platform::String^ value);
             }
 
+            void SetBoxedType(::Windows::UI::Xaml::Markup::IXamlType^ boxedType);
             void AddMemberName(::Platform::String^ shortName);
             void AddEnumValue(::Platform::String^ name, ::Platform::Object^ value);
             uint32 CreateEnumUIntFromString(::Platform::String^ input);
@@ -323,6 +329,7 @@ namespace XamlTypeInfo
             bool _isBindable = false;
             bool _isReturnTypeStub = false;
             bool _isLocalType = false;
+            ::Windows::UI::Xaml::Markup::IXamlType^ _boxedType;
         };
 
         ref class XamlMember sealed : public ::Windows::UI::Xaml::Markup::IXamlMember
