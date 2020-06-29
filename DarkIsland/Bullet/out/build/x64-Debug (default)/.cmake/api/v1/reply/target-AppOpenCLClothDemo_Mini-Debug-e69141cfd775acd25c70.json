@@ -1,0 +1,330 @@
+{
+	"artifacts" : 
+	[
+		{
+			"path" : "Demos/OpenCLClothDemo/MiniCL/AppOpenCLClothDemo_Mini.exe"
+		},
+		{
+			"path" : "Demos/OpenCLClothDemo/MiniCL/AppOpenCLClothDemo_Mini.pdb"
+		}
+	],
+	"backtrace" : 1,
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"ADD_EXECUTABLE",
+			"ADD_DEFINITIONS",
+			"INCLUDE_DIRECTORIES"
+		],
+		"files" : 
+		[
+			"Demos/OpenCLClothDemo/MiniCL/CMakeLists.txt",
+			"CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 42,
+				"parent" : 0
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 12,
+				"parent" : 0
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 9,
+				"parent" : 0
+			},
+			{
+				"file" : 1
+			},
+			{
+				"command" : 2,
+				"file" : 1,
+				"line" : 344,
+				"parent" : 4
+			},
+			{
+				"command" : 2,
+				"file" : 0,
+				"line" : 3,
+				"parent" : 0
+			}
+		]
+	},
+	"compileGroups" : 
+	[
+		{
+			"compileCommandFragments" : 
+			[
+				{
+					"fragment" : "/DWIN32  /W3 /GR /EHsc /MTd /Zi /Ob0 /Od /RTC1 -D_DEBUG   /arch:SSE /fp:fast"
+				}
+			],
+			"defines" : 
+			[
+				{
+					"backtrace" : 2,
+					"define" : "GLEW_STATIC"
+				},
+				{
+					"define" : "USE_GRAPHICAL_BENCHMARK"
+				},
+				{
+					"backtrace" : 3,
+					"define" : "USE_MINICL"
+				},
+				{
+					"define" : "_CRT_SECURE_NO_DEPRECATE"
+				},
+				{
+					"define" : "_CRT_SECURE_NO_WARNINGS"
+				},
+				{
+					"define" : "_IRR_STATIC_LIB_"
+				},
+				{
+					"define" : "_SCL_SECURE_NO_WARNINGS"
+				}
+			],
+			"includes" : 
+			[
+				{
+					"backtrace" : 5,
+					"path" : "D:/Desktop/DarkIsland/DarkIsland/Bullet/Glut"
+				},
+				{
+					"backtrace" : 6,
+					"path" : "D:/Desktop/DarkIsland/DarkIsland/Bullet/src"
+				},
+				{
+					"backtrace" : 6,
+					"path" : "D:/Desktop/DarkIsland/DarkIsland/Bullet/Demos/SharedOpenCL"
+				},
+				{
+					"backtrace" : 6,
+					"path" : "D:/Desktop/DarkIsland/DarkIsland/Bullet/Demos/OpenGL"
+				}
+			],
+			"language" : "CXX",
+			"sourceIndexes" : 
+			[
+				0,
+				1,
+				2,
+				5,
+				6
+			]
+		}
+	],
+	"dependencies" : 
+	[
+		{
+			"backtrace" : 1,
+			"id" : "OpenGLSupport::@0003972e6da8d28d6ee3"
+		},
+		{
+			"backtrace" : 1,
+			"id" : "BulletSoftBody::@e7ea131c60ab58985534"
+		},
+		{
+			"backtrace" : 1,
+			"id" : "LinearMath::@48487d122fdd2aa49150"
+		},
+		{
+			"backtrace" : 1,
+			"id" : "BulletCollision::@9fd34a691297a724da5d"
+		},
+		{
+			"backtrace" : 1,
+			"id" : "BulletDynamics::@86ce932a70e083dfbd6a"
+		},
+		{
+			"backtrace" : 1,
+			"id" : "BulletMultiThreaded::@19bbe70d0f1eb0b28962"
+		},
+		{
+			"backtrace" : 1,
+			"id" : "MiniCL::@dd96954598ca85281b4c"
+		},
+		{
+			"backtrace" : 1,
+			"id" : "BulletSoftBodySolvers_OpenCL_Mini::@2a4cf7794865a18ef632"
+		}
+	],
+	"id" : "AppOpenCLClothDemo_Mini::@278b6a7aa7f1c09f9bba",
+	"link" : 
+	{
+		"commandFragments" : 
+		[
+			{
+				"fragment" : "/DWIN32  /W3 /GR /EHsc /MTd /Zi /Ob0 /Od /RTC1 -D_DEBUG",
+				"role" : "flags"
+			},
+			{
+				"fragment" : "/machine:x64 /INCREMENTAL:NO /debug /INCREMENTAL /subsystem:console",
+				"role" : "flags"
+			},
+			{
+				"backtrace" : 1,
+				"fragment" : "..\\..\\..\\lib\\OpenGLSupport_Debug.lib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 1,
+				"fragment" : "..\\..\\..\\lib\\BulletSoftBodySolvers_OpenCL_Mini_Debug.lib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 1,
+				"fragment" : "..\\..\\..\\lib\\MiniCL_Debug.lib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 1,
+				"fragment" : "..\\..\\..\\lib\\BulletMultiThreaded_Debug.lib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 1,
+				"fragment" : "..\\..\\..\\lib\\BulletSoftBody_Debug.lib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 1,
+				"fragment" : "..\\..\\..\\lib\\BulletDynamics_Debug.lib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 1,
+				"fragment" : "..\\..\\..\\lib\\BulletCollision_Debug.lib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 1,
+				"fragment" : "..\\..\\..\\lib\\LinearMath_Debug.lib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 1,
+				"fragment" : "..\\..\\..\\..\\..\\..\\Glut\\glut64.lib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 1,
+				"fragment" : "opengl32.lib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 1,
+				"fragment" : "glu32.lib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 1,
+				"fragment" : "..\\..\\..\\..\\..\\..\\Glut\\glew64s.lib",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib",
+				"role" : "libraries"
+			}
+		],
+		"language" : "CXX"
+	},
+	"name" : "AppOpenCLClothDemo_Mini",
+	"nameOnDisk" : "AppOpenCLClothDemo_Mini.exe",
+	"paths" : 
+	{
+		"build" : "Demos/OpenCLClothDemo/MiniCL",
+		"source" : "Demos/OpenCLClothDemo/MiniCL"
+	},
+	"sourceGroups" : 
+	[
+		{
+			"name" : "Source Files",
+			"sourceIndexes" : 
+			[
+				0,
+				1,
+				2,
+				5,
+				6
+			]
+		},
+		{
+			"name" : "Header Files",
+			"sourceIndexes" : 
+			[
+				3,
+				4,
+				7,
+				8
+			]
+		}
+	],
+	"sources" : 
+	[
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "Demos/OpenCLClothDemo/cl_cloth_demo.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "Demos/OpenCLClothDemo/gl_win.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "Demos/OpenCLClothDemo/clstuff.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "Demos/OpenCLClothDemo/clstuff.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "Demos/OpenCLClothDemo/gl_win.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "src/BulletMultiThreaded/GpuSoftBodySolvers/OpenCL/MiniCL/MiniCLTaskWrap.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "Demos/SharedOpenCL/btOpenCLUtils.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "Demos/SharedOpenCL/btOpenCLUtils.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "Demos/SharedOpenCL/btOpenCLInclude.h",
+			"sourceGroupIndex" : 1
+		}
+	],
+	"type" : "EXECUTABLE"
+}

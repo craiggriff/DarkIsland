@@ -1,0 +1,1604 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1,
+						2,
+						3
+					],
+					"minimumCMakeVersion" : 
+					{
+						"string" : "2.4.3"
+					},
+					"projectIndex" : 0,
+					"source" : "."
+				},
+				{
+					"build" : "Demos",
+					"childIndexes" : 
+					[
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17,
+						18,
+						19,
+						20,
+						21,
+						22,
+						23,
+						24,
+						25,
+						26,
+						27,
+						28,
+						29,
+						30,
+						31,
+						32,
+						33,
+						34,
+						35,
+						36,
+						37,
+						38,
+						39,
+						40,
+						41,
+						42,
+						43,
+						44,
+						45,
+						46,
+						47,
+						48
+					],
+					"minimumCMakeVersion" : 
+					{
+						"string" : "2.4.3"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "Demos"
+				},
+				{
+					"build" : "Extras",
+					"childIndexes" : 
+					[
+						52,
+						53,
+						54,
+						55,
+						56
+					],
+					"minimumCMakeVersion" : 
+					{
+						"string" : "2.4.3"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "Extras"
+				},
+				{
+					"build" : "src",
+					"childIndexes" : 
+					[
+						60,
+						61,
+						62,
+						63,
+						64,
+						65
+					],
+					"minimumCMakeVersion" : 
+					{
+						"string" : "2.4.3"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "src"
+				},
+				{
+					"build" : "Demos/HelloWorld",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "2.4.3"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 0,
+					"source" : "Demos/HelloWorld",
+					"targetIndexes" : 
+					[
+						22
+					]
+				},
+				{
+					"build" : "Demos/MultiThreadedDemo",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "2.4.3"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 0,
+					"source" : "Demos/MultiThreadedDemo",
+					"targetIndexes" : 
+					[
+						28
+					]
+				},
+				{
+					"build" : "Demos/ParticlesOpenCL",
+					"childIndexes" : 
+					[
+						49
+					],
+					"minimumCMakeVersion" : 
+					{
+						"string" : "2.4.3"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 0,
+					"source" : "Demos/ParticlesOpenCL"
+				},
+				{
+					"build" : "Demos/OpenCLClothDemo",
+					"childIndexes" : 
+					[
+						50
+					],
+					"minimumCMakeVersion" : 
+					{
+						"string" : "2.4.3"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 0,
+					"source" : "Demos/OpenCLClothDemo"
+				},
+				{
+					"build" : "Demos/OpenGL",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "2.4.3"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 0,
+					"source" : "Demos/OpenGL",
+					"targetIndexes" : 
+					[
+						58
+					]
+				},
+				{
+					"build" : "Demos/AllBulletDemos",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "2.4.3"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 0,
+					"source" : "Demos/AllBulletDemos",
+					"targetIndexes" : 
+					[
+						0
+					]
+				},
+				{
+					"build" : "Demos/ConvexDecompositionDemo",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "2.4.3"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 0,
+					"source" : "Demos/ConvexDecompositionDemo",
+					"targetIndexes" : 
+					[
+						15
+					]
+				},
+				{
+					"build" : "Demos/CcdPhysicsDemo",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "2.4.3"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 0,
+					"source" : "Demos/CcdPhysicsDemo",
+					"targetIndexes" : 
+					[
+						6
+					]
+				},
+				{
+					"build" : "Demos/BulletXmlImportDemo",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "2.4.3"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 0,
+					"source" : "Demos/BulletXmlImportDemo",
+					"targetIndexes" : 
+					[
+						5
+					]
+				},
+				{
+					"build" : "Demos/ConstraintDemo",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "2.4.3"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 0,
+					"source" : "Demos/ConstraintDemo",
+					"targetIndexes" : 
+					[
+						13
+					]
+				},
+				{
+					"build" : "Demos/SliderConstraintDemo",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "2.4.3"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 0,
+					"source" : "Demos/SliderConstraintDemo",
+					"targetIndexes" : 
+					[
+						37
+					]
+				},
+				{
+					"build" : "Demos/GenericJointDemo",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "2.4.3"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 0,
+					"source" : "Demos/GenericJointDemo",
+					"targetIndexes" : 
+					[
+						20
+					]
+				},
+				{
+					"build" : "Demos/Raytracer",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "2.4.3"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 0,
+					"source" : "Demos/Raytracer",
+					"targetIndexes" : 
+					[
+						33
+					]
+				},
+				{
+					"build" : "Demos/RagdollDemo",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "2.4.3"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 0,
+					"source" : "Demos/RagdollDemo",
+					"targetIndexes" : 
+					[
+						31
+					]
+				},
+				{
+					"build" : "Demos/ForkLiftDemo",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "2.4.3"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 0,
+					"source" : "Demos/ForkLiftDemo",
+					"targetIndexes" : 
+					[
+						18
+					]
+				},
+				{
+					"build" : "Demos/BasicDemo",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "2.4.3"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 0,
+					"source" : "Demos/BasicDemo",
+					"targetIndexes" : 
+					[
+						1
+					]
+				},
+				{
+					"build" : "Demos/RollingFrictionDemo",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "2.4.3"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 0,
+					"source" : "Demos/RollingFrictionDemo",
+					"targetIndexes" : 
+					[
+						34
+					]
+				},
+				{
+					"build" : "Demos/RaytestDemo",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "2.4.3"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 0,
+					"source" : "Demos/RaytestDemo",
+					"targetIndexes" : 
+					[
+						32
+					]
+				},
+				{
+					"build" : "Demos/VoronoiFractureDemo",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "2.4.3"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 0,
+					"source" : "Demos/VoronoiFractureDemo",
+					"targetIndexes" : 
+					[
+						43
+					]
+				},
+				{
+					"build" : "Demos/GyroscopicDemo",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "2.4.3"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 0,
+					"source" : "Demos/GyroscopicDemo",
+					"targetIndexes" : 
+					[
+						21
+					]
+				},
+				{
+					"build" : "Demos/FractureDemo",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "2.4.3"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 0,
+					"source" : "Demos/FractureDemo",
+					"targetIndexes" : 
+					[
+						19
+					]
+				},
+				{
+					"build" : "Demos/Box2dDemo",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "2.4.3"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 0,
+					"source" : "Demos/Box2dDemo",
+					"targetIndexes" : 
+					[
+						3
+					]
+				},
+				{
+					"build" : "Demos/BspDemo",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "2.4.3"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 0,
+					"source" : "Demos/BspDemo",
+					"targetIndexes" : 
+					[
+						4
+					]
+				},
+				{
+					"build" : "Demos/MovingConcaveDemo",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "2.4.3"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 0,
+					"source" : "Demos/MovingConcaveDemo",
+					"targetIndexes" : 
+					[
+						26
+					]
+				},
+				{
+					"build" : "Demos/VehicleDemo",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "2.4.3"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 0,
+					"source" : "Demos/VehicleDemo",
+					"targetIndexes" : 
+					[
+						42
+					]
+				},
+				{
+					"build" : "Demos/UserCollisionAlgorithm",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "2.4.3"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 0,
+					"source" : "Demos/UserCollisionAlgorithm",
+					"targetIndexes" : 
+					[
+						40
+					]
+				},
+				{
+					"build" : "Demos/CharacterDemo",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "2.4.3"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 0,
+					"source" : "Demos/CharacterDemo",
+					"targetIndexes" : 
+					[
+						7
+					]
+				},
+				{
+					"build" : "Demos/SoftDemo",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "2.4.3"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 0,
+					"source" : "Demos/SoftDemo",
+					"targetIndexes" : 
+					[
+						38
+					]
+				},
+				{
+					"build" : "Demos/CollisionInterfaceDemo",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "2.4.3"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 0,
+					"source" : "Demos/CollisionInterfaceDemo",
+					"targetIndexes" : 
+					[
+						9
+					]
+				},
+				{
+					"build" : "Demos/ConcaveConvexcastDemo",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "2.4.3"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 0,
+					"source" : "Demos/ConcaveConvexcastDemo",
+					"targetIndexes" : 
+					[
+						10
+					]
+				},
+				{
+					"build" : "Demos/SimplexDemo",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "2.4.3"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 0,
+					"source" : "Demos/SimplexDemo",
+					"targetIndexes" : 
+					[
+						36
+					]
+				},
+				{
+					"build" : "Demos/DynamicControlDemo",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "2.4.3"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 0,
+					"source" : "Demos/DynamicControlDemo",
+					"targetIndexes" : 
+					[
+						25
+					]
+				},
+				{
+					"build" : "Demos/ConvexHullDistance",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "2.4.3"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 0,
+					"source" : "Demos/ConvexHullDistance",
+					"targetIndexes" : 
+					[
+						16
+					]
+				},
+				{
+					"build" : "Demos/DoublePrecisionDemo",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "2.4.3"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 0,
+					"source" : "Demos/DoublePrecisionDemo",
+					"targetIndexes" : 
+					[
+						17
+					]
+				},
+				{
+					"build" : "Demos/ConcaveDemo",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "2.4.3"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 0,
+					"source" : "Demos/ConcaveDemo",
+					"targetIndexes" : 
+					[
+						11
+					]
+				},
+				{
+					"build" : "Demos/CollisionDemo",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "2.4.3"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 0,
+					"source" : "Demos/CollisionDemo",
+					"targetIndexes" : 
+					[
+						8
+					]
+				},
+				{
+					"build" : "Demos/ContinuousConvexCollision",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "2.4.3"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 0,
+					"source" : "Demos/ContinuousConvexCollision",
+					"targetIndexes" : 
+					[
+						14
+					]
+				},
+				{
+					"build" : "Demos/ConcaveRaycastDemo",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "2.4.3"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 0,
+					"source" : "Demos/ConcaveRaycastDemo",
+					"targetIndexes" : 
+					[
+						12
+					]
+				},
+				{
+					"build" : "Demos/GjkConvexCastDemo",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "2.4.3"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 0,
+					"source" : "Demos/GjkConvexCastDemo",
+					"targetIndexes" : 
+					[
+						24
+					]
+				},
+				{
+					"build" : "Demos/MultiMaterialDemo",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "2.4.3"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 0,
+					"source" : "Demos/MultiMaterialDemo",
+					"targetIndexes" : 
+					[
+						27
+					]
+				},
+				{
+					"build" : "Demos/SerializeDemo",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "2.4.3"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 0,
+					"source" : "Demos/SerializeDemo",
+					"targetIndexes" : 
+					[
+						35
+					]
+				},
+				{
+					"build" : "Demos/InternalEdgeDemo",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "2.4.3"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 0,
+					"source" : "Demos/InternalEdgeDemo",
+					"targetIndexes" : 
+					[
+						23
+					]
+				},
+				{
+					"build" : "Demos/Benchmarks",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "2.4.3"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 0,
+					"source" : "Demos/Benchmarks",
+					"targetIndexes" : 
+					[
+						2
+					]
+				},
+				{
+					"build" : "Demos/ThreadingDemo",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "2.4.3"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 0,
+					"source" : "Demos/ThreadingDemo",
+					"targetIndexes" : 
+					[
+						39
+					]
+				},
+				{
+					"build" : "Demos/VectorAdd_OpenCL",
+					"childIndexes" : 
+					[
+						51
+					],
+					"minimumCMakeVersion" : 
+					{
+						"string" : "2.4.3"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 0,
+					"source" : "Demos/VectorAdd_OpenCL"
+				},
+				{
+					"build" : "Demos/ParticlesOpenCL/MiniCL",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "2.4.3"
+					},
+					"parentIndex" : 6,
+					"projectIndex" : 0,
+					"source" : "Demos/ParticlesOpenCL/MiniCL",
+					"targetIndexes" : 
+					[
+						30
+					]
+				},
+				{
+					"build" : "Demos/OpenCLClothDemo/MiniCL",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "2.4.3"
+					},
+					"parentIndex" : 7,
+					"projectIndex" : 0,
+					"source" : "Demos/OpenCLClothDemo/MiniCL",
+					"targetIndexes" : 
+					[
+						29
+					]
+				},
+				{
+					"build" : "Demos/VectorAdd_OpenCL/MiniCL",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "2.4.3"
+					},
+					"parentIndex" : 48,
+					"projectIndex" : 0,
+					"source" : "Demos/VectorAdd_OpenCL/MiniCL",
+					"targetIndexes" : 
+					[
+						41
+					]
+				},
+				{
+					"build" : "Extras/Serialize",
+					"childIndexes" : 
+					[
+						57,
+						58,
+						59
+					],
+					"minimumCMakeVersion" : 
+					{
+						"string" : "2.4.3"
+					},
+					"parentIndex" : 2,
+					"projectIndex" : 0,
+					"source" : "Extras/Serialize"
+				},
+				{
+					"build" : "Extras/ConvexDecomposition",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "2.4.3"
+					},
+					"parentIndex" : 2,
+					"projectIndex" : 0,
+					"source" : "Extras/ConvexDecomposition",
+					"targetIndexes" : 
+					[
+						52
+					]
+				},
+				{
+					"build" : "Extras/HACD",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "2.4.3"
+					},
+					"parentIndex" : 2,
+					"projectIndex" : 0,
+					"source" : "Extras/HACD",
+					"targetIndexes" : 
+					[
+						55
+					]
+				},
+				{
+					"build" : "Extras/GIMPACTUtils",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "2.4.3"
+					},
+					"parentIndex" : 2,
+					"projectIndex" : 0,
+					"source" : "Extras/GIMPACTUtils",
+					"targetIndexes" : 
+					[
+						53
+					]
+				},
+				{
+					"build" : "Extras/glui",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "2.4.3"
+					},
+					"parentIndex" : 2,
+					"projectIndex" : 0,
+					"source" : "Extras/glui",
+					"targetIndexes" : 
+					[
+						54
+					]
+				},
+				{
+					"build" : "Extras/Serialize/BulletFileLoader",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "2.4.3"
+					},
+					"parentIndex" : 52,
+					"projectIndex" : 0,
+					"source" : "Extras/Serialize/BulletFileLoader",
+					"targetIndexes" : 
+					[
+						46
+					]
+				},
+				{
+					"build" : "Extras/Serialize/BulletXmlWorldImporter",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "2.4.3"
+					},
+					"parentIndex" : 52,
+					"projectIndex" : 0,
+					"source" : "Extras/Serialize/BulletXmlWorldImporter",
+					"targetIndexes" : 
+					[
+						51
+					]
+				},
+				{
+					"build" : "Extras/Serialize/BulletWorldImporter",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "2.4.3"
+					},
+					"parentIndex" : 52,
+					"projectIndex" : 0,
+					"source" : "Extras/Serialize/BulletWorldImporter",
+					"targetIndexes" : 
+					[
+						50
+					]
+				},
+				{
+					"build" : "src/BulletSoftBody",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "2.4.3"
+					},
+					"parentIndex" : 3,
+					"projectIndex" : 0,
+					"source" : "src/BulletSoftBody",
+					"targetIndexes" : 
+					[
+						48
+					]
+				},
+				{
+					"build" : "src/BulletCollision",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "2.4.3"
+					},
+					"parentIndex" : 3,
+					"projectIndex" : 0,
+					"source" : "src/BulletCollision",
+					"targetIndexes" : 
+					[
+						44
+					]
+				},
+				{
+					"build" : "src/BulletDynamics",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "2.4.3"
+					},
+					"parentIndex" : 3,
+					"projectIndex" : 0,
+					"source" : "src/BulletDynamics",
+					"targetIndexes" : 
+					[
+						45
+					]
+				},
+				{
+					"build" : "src/LinearMath",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "2.4.3"
+					},
+					"parentIndex" : 3,
+					"projectIndex" : 0,
+					"source" : "src/LinearMath",
+					"targetIndexes" : 
+					[
+						56
+					]
+				},
+				{
+					"build" : "src/MiniCL",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "2.4.3"
+					},
+					"parentIndex" : 3,
+					"projectIndex" : 0,
+					"source" : "src/MiniCL",
+					"targetIndexes" : 
+					[
+						57
+					]
+				},
+				{
+					"build" : "src/BulletMultiThreaded",
+					"childIndexes" : 
+					[
+						66
+					],
+					"minimumCMakeVersion" : 
+					{
+						"string" : "2.4.3"
+					},
+					"parentIndex" : 3,
+					"projectIndex" : 0,
+					"source" : "src/BulletMultiThreaded",
+					"targetIndexes" : 
+					[
+						47
+					]
+				},
+				{
+					"build" : "src/BulletMultiThreaded/GpuSoftBodySolvers",
+					"childIndexes" : 
+					[
+						67
+					],
+					"minimumCMakeVersion" : 
+					{
+						"string" : "2.4.3"
+					},
+					"parentIndex" : 65,
+					"projectIndex" : 0,
+					"source" : "src/BulletMultiThreaded/GpuSoftBodySolvers"
+				},
+				{
+					"build" : "src/BulletMultiThreaded/GpuSoftBodySolvers/OpenCL",
+					"childIndexes" : 
+					[
+						68
+					],
+					"minimumCMakeVersion" : 
+					{
+						"string" : "2.4.3"
+					},
+					"parentIndex" : 66,
+					"projectIndex" : 0,
+					"source" : "src/BulletMultiThreaded/GpuSoftBodySolvers/OpenCL"
+				},
+				{
+					"build" : "src/BulletMultiThreaded/GpuSoftBodySolvers/OpenCL/MiniCL",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "2.4.3"
+					},
+					"parentIndex" : 67,
+					"projectIndex" : 0,
+					"source" : "src/BulletMultiThreaded/GpuSoftBodySolvers/OpenCL/MiniCL",
+					"targetIndexes" : 
+					[
+						49
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17,
+						18,
+						19,
+						20,
+						21,
+						22,
+						23,
+						24,
+						25,
+						26,
+						27,
+						28,
+						29,
+						30,
+						31,
+						32,
+						33,
+						34,
+						35,
+						36,
+						37,
+						38,
+						39,
+						40,
+						41,
+						42,
+						43,
+						44,
+						45,
+						46,
+						47,
+						48,
+						49,
+						50,
+						51,
+						52,
+						53,
+						54,
+						55,
+						56,
+						57,
+						58,
+						59,
+						60,
+						61,
+						62,
+						63,
+						64,
+						65,
+						66,
+						67,
+						68
+					],
+					"name" : "BULLET_PHYSICS",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17,
+						18,
+						19,
+						20,
+						21,
+						22,
+						23,
+						24,
+						25,
+						26,
+						27,
+						28,
+						29,
+						30,
+						31,
+						32,
+						33,
+						34,
+						35,
+						36,
+						37,
+						38,
+						39,
+						40,
+						41,
+						42,
+						43,
+						44,
+						45,
+						46,
+						47,
+						48,
+						49,
+						50,
+						51,
+						52,
+						53,
+						54,
+						55,
+						56,
+						57,
+						58
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 9,
+					"id" : "AppAllBulletDemos::@5c7272e7c52f11e97024",
+					"jsonFile" : "target-AppAllBulletDemos-Debug-8883a56559dd3b7c8b20.json",
+					"name" : "AppAllBulletDemos",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 19,
+					"id" : "AppBasicDemo::@411392b4a83aeb5452fd",
+					"jsonFile" : "target-AppBasicDemo-Debug-0bcbf54e1049b084ab42.json",
+					"name" : "AppBasicDemo",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 46,
+					"id" : "AppBenchmarks::@a29ff50a77f9e2f66789",
+					"jsonFile" : "target-AppBenchmarks-Debug-2fa5d70bd2bf4b97003b.json",
+					"name" : "AppBenchmarks",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 25,
+					"id" : "AppBox2dDemo::@2ca99cb6160a6329bad2",
+					"jsonFile" : "target-AppBox2dDemo-Debug-25846c3ed7d4c6755fb4.json",
+					"name" : "AppBox2dDemo",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 26,
+					"id" : "AppBspPhysicsDemo::@5d1d552f9392c7252a21",
+					"jsonFile" : "target-AppBspPhysicsDemo-Debug-1e2faf14ded26d7cd3bc.json",
+					"name" : "AppBspPhysicsDemo",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 12,
+					"id" : "AppBulletXmlImportDemo::@ebc2ed7625f2ebffe61b",
+					"jsonFile" : "target-AppBulletXmlImportDemo-Debug-3fd2d7b87819952dc99a.json",
+					"name" : "AppBulletXmlImportDemo",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 11,
+					"id" : "AppCcdPhysicsDemo::@490610647098a444d799",
+					"jsonFile" : "target-AppCcdPhysicsDemo-Debug-39bef2ca8de0a7665d53.json",
+					"name" : "AppCcdPhysicsDemo",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 30,
+					"id" : "AppCharacterDemo::@7140ff8a49516eb92092",
+					"jsonFile" : "target-AppCharacterDemo-Debug-43922dd2030fedaacafd.json",
+					"name" : "AppCharacterDemo",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 39,
+					"id" : "AppCollisionDemo::@6203f2a39b8dbc57aeb9",
+					"jsonFile" : "target-AppCollisionDemo-Debug-3b54f4c29ec05aadaa7c.json",
+					"name" : "AppCollisionDemo",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 32,
+					"id" : "AppCollisionInterfaceDemo::@6eb97f3850ca8ae97899",
+					"jsonFile" : "target-AppCollisionInterfaceDemo-Debug-ebe876d1004d8f80080e.json",
+					"name" : "AppCollisionInterfaceDemo",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 33,
+					"id" : "AppConcaveConvexCastDemo::@fbddea29330550d6a3e7",
+					"jsonFile" : "target-AppConcaveConvexCastDemo-Debug-e0882a5e137355772c31.json",
+					"name" : "AppConcaveConvexCastDemo",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 38,
+					"id" : "AppConcaveDemo::@99b93dcf18c185c09b6c",
+					"jsonFile" : "target-AppConcaveDemo-Debug-f6082bdfdbc45b3cc495.json",
+					"name" : "AppConcaveDemo",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 41,
+					"id" : "AppConcaveRayCastDemo::@ceca2461c151d4b5f5df",
+					"jsonFile" : "target-AppConcaveRayCastDemo-Debug-8038841c1ed7f91099fe.json",
+					"name" : "AppConcaveRayCastDemo",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 13,
+					"id" : "AppConstraintDemo::@c836f4af3cc0c30b0a22",
+					"jsonFile" : "target-AppConstraintDemo-Debug-5aff08367d8c7c236d05.json",
+					"name" : "AppConstraintDemo",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 40,
+					"id" : "AppContinuousConvexCollisionDemo::@122a0f5bf8c5d33cc80e",
+					"jsonFile" : "target-AppContinuousConvexCollisionDemo-Debug-91ec8e3fde9a382660ab.json",
+					"name" : "AppContinuousConvexCollisionDemo",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 10,
+					"id" : "AppConvexDecompositionDemo::@2af01071e843a61234e8",
+					"jsonFile" : "target-AppConvexDecompositionDemo-Debug-02ad4e6ebd9ab857e7d3.json",
+					"name" : "AppConvexDecompositionDemo",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 36,
+					"id" : "AppConvexHullDistanceDemo::@e5671a0daf2be53ae771",
+					"jsonFile" : "target-AppConvexHullDistanceDemo-Debug-2be37c28ea3a6a20fce8.json",
+					"name" : "AppConvexHullDistanceDemo",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 37,
+					"id" : "AppDoublePrecisionDemo::@753ee32b72f55a34316f",
+					"jsonFile" : "target-AppDoublePrecisionDemo-Debug-2eb5fe20f1ef4ba717eb.json",
+					"name" : "AppDoublePrecisionDemo",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 18,
+					"id" : "AppForkLiftDemo::@9987c86f4cc4ae051e7b",
+					"jsonFile" : "target-AppForkLiftDemo-Debug-2e5a18fcd5a47ec86a7c.json",
+					"name" : "AppForkLiftDemo",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 24,
+					"id" : "AppFractureDemo::@47a2336116c6b2317187",
+					"jsonFile" : "target-AppFractureDemo-Debug-51f99d089149a089a88c.json",
+					"name" : "AppFractureDemo",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 15,
+					"id" : "AppGenericJointDemo::@cb20adeb48c9e17d8379",
+					"jsonFile" : "target-AppGenericJointDemo-Debug-c37b6f28c22a8cfd5cd5.json",
+					"name" : "AppGenericJointDemo",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 23,
+					"id" : "AppGyroscopicDemo::@3d3181b95f5d9df00468",
+					"jsonFile" : "target-AppGyroscopicDemo-Debug-0a59c1c9e0f0b2ecd14e.json",
+					"name" : "AppGyroscopicDemo",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 4,
+					"id" : "AppHelloWorld::@2b9b9e151cf2571e769c",
+					"jsonFile" : "target-AppHelloWorld-Debug-59bf73ba0a0f8c58328f.json",
+					"name" : "AppHelloWorld",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 45,
+					"id" : "AppInternalEdgeDemo::@7971ff2575037cf7afd4",
+					"jsonFile" : "target-AppInternalEdgeDemo-Debug-b859f4798632ab99aa7d.json",
+					"name" : "AppInternalEdgeDemo",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 42,
+					"id" : "AppLinearConvexCastDemo::@1ec6773fe5748f68397f",
+					"jsonFile" : "target-AppLinearConvexCastDemo-Debug-bae2efdc89a966c155f8.json",
+					"name" : "AppLinearConvexCastDemo",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 35,
+					"id" : "AppMotorDemo::@d7edee1be51bac282691",
+					"jsonFile" : "target-AppMotorDemo-Debug-0bbd95d1f4917715a71a.json",
+					"name" : "AppMotorDemo",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 27,
+					"id" : "AppMovingConcaveDemo::@286a3d306ebb36dbf7b2",
+					"jsonFile" : "target-AppMovingConcaveDemo-Debug-3ea021e836557361642e.json",
+					"name" : "AppMovingConcaveDemo",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 43,
+					"id" : "AppMultiMaterialDemo::@8aa8d4f84f5faeb21765",
+					"jsonFile" : "target-AppMultiMaterialDemo-Debug-44a5f2b502bee1acaa47.json",
+					"name" : "AppMultiMaterialDemo",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 5,
+					"id" : "AppMultiThreadedDemo::@03ffeaa5efb620426a4c",
+					"jsonFile" : "target-AppMultiThreadedDemo-Debug-7061c7a5af3aee53430d.json",
+					"name" : "AppMultiThreadedDemo",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 50,
+					"id" : "AppOpenCLClothDemo_Mini::@278b6a7aa7f1c09f9bba",
+					"jsonFile" : "target-AppOpenCLClothDemo_Mini-Debug-e69141cfd775acd25c70.json",
+					"name" : "AppOpenCLClothDemo_Mini",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 49,
+					"id" : "AppParticlesOCL_Mini::@3445a4cd88f01ea86f4a",
+					"jsonFile" : "target-AppParticlesOCL_Mini-Debug-f16a499a51229578209f.json",
+					"name" : "AppParticlesOCL_Mini",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 17,
+					"id" : "AppRagdollDemo::@73ce0763bad7563ada4b",
+					"jsonFile" : "target-AppRagdollDemo-Debug-bc832542e0e2eba00688.json",
+					"name" : "AppRagdollDemo",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 21,
+					"id" : "AppRaytestDemo::@b8f95af14e764a5389e5",
+					"jsonFile" : "target-AppRaytestDemo-Debug-c06b7da9a5e190fa2191.json",
+					"name" : "AppRaytestDemo",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 16,
+					"id" : "AppRaytracer::@2328111683b0913e4215",
+					"jsonFile" : "target-AppRaytracer-Debug-b95b920a95e798cfa7a4.json",
+					"name" : "AppRaytracer",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 20,
+					"id" : "AppRollingFrictionDemo::@5398104c8badc17ff665",
+					"jsonFile" : "target-AppRollingFrictionDemo-Debug-ac5cd885d0c84932fa33.json",
+					"name" : "AppRollingFrictionDemo",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 44,
+					"id" : "AppSerializeDemo::@9c6ee3dce5af1e7f33c5",
+					"jsonFile" : "target-AppSerializeDemo-Debug-958487a05bc34a8b8c64.json",
+					"name" : "AppSerializeDemo",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 34,
+					"id" : "AppSimplexDemo::@32611dbea5cd68cf76da",
+					"jsonFile" : "target-AppSimplexDemo-Debug-3d89c481899dcb46edce.json",
+					"name" : "AppSimplexDemo",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 14,
+					"id" : "AppSliderConstraintDemo::@fb721d1ad32f36c1e1af",
+					"jsonFile" : "target-AppSliderConstraintDemo-Debug-60df210d0ab3c064514e.json",
+					"name" : "AppSliderConstraintDemo",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 31,
+					"id" : "AppSoftBodyDemo::@7dfabff34d324c1c4f5f",
+					"jsonFile" : "target-AppSoftBodyDemo-Debug-b2bc73ab30dc48c61014.json",
+					"name" : "AppSoftBodyDemo",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 47,
+					"id" : "AppThreadingDemo::@79b7fb968f70e7ac0114",
+					"jsonFile" : "target-AppThreadingDemo-Debug-27ba365b8f9f9786ea4f.json",
+					"name" : "AppThreadingDemo",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 29,
+					"id" : "AppUserCollisionAlgorithm::@4f45547e300644050863",
+					"jsonFile" : "target-AppUserCollisionAlgorithm-Debug-d11e7b54902bb6a749dd.json",
+					"name" : "AppUserCollisionAlgorithm",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 51,
+					"id" : "AppVectorAdd_Mini::@9e1bdf637607d8ea622f",
+					"jsonFile" : "target-AppVectorAdd_Mini-Debug-e3d2a82be5b88230a158.json",
+					"name" : "AppVectorAdd_Mini",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 28,
+					"id" : "AppVehicleDemo::@7dacb6edc1983989eb0f",
+					"jsonFile" : "target-AppVehicleDemo-Debug-fc68cb1d5ea06208476c.json",
+					"name" : "AppVehicleDemo",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 22,
+					"id" : "AppVoronoiFractureDemo::@6dec9e009691597801cd",
+					"jsonFile" : "target-AppVoronoiFractureDemo-Debug-d00253d2f7c2df00be43.json",
+					"name" : "AppVoronoiFractureDemo",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 61,
+					"id" : "BulletCollision::@9fd34a691297a724da5d",
+					"jsonFile" : "target-BulletCollision-Debug-3e3c2bc47faa9b584722.json",
+					"name" : "BulletCollision",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 62,
+					"id" : "BulletDynamics::@86ce932a70e083dfbd6a",
+					"jsonFile" : "target-BulletDynamics-Debug-1a3e32ac287c637866d7.json",
+					"name" : "BulletDynamics",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 57,
+					"id" : "BulletFileLoader::@761a50bcf213c5235c76",
+					"jsonFile" : "target-BulletFileLoader-Debug-978a08b5c838b318a699.json",
+					"name" : "BulletFileLoader",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 65,
+					"id" : "BulletMultiThreaded::@19bbe70d0f1eb0b28962",
+					"jsonFile" : "target-BulletMultiThreaded-Debug-4968e442b053270dcec5.json",
+					"name" : "BulletMultiThreaded",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 60,
+					"id" : "BulletSoftBody::@e7ea131c60ab58985534",
+					"jsonFile" : "target-BulletSoftBody-Debug-2365e6ea635bb0bf014f.json",
+					"name" : "BulletSoftBody",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 68,
+					"id" : "BulletSoftBodySolvers_OpenCL_Mini::@2a4cf7794865a18ef632",
+					"jsonFile" : "target-BulletSoftBodySolvers_OpenCL_Mini-Debug-4fee0c03a38ae4ddebc2.json",
+					"name" : "BulletSoftBodySolvers_OpenCL_Mini",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 59,
+					"id" : "BulletWorldImporter::@ed740352b70fd831a89a",
+					"jsonFile" : "target-BulletWorldImporter-Debug-05ad870de6d53a64f340.json",
+					"name" : "BulletWorldImporter",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 58,
+					"id" : "BulletXmlWorldImporter::@d40878a37ee56c48ccf3",
+					"jsonFile" : "target-BulletXmlWorldImporter-Debug-586cf860937816fc78ac.json",
+					"name" : "BulletXmlWorldImporter",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 53,
+					"id" : "ConvexDecomposition::@19759bf2c6bcb2bfabcc",
+					"jsonFile" : "target-ConvexDecomposition-Debug-84ab5a52aa21fc1aad48.json",
+					"name" : "ConvexDecomposition",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 55,
+					"id" : "GIMPACTUtils::@c13944f63b23b608971c",
+					"jsonFile" : "target-GIMPACTUtils-Debug-e6c0dbf4e2ec5f78b0c7.json",
+					"name" : "GIMPACTUtils",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 56,
+					"id" : "GLUI::@a3d313b174c992e888fd",
+					"jsonFile" : "target-GLUI-Debug-682288f1ebf6eb4203a3.json",
+					"name" : "GLUI",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 54,
+					"id" : "HACD::@6712d7ef4287fdcaa167",
+					"jsonFile" : "target-HACD-Debug-2a505aa4b1ed11e63bf6.json",
+					"name" : "HACD",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 63,
+					"id" : "LinearMath::@48487d122fdd2aa49150",
+					"jsonFile" : "target-LinearMath-Debug-203d9253b7405ce0559f.json",
+					"name" : "LinearMath",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 64,
+					"id" : "MiniCL::@dd96954598ca85281b4c",
+					"jsonFile" : "target-MiniCL-Debug-fb940a8c6f70743caca7.json",
+					"name" : "MiniCL",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 8,
+					"id" : "OpenGLSupport::@0003972e6da8d28d6ee3",
+					"jsonFile" : "target-OpenGLSupport-Debug-eecc21952df8b57e754a.json",
+					"name" : "OpenGLSupport",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "D:/Desktop/DarkIsland/DarkIsland/Bullet/out/build/x64-Debug (default)",
+		"source" : "D:/Desktop/DarkIsland/DarkIsland/Bullet"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 0
+	}
+}
