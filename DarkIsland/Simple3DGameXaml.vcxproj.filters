@@ -253,7 +253,7 @@
       <Filter>BB_GameMain</Filter>
     </ClCompile>
     <ClCompile Include="AllResources.cpp">
-      <Filter>BB_GameMain\Shaders\ShadersC</Filter>
+      <Filter>BB_GameMain</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
@@ -508,7 +508,6 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Package.StoreAssociation.xml" />
-    <None Include="SolidGame_StoreKey.pfx" />
     <None Include="Assets\MusicTracks\BehindMe.wma">
       <Filter>ZZ_Assets\MusicTracks</Filter>
     </None>
@@ -539,7 +538,6 @@
     <None Include="Assets\MusicTracks\Zander.wma">
       <Filter>ZZ_Assets\MusicTracks</Filter>
     </None>
-    <None Include="SolidGame_TemporaryKey.pfx" />
     <None Include="Package.xml" />
     <None Include="Assets\game-data.db">
       <Filter>AA_Data&amp;Settings</Filter>
@@ -761,7 +759,6 @@
     <None Include="Assets\Compiled\pinetree.cmo">
       <Filter>ZZ_Assets\Compiled</Filter>
     </None>
-    <None Include="DarkIsland_StoreKey.pfx" />
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
@@ -2151,5 +2148,8 @@
     <Media Include="Assets\MusicTracks\Dark_Rainy_Night.mp3">
       <Filter>ZZ_Assets\MusicTracks</Filter>
     </Media>
+  </ItemGroup>
+  <ItemGroup>
+    <CopyFileToFolders Include="sqlite3.dll" />
   </ItemGroup>
 </Project>
