@@ -6,7 +6,7 @@
 
 First person adventure in strange locations
 
-[Game](https://www.microsoft.com/store/apps/9PPH9XD86XWS)
+[Download the game](https://www.microsoft.com/store/apps/9PPH9XD86XWS)
 
 ![Screenshot](ReleaseArt/new_4k_hero.png)
 
